@@ -1,0 +1,8 @@
+---
+title: "Rebecca Keate presents Rising Stars of SQI Lecture (Aug 31, 2022)"
+date: 2022-09-06
+kind: award
+image: /assets/img/news/2022-09-06-rebecca-keate-presents-rising-stars-of-sqi-lecture-aug-31.jpg
+link: https://sqi.northwestern.edu/news-and-events/news-and-announcements/2022/meet-the-researchers-rebecca-keate.html
+---
+Congratulations to Graduate Student Rebecca Keate, joint with Guillermo Ameer, on her Rising Stars lecture. See also her SQI interview here ([https://sqi.northwestern.edu/news-and-events/news-and-announcements/2022/meet-the-researchers-rebecca-keate.html](https://sqi.northwestern.edu/news-and-events/news-and-announcements/2022/meet-the-researchers-rebecca-keate.html) )

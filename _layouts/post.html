@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{%- capture assetprefix %}src="{{ site.baseurl }}/assets/{% endcapture -%}
+<article class="wrap">
+  <header class="post-head">
+    <p class="eyebrow">News</p>
+    <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.kind %} <span class="kind">{{ page.kind }}</span>{% endif %}</p>
+    <h1>{{ page.title }}</h1>
+  </header>
+  {% if page.image %}<figure class="post-figure"><img src="{{ page.image | relative_url }}" alt=""></figure>{% endif %}
+  <div class="prose post-body">
+    {{ content | replace: 'src="/assets/', assetprefix }}
+    {% if page.link %}<p><a href="{{ page.link }}">Read more &rarr;</a></p>{% endif %}
+  </div>
+  <a class="back" href="{{ '/news/' | relative_url }}">&larr; All news</a>
+</article>

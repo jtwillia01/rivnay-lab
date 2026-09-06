@@ -1,0 +1,43 @@
+# Logo files live in assets/img/logos/ (PNG, height-normalised in CSS).
+# Order follows the old Research page; Sloan (old Funding page) and MRSEC appended.
+funders:
+  - name: National Science Foundation
+    logo: nsf.png
+    url: https://www.nsf.gov
+  - name: National Institutes of Health
+    logo: nih.png
+    url: https://www.nih.gov
+  - name: Defense Advanced Research Projects Agency
+    logo: darpa.png
+    url: https://www.darpa.mil
+  - name: Chan Zuckerberg Biohub Chicago
+    logo: cz-biohub-chicago.png
+    url: https://www.czbiohub.org/chi/
+  - name: Advanced Research Projects Agency for Health
+    logo: arpa-h.png
+    url: https://arpa-h.gov
+  - name: Air Force Office of Scientific Research
+    logo: afosr.png
+    url: https://www.afrl.af.mil/AFOSR/
+  - name: Alfred P. Sloan Foundation
+    logo: sloan-foundation.png
+    url: https://sloan.org
+facilities:
+  - name: Simpson Querrey Institute for BioNanotechnology
+    logo: sqi.png
+    url: https://sqi.northwestern.edu
+  - name: Center for Advanced Regenerative Engineering
+    logo: care.png
+    url: https://care.northwestern.edu
+  - name: NUANCE Center
+    logo: nuance.png
+    url: https://nuance.northwestern.edu
+  - name: NUFAB
+    logo: nufab.png
+    url: https://nufab.northwestern.edu
+  - name: Argonne National Laboratory, Advanced Photon Source
+    logo: argonne-aps.png
+    url: https://www.aps.anl.gov
+  - name: Northwestern Materials Research Science and Engineering Center
+    logo: mrsec.png
+    url: https://www.mrsec.northwestern.edu

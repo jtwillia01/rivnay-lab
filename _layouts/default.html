@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="{{ '/' | relative_url }}">Rivnay Lab <small>Northwestern</small></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu"><span></span></label>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        {%- assign items = "Home|/,Research|/research/,People|/people/,Publications|/publications/,News|/news/,Join|/join/" | split: "," -%}
+        {%- for item in items -%}
+          {%- assign p = item | split: "|" -%}
+          {%- assign cur = false -%}
+          {%- if p[1] == "/" -%}
+            {%- if page.url == "/" or page.url == "/index.html" -%}{%- assign cur = true -%}{%- endif -%}
+          {%- elsif page.url contains p[1] -%}
+            {%- assign cur = true -%}
+          {%- endif -%}
+        <li><a href="{{ p[1] | relative_url }}"{% if cur %} aria-current="page"{% endif %}>{{ p[0] }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+{{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="{{ '/' | relative_url }}">Rivnay Lab</a>
+      <p>Laboratory for Organic &amp; Hybrid Bioelectronics<br>Department of Biomedical Engineering<br>Northwestern University</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="mailto:jrivnay@northwestern.edu">jrivnay@northwestern.edu</a></p>
+      <p><a href="https://scholar.google.com/citations?user=sngchgsAAAAJ&amp;hl=en">Google Scholar</a><br>
+         <a href="https://orcid.org/0000-0002-0602-6485">ORCID</a><br>
+         <a href="https://www.mccormick.northwestern.edu/biomedical/">Northwestern BME</a></p>
+    </div>
+    <div>
+      <h4>Locations</h4>
+      <address>Technological Institute<br>2145 Sheridan Rd.<br>Evanston, IL 60208</address>
+      <address>Simpson Querrey Biomedical Research Center<br>303 E. Superior St.<br>Chicago, IL 60611</address>
+    </div>
+    <p class="fine">&copy; {{ site.time | date: "%Y" }} Rivnay Lab, Northwestern University.</p>
+  </div>
+</footer>
+</body>
+</html>

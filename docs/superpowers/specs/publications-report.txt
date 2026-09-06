@@ -1,0 +1,421 @@
+wrote _data/publications.json (182 entries from 262 works)
+
+== Old-site entries (scripts/old-site-publications.txt) ==
+[2017-2024] MATCHED    Tunable anti-ambipolar vertical bilayer organic electrochemical transistor enable neuromorphic retinal pathway
+    -> W4401055917 (2024, 1.00) Tunable anti-ambipolar vertical bilayer organic electrochemical transistor enable neuromorphic retinal pathway
+[2017-2024] MATCHED    Decoupling the Influence of Poly(3,4‐Ethylenedioxythiophene)‐Collagen Composite Characteristics on Cell Stemness (Adv. Sci. 27/2024)
+    -> W4392784129 (2024, 0.94) Decoupling the Influence of Poly(3,4-Ethylenedioxythiophene)-Collagen Composite Characteristics on Cell Stemness
+[2017-2024] MATCHED    Droplet Polymer Bilayers for Bioelectronic Membrane Interfacing
+    -> W4396918773 (2024, 1.00) Droplet Polymer Bilayers for Bioelectronic Membrane Interfacing
+[2017-2024] MATCHED    Bridging length scales in organic mixed ionic–electronic conductors through internal strain and mesoscale dynamics
+    -> W4392157937 (2024, 1.00) Bridging length scales in organic mixed ionic–electronic conductors through internal strain and mesoscale dynamics
+[2017-2024] MATCHED    Direct quantification of ion composition and mobility in organic mixed ionic-electronic conductors
+    -> W4395069393 (2024, 1.00) Direct quantification of ion composition and mobility in organic mixed ionic-electronic conductors
+[2017-2024] MATCHED    A modular organic neuromorphic spiking circuit for retina-inspired sensory coding and neurotransmitter-mediated neural pathways
+    -> W4393856115 (2024, 1.00) A modular organic neuromorphic spiking circuit for retina-inspired sensory coding and neurotransmitter-mediated neural pathways
+[2017-2024] MATCHED    Monolithically integrated high-density vertical organic electrochemical transistor arrays and complementary circuits
+    -> W4392003681 (2024, 1.00) Monolithically integrated high-density vertical organic electrochemical transistor arrays and complementary circuits
+[2017-2024] MATCHED    High-Hole-Mobility Fiber Organic Electrochemical Transistors for Next-Generation Adaptive Neuromorphic Bio-Hybrid Technologies
+    -> W4387568489 (2023, 1.00) High-Hole-Mobility Fiber Organic Electrochemical Transistors for Next-Generation Adaptive Neuromorphic Bio-Hybrid Technologies
+[2017-2024] MATCHED    A Hybrid Transistor with Transcriptionally Controlled Computation and Plasticity
+    -> W4391993154 (2024, 1.00) A hybrid transistor with transcriptionally controlled computation and plasticity
+[2017-2024] MATCHED    Aligned Bioelectronic Polypyrrole/Collagen Constructs for Peripheral Nerve Interfacing
+    -> W4391187558 (2024, 1.00) Aligned Bioelectronic Polypyrrole/Collagen Constructs for Peripheral Nerve Interfacing
+[2017-2024] MATCHED    Conducting polymer nanoparticles with intrinsic aqueous dispersibility for conductive hydrogels
+    -> W4386529239 (2023, 1.00) Conducting Polymer Nanoparticles with Intrinsic Aqueous Dispersibility for Conductive Hydrogels
+[2017-2024] MATCHED    Electrocatalytic on-site oxygenation for transplanted cell-based-therapies
+    -> W4388530041 (2023, 1.00) Electrocatalytic on-site oxygenation for transplanted cell-based-therapies
+[2017-2024] MATCHED    Quantitative composition and mesoscale ion distribution in p-type organic mixed ionic-electronic conductors
+    -> W4380872269 (2023, 1.00) Quantitative Composition and Mesoscale Ion Distribution in p-Type Organic Mixed Ionic-Electronic Conductors
+[2017-2024] MATCHED    The hole truth
+    -> W4386256662 (2023, 1.00) The hole truth
+[2017-2024] MATCHED    Organic mixed conductors for electrochemical transistors
+    -> W4377990492 (2023, 1.00) Organic mixed conductors for electrochemical transistors
+[2017-2024] MATCHED    Hybrid Supported Lipid Bilayers for Bioinspired Bioelectronics with Enhanced Stability
+    -> W4375956018 (2023, 1.00) Hybrid Supported Lipid Bilayers for Bioinspired Bioelectronics with Enhanced Stability
+[2017-2024] MATCHED    Toward Stable p-Type Thiophene-Based Organic Electrochemical Transistors
+    -> W4380882590 (2023, 1.00) Toward Stable p-Type Thiophene-Based Organic Electrochemical Transistors
+[2017-2024] MATCHED    Revealing the Impact of Molecular Weight on Mixed Conduction in Glycolated Polythiophenes Through Electrolyte Choice
+    -> W4362677523 (2023, 1.00) Revealing the Impact of Molecular Weight on Mixed Conduction in Glycolated Polythiophenes through Electrolyte Choice
+[2017-2024] MATCHED    Graphene and Poly(3,4-ethylenedioxythiophene)–Polystyrene Sulfonate Hybrid Nanostructures for Input/Output Bioelectronics
+    -> W4382513219 (2023, 1.00) Graphene and Poly(3,4-ethylenedioxythiophene)–Polystyrene Sulfonate Hybrid Nanostructures for Input/Output Bioelectronics
+[2017-2024] MATCHED    Vertical organic electrochemical transistors for complementary logic circuits
+    -> W4317390660 (2023, 0.96) Vertical organic electrochemical transistors for complementary circuits
+[2017-2024] MATCHED    Organic electrochemical transistors as on-site signal amplifiers for electrochemical aptamer-based sensing
+    -> W4360948859 (2023, 1.00) Organic electrochemical transistors as on-site signal amplifiers for electrochemical aptamer-based sensing
+[2017-2024] MATCHED    Aqueous processing of organic semiconductors enabled by stable nanoparticles with built-in surfactants
+    -> W4327794550 (2023, 1.00) Aqueous processing of organic semiconductors enabled by stable nanoparticles with built-in surfactants
+[2017-2024] MATCHED    Combined Optical, Gravimetric, and Electrical Operando Investigation of Structural Variations in Polymeric Mixed Conductors
+    -> W4321851679 (2023, 1.00) Combined Optical, Gravimetric, and Electrical Operando Investigation of Structural Variations in Polymeric Mixed Conductors
+[2017-2024] MATCHED    The effect of residual palladium on the performance of organic electrochemical transistors
+    -> W4313251904 (2022, 1.00) The effect of residual palladium on the performance of organic electrochemical transistors
+[2017-2024] MATCHED    Enhancing the backbone coplanarity of n-type copolymers for higher electron mobility and stability in organic electrochemical transistors
+    -> W4297387591 (2022, 1.00) Enhancing the Backbone Coplanarity of n-Type Copolymers for Higher Electron Mobility and Stability in Organic Electrochemical Transistors
+[2017-2024] MATCHED    Mass and charge transport kinetics in an organic mixed ionic-electronic conductor
+    -> W4307927646 (2022, 1.00) Mass and Charge Transport Kinetics in an Organic Mixed Ionic–Electronic Conductor
+[2017-2024] MATCHED    PEDOT-NHS as a Versatile Conjugated Polyelectrolyte for Bioelectronics
+    -> W4313421854 (2022, 1.00) Versatile Poly(3,4-ethylenedioxythiophene) Polyelectrolytes for Bioelectronics by Incorporation of an Activated Ester
+[2017-2024] MATCHED    3D-printed electroactive hydrogel architectures with sub-100 μm resolution promote myoblast viability
+    -> W4281250969 (2022, 1.00) 3D-Printed Electroactive Hydrogel Architectures with Sub-100 µm Resolution Promote Myoblast Viability
+[2017-2024] MATCHED    Sources and mechanisms of degradation in p-type thiophene-based organic electrochemical transistors
+    -> W4223541742 (2022, 0.99) Sources and Mechanism of Degradation in p-Type Thiophene-Based Organic Electrochemical Transistors
+[2017-2024] MATCHED    A Semiconducting Two‐Dimensional Polymer as an Organic Electrochemical Transistor Active Layer
+    -> W4221031962 (2022, 1.00) A Semiconducting Two-Dimensional Polymer as an Organic Electrochemical Transistor Active Layer
+[2017-2024] MATCHED    From p- to n-Type Mixed Conduction in Isoindigo-Based Polymers through Molecular Design
+    -> W4207012411 (2022, 1.00) From p- to n-Type Mixed Conduction in Isoindigo-Based Polymers through Molecular Design
+[2017-2024] MATCHED    Synthetic Nuances to Maximize n-Type Organic Electrochemical Transistor and Thermoelectric Performance in Fused Lactam Polymers
+    -> W4220909246 (2022, 1.00) Synthetic Nuances to Maximize n-Type Organic Electrochemical Transistor and Thermoelectric Performance in Fused Lactam Polymers
+[2017-2024] MATCHED    Influence of the molecular weight and size distribution of PSS on mixed ionic-electronic transport in PEDOT:PSS
+    -> W4220774618 (2022, 1.00) Influence of the molecular weight and size distribution of PSS on mixed ionic-electronic transport in PEDOT:PSS
+[2017-2024] MATCHED    Operando characterization of organic mixed ionic/electronic conducting materials
+    -> W4205118303 (2022, 1.00) Operando Characterization of Organic Mixed Ionic/Electronic Conducting Materials
+[2017-2024] MATCHED    Conductive and Electroactive Biomaterials and Bioelectronics
+    -> W4210466220 (2022, 1.00) Conductive and Electroactive Biomaterials and Bioelectronics
+[2017-2024] MATCHED    Lactone Backbone Density in Rigid Electron-Deficient Semiconducting Polymers Enabling High n-type Organic Thermoelectric Performance
+    -> W3212373256 (2021, 1.00) Lactone Backbone Density in Rigid Electron-Deficient Semiconducting Polymers Enabling High n-type Organic Thermoelectric Performance
+[2017-2024] MATCHED    The Jigsaw Design Challenge: An inclusive learning activity to promote cooperative problem solving
+    -> W4205770994 (2022, 0.44) The Jigsaw Design Challenge
+[2017-2024] MATCHED    A Collagen-Conducting Polymer Composite with Enhanced Chondrogenic Potential
+    -> W3204219485 (2021, 1.00) A Collagen-Conducting Polymer Composite with Enhanced Chondrogenic Potential
+[2017-2024] MATCHED    Design of biodegradable and biocompatible conjugated polymers for bioelectronics
+    -> W3200823695 (2021, 1.00) Design of biodegradable and biocompatible conjugated polymers for bioelectronics
+[2017-2024] MATCHED    Electrochemistry of Thin Films with In Situ/Operando Grazing Incidence X-Ray Scattering: Bypassing Electrolyte Scattering for High Fidelity Time Resolved Studies
+    -> W3199728161 (2021, 1.00) Electrochemistry of Thin Films with In Situ/Operando Grazing Incidence X-Ray Scattering: Bypassing Electrolyte Scattering for High Fidelity Time Resolved Studies
+[2017-2024] MATCHED    Ambipolar inverters based on cofacial vertical organic electrochemical transistor pairs for biosignal amplification
+    -> W3198251921 (2021, 1.00) Ambipolar inverters based on cofacial vertical organic electrochemical transistor pairs for biosignal amplification
+[2017-2024] MATCHED    Mixed Ionic-Electronic Transport in Polymers
+    -> W3157064506 (2021, 1.00) Mixed Ionic-Electronic Transport in Polymers
+[2017-2024] MATCHED    Advances in bioelectronics: Materials, devices, and translational applications
+    -> W3186176595 (2021, 1.00) Advances in bioelectronics: Materials, devices, and translational applications
+[2017-2024] MATCHED    Regiochemistry-Driven Organic Electrochemical Transistor Performance Enhancement in Ethylene Glycol-Functionalized Polythiophenes
+    -> W3177211506 (2021, 1.00) Regiochemistry-Driven Organic Electrochemical Transistor Performance Enhancement in Ethylene Glycol-Functionalized Polythiophenes
+[2017-2024] MATCHED    The 2021 flexible and printed electronics roadmap
+    -> W3175071746 (2021, 1.00) The 2021 flexible and printed electronics roadmap
+[2017-2024] MATCHED    Organic electrochemical transistors in bioelectronic circuits
+    -> W3174801504 (2021, 1.00) Organic electrochemical transistors in bioelectronic circuits
+[2017-2024] MATCHED    Mimicking associative learning using an ion-trapping non-volatile synaptic organic electrochemical transistor
+    -> W3159064237 (2021, 1.00) Mimicking associative learning using an ion-trapping non-volatile synaptic organic electrochemical transistor
+[2017-2024] MATCHED    Mixed conduction in an N-Type Organic Semiconductor in the Absence of Hydrophilic Side-Chains
+    -> W3137368272 (2021, 1.00) Mixed Conduction in an N-Type Organic Semiconductor in the Absence of Hydrophilic Side-Chains
+[2017-2024] MATCHED    Strain- Engineering Induced Anisotropic Crystallite Orientation and Maximized Carrier Mobility for High-Performance Microfiber-Based Organic Bioelectronic Devices
+    -> W3126177046 (2021, 1.00) Strain-Engineering Induced Anisotropic Crystallite Orientation and Maximized Carrier Mobility for High-Performance Microfiber-Based Organic Bioelectronic Devices
+[2017-2024] MATCHED    N‐type Rigid Semiconducting Polymers Bearing Oligo(Ethylene Glycol) Side Chains for High Performance Organic Electrochemical Transistors
+    -> W4206287221 (2020, 1.00) n-Type Rigid Semiconducting Polymers Bearing Oligo(Ethylene Glycol) Side Chains for High-Performance Organic Electrochemical Transistors
+[2017-2024] MATCHED    The Effect of Alkyl Spacers on the Mixed Ionic‐Electronic Conduction Properties of N‐Type Polymers
+    -> W3122546985 (2021, 1.00) The Effect of Alkyl Spacers on the Mixed Ionic-Electronic Conduction Properties of N-Type Polymers
+[2017-2024] MATCHED    Polaron Delocalization in Donor‐Acceptor Polymers and its Impact on Organic Electrochemical Transistor Performance
+    -> W3108362952 (2020, 1.00) Polaron Delocalization in Donor–Acceptor Polymers and its Impact on Organic Electrochemical Transistor Performance
+[2017-2024] MATCHED    Toughening of a Soft Polar Polythiophene through Copolymerization with Hard Urethane Segments
+    -> W3113125918 (2020, 1.00) Toughening of a Soft Polar Polythiophene through Copolymerization with Hard Urethane Segments
+[2017-2024] MATCHED    Water stable molecular n-doping produces organic electrochemical transistors with high transconductance and record stability
+    -> W3035706757 (2020, 1.00) Water stable molecular n-doping produces organic electrochemical transistors with high transconductance and record stability
+[2017-2024] MATCHED    Time-Resolved Structural Dynamics of Organic Mixed Ionic Electronic Conductors
+    -> W3081559473 (2020, 0.92) Time-Resolved Structural Kinetics of an Organic Mixed Ionic–Electronic Conductor
+[2017-2024] MATCHED    Semiconducting Small Molecules as Active Materials for p‐Type Accumulation Mode Organic Electrochemical Transistors
+    -> W3025718469 (2020, 1.00) Semiconducting Small Molecules as Active Materials for p-Type Accumulation Mode Organic Electrochemical Transistors
+[2017-2024] MATCHED    Ion Coordination and Chelation in a Glycolated Polymer Semiconductor: Molecular Dynamics and X-Ray Fluorescence Study
+    -> W3042833387 (2020, 1.00) Ion Coordination and Chelation in a Glycolated Polymer Semiconductor: Molecular Dynamics and X-ray Fluorescence Study
+[2017-2024] MATCHED    Conducting Polymers for Tissue Regeneration in Vivo
+    -> W3018431324 (2020, 1.00) Conducting Polymers for Tissue Regeneration in Vivo
+[2017-2024] MATCHED    Energetic Control of Redox‐Active Polymers toward Safe Organic Bioelectronic Materials
+    -> W3009085038 (2020, 1.00) Energetic Control of Redox-Active Polymers toward Safe Organic Bioelectronic Materials
+[2017-2024] MATCHED    Self-aligned, laser-cut organic electrochemical transistors
+    -> W2995686805 (2019, 1.00) Self-aligned, laser-cut organic electrochemical transistors
+[2017-2024] MATCHED    Sample Preparation in Quartz Crystal Microbalance Measurements of Protein Adsorption and Polymer Mechanics
+    -> W3001956626 (2020, 1.00) Sample Preparation in Quartz Crystal Microbalance Measurements of Protein Adsorption and Polymer Mechanics
+[2017-2024] MATCHED    Organic mixed ionic electronic conductors
+    -> W2969761778 (2019, 1.00) Organic mixed ionic–electronic conductors
+[2017-2024] MATCHED    Glycolated Thiophene‐Tetrafluorophenylene Copolymers for Bioelectronic Applications: Synthesis by Direct Heteroarylation Polymerisation
+    -> W2950618337 (2019, 1.00) Glycolated Thiophene-Tetrafluorophenylene Copolymers for Bioelectronic Applications: Synthesis by Direct Heteroarylation Polymerisation
+[2017-2024] MATCHED    Solvent Engineering for High‐Performance n‐Type Organic Electrochemical Transistors
+    -> W2954067982 (2019, 1.00) Solvent Engineering for High-Performance n-Type Organic Electrochemical Transistors
+[2017-2024] MATCHED    Role of the Anion on the Transport and Structure of Organic Mixed Conductors
+    -> W2904612872 (2018, 1.00) Role of the Anion on the Transport and Structure of Organic Mixed Conductors
+[2017-2024] MATCHED    Influence of Water on the Performance of Organic Electrochemical Transistors
+    -> W2907259170 (2019, 1.00) Influence of Water on the Performance of Organic Electrochemical Transistors
+[2017-2024] MATCHED    Device physics of organic electrochemical transistors
+    -> W2889851477 (2018, 1.00) Device physics of organic electrochemical transistors
+[2017-2024] MATCHED    Numerical Modeling of an Organic Electrochemical Transistor
+    -> W2899084127 (2018, 1.00) Numerical Modeling of an Organic Electrochemical Transistor
+[2017-2024] MATCHED    Influence of PEDOT:PSS crystallinity and composition on electrochemical transistor performance and long-term stability
+    -> W2891849063 (2018, 1.00) Influence of PEDOT:PSS crystallinity and composition on electrochemical transistor performance and long-term stability
+[2017-2024] MATCHED    Balancing Charge Storage and Mobility in an Oligo (Ether) Functionalized Dioxythiophene Copolymer for Organic‐and Aqueous‐Based Electrochemical Devices and Transistors
+    -> W2898181038 (2018, 1.00) Balancing Charge Storage and Mobility in an Oligo(Ether) Functionalized Dioxythiophene Copolymer for Organic- and Aqueous- Based Electrochemical Devices and Transistors
+[2017-2024] MATCHED    Subthreshold operation of organic electrochemical transistors for bio-signal amplification
+    -> W2813256684 (2018, 1.00) Subthreshold Operation of Organic Electrochemical Transistors for Biosignal Amplification
+[2017-2024] MATCHED    Recent Advances in Materials, Devices, and Systems for Neural Interfaces
+    -> W2807439699 (2018, 1.00) Recent Advances in Materials, Devices, and Systems for Neural Interfaces
+[2017-2024] MATCHED    Conjugated Polymers in Bioelectronics
+    -> W2805991087 (2018, 1.00) Conjugated Polymers in Bioelectronics
+[2017-2024] MATCHED    Direct metabolite detection with an n-type accumulation mode organic electrochemical transistor
+    -> W2809514465 (2018, 1.00) Direct metabolite detection with an n-type accumulation mode organic electrochemical transistor
+[2017-2024] MATCHED    The Role of the Side Chain on the Performance of N-type Conjugated Polymers in Aqueous Electrolytes
+    -> W2801890797 (2018, 1.00) The Role of the Side Chain on the Performance of N-type Conjugated Polymers in Aqueous Electrolytes
+[2017-2024] MATCHED    Redox-Stability of Alkoxy-BDT Copolymers and their Use for Organic Bioelectronic Devices
+    -> W2789279116 (2018, 1.00) Redox-Stability of Alkoxy-BDT Copolymers and their Use for Organic Bioelectronic Devices
+[2017-2024] MATCHED    Organic electrochemical transistors
+    -> W4211040736 (2018, 1.00) Organic electrochemical transistors
+[2017-2024] MATCHED    Enhanced n-Doping Efficiency of a Naphthalenediimide-Based Copolymer through Polar Side Chains for Organic Thermoelectrics
+    -> W2781599590 (2018, 1.00) Enhanced n-Doping Efficiency of a Naphthalenediimide-Based Copolymer through Polar Side Chains for Organic Thermoelectrics
+[2017-2024] MATCHED    Benchmarking organic mixed conductors for transistors
+    -> W2770119851 (2017, 1.00) Benchmarking organic mixed conductors for transistors
+[2017-2024] MATCHED    Influence of disorder on transfer characteristics of organic electrochemical transistors
+    -> W2735049700 (2017, 1.00) Influence of disorder on transfer characteristics of organic electrochemical transistors
+[2017-2024] MATCHED    Next generation probes, particles, and proteins for neural interfacing
+    -> W2624351657 (2017, 1.00) Next-generation probes, particles, and proteins for neural interfacing
+[pre-NU] MATCHED    Insights into the Oxidant/Polymer Interfacial Growth of Vapor Phase Polymerized PEDOT Thin Films
+    -> W2810634388 (2018, 1.00) Insights into the Oxidant/Polymer Interfacial Growth of Vapor Phase Polymerized PEDOT Thin Films
+[pre-NU] MATCHED    Catalytically enhanced organic transistors for in vitro toxicology monitoring through hydrogel entrapment of enzymes
+    -> W2530548669 (2016, 1.00) Catalytically enhanced organic transistors for in vitro toxicology monitoring through hydrogel entrapment of enzymes
+[pre-NU] MATCHED    Flexible hybrid electronic circuits and systems
+    -> W2535894872 (2016, 1.00) Flexible Hybrid Electronic Circuits and Systems
+[pre-NU] MATCHED    An organic transistor platform with integrated microfluidics for in-line multi-parametric in vitro cell monitoring
+    -> W2749739965 (2017, 0.99) Organic transistor platform with integrated microfluidics for in-line multi-parametric in vitro cell monitoring
+[pre-NU] MATCHED    Controlling the mode of operation of organic transistors through side chain engineering
+    -> W2530175031 (2016, 1.00) Controlling the mode of operation of organic transistors through side-chain engineering
+[pre-NU] MATCHED    N-type organic electrochemical transistors with stability in water
+    -> W2528540219 (2016, 1.00) N-type organic electrochemical transistors with stability in water
+[pre-NU] MATCHED    Integration of organic electrochemical and field-effect transistors for ultaflexible, high temporal resolution electrophysiology arrays
+    -> W2523009810 (2016, 1.00) Integration of Organic Electrochemical and Field-Effect Transistors for Ultraflexible, High Temporal Resolution Electrophysiology Arrays
+[pre-NU] MATCHED    Structural control of mixed ionic and electronic transport in conducting polymers
+    -> W2336569366 (2016, 1.00) Structural control of mixed ionic and electronic transport in conducting polymers
+[pre-NU] MATCHED    The bioelectronics neural pixel: Chemical stimulation and electrical sensing at the same site
+    -> W2514434695 (2016, 0.97) Bioelectronic neural pixel: Chemical stimulation and electrical sensing at the same site
+[pre-NU] MATCHED    Optical study of electrochromic moving fronts for the investigation of ion transport in conducting polymers
+    -> W2296574981 (2016, 1.00) Optical study of electrochromic moving fronts for the investigation of ion transport in conducting polymers
+[pre-NU] MATCHED    Organic Electronics: Efficiency through dilution
+    -> W2343457910 (2016, 0.74) Efficiency through dilution
+[pre-NU] MATCHED    Molecular design of semiconducting polymers of high-performance organic electrochemical transistors
+    -> W2481731446 (2016, 0.98) Molecular Design of Semiconducting Polymers for High-Performance Organic Electrochemical Transistors
+[pre-NU] MATCHED    Understanding volumetric capacitance in conducting polymers
+    -> W2300433749 (2016, 1.00) Understanding volumetric capacitance in conducting polymers
+[pre-NU] MATCHED    Early detection of nephrotoxicity in vitro using a transparent conducting polymer device
+    -> W2346950651 (2016, 1.00) Early Detection of Nephrotoxicity In Vitro Using a Transparent Conducting Polymer Device
+[pre-NU] MATCHED    Sodium and potassium selective conjugated polymers for optical solid state sensors
+    -> W2223366270 (2015, 1.00) Sodium and Potassium Ion Selective Conjugated Polymers for Optical Ion Detection in Solution and Solid State
+[pre-NU] MATCHED    Organic Electrochemical Transistors Based on PEDOT with Different Anionic Polyelectrolyte Dopants
+    -> W2096994913 (2015, 1.00) Organic electrochemical transistors based on PEDOT with different anionic polyelectrolyte dopants
+[pre-NU] MATCHED    Using white noise to gate organic transistors for dynamic monitoring of cultured cell layers
+    -> W2271173882 (2015, 1.00) Using white noise to gate organic transistors for dynamic monitoring of cultured cell layers
+[pre-NU] MATCHED    High performance transistors for bioelectronics through tuning of channel thickness
+    -> W2277311694 (2015, 1.00) High-performance transistors for bioelectronics through tuning of channel thickness
+[pre-NU] MATCHED    Monitoring of cell layer coverage and differentiation with the organic electrochemical transistor
+    -> W1959617363 (2015, 1.00) Monitoring of cell layer coverage and differentiation with the organic electrochemical transistor
+[pre-NU] MATCHED    Multi-phase microstructures drive exciton dissociation in neat semicrystalline polymeric semiconductors
+    -> manual add (2015, 1.00) Multi-phase microstructures drive exciton dissociation in neat semicrystalline polymeric semiconductors
+[pre-NU] MATCHED    Localized stimulation of neurons with organic electrochemical transistors on delaminating polymer depth probes
+    -> W2157789821 (2015, 0.88) Localized Neuron Stimulation with Organic Electrochemical Transistors on Delaminating Depth Probes
+[pre-NU] MATCHED    Controlling Epileptiform Activity with Organic Electronic Ion Pumps
+    -> W2168285845 (2015, 1.00) Controlling Epileptiform Activity with Organic Electronic Ion Pumps
+[pre-NU] MATCHED    Role of Side-Chain Branching on Thin-film Structure and Electronic Properties of Polythiophenes
+    -> W2133644228 (2015, 1.00) Role of Side-Chain Branching on Thin-Film Structure and Electronic Properties of Polythiophenes
+[pre-NU] MATCHED    Optimization of a Planar All-Polymer Transistor for Characterization of Barrier Tissue
+    -> W2106789334 (2015, 1.00) Optimization of a Planar All-Polymer Transistor for Characterization of Barrier Tissue
+[pre-NU] MATCHED    Organic electrochemical transistors for cell-based impedance sensing
+    -> W2037055107 (2015, 1.00) Organic electrochemical transistors for cell-based impedance sensing
+[pre-NU] MATCHED    Electrical monitoring of cysts using organic electrochemical transistors
+    -> W2148755132 (2015, 0.90) Research Update: Electrical monitoring of cysts using organic electrochemical transistors
+[pre-NU] MATCHED    Optical measurement of doping efficiency in Poly(3-hexylthiophene) solutions and thin films
+    -> W2321831642 (2015, 1.00) Optical measurement of doping efficiency in poly(3-hexylthiophene) solutions and thin films
+[pre-NU] MATCHED    Organic electrochemical transistors for clinical applications
+    -> W2044688936 (2014, 1.00) Organic Electrochemical Transistors for Clinical Applications
+[pre-NU] MATCHED    Organic Electrochemical Transistors as Impedance Biosensors
+    -> W2012986010 (2014, 1.00) Organic electrochemical transistors as impedance biosensors
+[pre-NU] MATCHED    High Transconductance Accumulation Model Electrochemical Transistor
+    -> W2104754790 (2014, 0.98) A High Transconductance Accumulation Mode Electrochemical Transistor
+[pre-NU] MATCHED    Combined Optical and Electronic Sensing of Epithelial Cells using Planar Organic Transistors
+    -> W2046430458 (2014, 1.00) Combined Optical and Electronic Sensing of Epithelial Cells Using Planar Organic Transistors
+[pre-NU] MATCHED    Ion-Selective Organic Electrochemical Transistors
+    -> W2083495419 (2014, 1.00) Ion-Selective Organic Electrochemical Transistors
+[pre-NU] MATCHED    Ionic liquid gel-assisted electrodes for long-term cutaneous recordings
+    -> W2079335896 (2014, 1.00) Ionic Liquid Gel-Assisted Electrodes for Long-Term Cutaneous Recordings
+[pre-NU] MATCHED    Dynamic monitoring of Salmonella typhumurium infection of polarised epithelia using organic transistors
+    -> W1978882954 (2014, 0.98) Dynamic Monitoring of Salmonella typhimurium Infection of Polarized Epithelia Using Organic Transistors
+[pre-NU] MATCHED    The rise of organic bioelectronics
+    -> W2333894357 (2013, 1.00) The Rise of Organic Bioelectronics
+[pre-NU] MATCHED    Organic electrochemical transistors with maximum transconductance at zero gate bias
+    -> W2015599781 (2013, 1.00) Organic Electrochemical Transistors with Maximum Transconductance at Zero Gate Bias
+[pre-NU] MATCHED    A facile biofunctionalisation route for solution processable conducting polymer devices
+    -> W2124303300 (2013, 1.00) A facile biofunctionalisation route for solution processable conducting polymer devices
+[pre-NU] MATCHED    Enhanced and tunable ion mobility in hydrophilic and biocompatible conducting polymer composites
+    -> W2110979089 (2013, 1.00) Engineering hydrophilic conducting composites with enhanced ion mobility
+[pre-NU] MATCHED    Conducting polymer electrodes of electroencephalography
+    -> W2142421167 (2013, 0.97) Conducting Polymer Electrodes for Electroencephalography
+[pre-NU] MATCHED    Unexpected interaction between PEDOT and phosphonium ionic liquids
+    -> W2323377553 (2013, 1.00) Unexpected Interaction between PEDOT and Phosphonium Ionic Liquids
+[pre-NU] MATCHED    High transconductance organic electrochemical transistors
+    -> W2018887051 (2013, 1.00) High transconductance organic electrochemical transistors
+[pre-NU] MATCHED    A general relationship between disorder, aggregation and charge transport in conjugated polymers
+    -> W2054810869 (2013, 1.00) A general relationship between disorder, aggregation and charge transport in conjugated polymers
+[pre-NU] MATCHED    The impact of molecular weight on microstructure and charge transport in semicrystalline polymer semiconductors–poly (3-hexylthiophene), a model study
+    -> W1997947072 (2013, 1.00) The impact of molecular weight on microstructure and charge transport in semicrystalline polymer semiconductors–poly(3-hexylthiophene), a model study
+[pre-NU] MATCHED    Vertical confinement and interface effects on the microstructure and charge transport of P3HT thin films
+    -> W1975563876 (2013, 1.00) Vertical confinement and interface effects on the microstructure and charge transport of P3HT thin films
+[pre-NU] MATCHED    Direct measurement of ion mobility in a conducting polymer
+    -> W2005742294 (2013, 1.00) Direct Measurement of Ion Mobility in a Conducting Polymer
+[pre-NU] MATCHED    Ultra-thin body poly(3-hexylthiophene) transistors with improved short-channel performance
+    -> W2334110494 (2013, 1.00) Ultrathin Body Poly(3-hexylthiophene) Transistors with Improved Short-Channel Performance
+[pre-NU] MATCHED    General fabrication of polymer multielectrode arrays
+    -> W2028671743 (2013, 1.00) Easy-to-Fabricate Conducting Polymer Microelectrode Arrays
+[pre-NU] MATCHED    Effects of interfaces on microstructure and charge transport in high performance semicrystalline polymer semiconductors
+    -> W2040654797 (2012, 0.93) Effects of Confinement on Microstructure and Charge Transport in High Performance Semicrystalline Polymer Semiconductors
+[pre-NU] MATCHED    Quantitative Determination of Organic Semiconductor Microstructure from the Molecular to Device Scale
+    -> W2317506299 (2012, 1.00) Quantitative Determination of Organic Semiconductor Microstructure from the Molecular to Device Scale
+[pre-NU] MATCHED    A Selenophene-based Low-Bandgap Donor-Acceptor Polymer Leading to Fast Ambipolar Logic
+    -> W1981490049 (2012, 1.00) A Selenophene-Based Low-Bandgap Donor–Acceptor Polymer Leading to Fast Ambipolar Logic
+[pre-NU] MATCHED    The Mechanism of Burn-in Loss in a High Efficiency Polymer Solar Cell
+    -> W2118045763 (2011, 1.00) The Mechanism of Burn-in Loss in a High Efficiency Polymer Solar Cell
+[pre-NU] MATCHED    Effect of Acene Length on Electronic Properties in 5-, 6-, and 7-Ringed Heteroacenes
+    -> W2055601983 (2011, 1.00) Effect of Acene Length on Electronic Properties in 5-, 6-, and 7-Ringed Heteroacenes
+[pre-NU] MATCHED    Drastic control of texture in a high performance n-type polymeric semiconductor and implications for charge transport
+    -> W2329357956 (2011, 1.00) Drastic Control of Texture in a High Performance n-Type Polymeric Semiconductor and Implications for Charge Transport
+[pre-NU] MATCHED    Steric Control of the Donor/Acceptor Interface: Implications in Organic Photovoltaic Charge Generation
+    -> W2326085952 (2011, 1.00) Steric Control of the Donor/Acceptor Interface: Implications in Organic Photovoltaic Charge Generation
+[pre-NU] MATCHED    Quantitative analysis of lattice disorder and crystallite size in organic semiconductor thin films
+    -> W1967129554 (2011, 1.00) Quantitative analysis of lattice disorder and crystallite size in organic semiconductor thin films
+[pre-NU] MATCHED    Structural origin of gap states in semicrystalline polymers and the implications for charge transport
+    -> W2004413987 (2011, 1.00) Structural origin of gap states in semicrystalline polymers and the implications for charge transport
+[pre-NU] MATCHED    Unconventional Face-On Texture and Exceptional In-Plane Order of a High Mobility n- Type Polymer
+    -> W2109920943 (2010, 1.00) Unconventional Face-On Texture and Exceptional In-Plane Order of a High Mobility n-Type Polymer
+[pre-NU] MATCHED    Probing the electrical properties of highly-doped Al:ZnO nanowire ensembles
+    -> W2071772389 (2010, 1.00) Probing the electrical properties of highly-doped Al:ZnO nanowire ensembles
+[pre-NU] MATCHED    Materials and Applications for Large-Area Electronics: Solution-Based Approaches
+    -> W2036531934 (2010, 1.00) Materials and Applications for Large Area Electronics: Solution-Based Approaches
+[pre-NU] MATCHED    Variable Temperature Mobility Analysis of n-Channel, p-Channel, and Ambipolar Organic Field-Effect Transistors
+    -> W2116912683 (2009, 1.00) Variable Temperature Mobility Analysis of n-Channel, p-Channel, and Ambipolar Organic Field-Effect Transistors
+[pre-NU] MATCHED    Large modulation of carrier transport by grain-boundary molecular packing and microstructure in organic thin films
+    -> W2034427537 (2009, 1.00) Large modulation of carrier transport by grain-boundary molecular packing and microstructure in organic thin films
+[pre-NU] MATCHED    Bimolecular Crystals of Fullerenes in Conjugated Polymers and the Implications of Molecular Mixing for Solar Cells
+    -> W2059148149 (2009, 1.00) Bimolecular Crystals of Fullerenes in Conjugated Polymers and the Implications of Molecular Mixing for Solar Cells
+[pre-NU] MATCHED    Interfacial effects in thin films of polymeric semiconductors
+    -> W2036423401 (2008, 1.00) Interfacial effects in thin films of polymeric semiconductors
+[pre-NU] MATCHED    Connecting Electrical and Molecular Properties of Semiconducting Polymers for Thin Film Transistors
+    -> W2131910841 (2008, 1.00) Connecting Electrical and Molecular Properties of Semiconducting Polymers for Thin-Film Transistors
+[pre-NU] MATCHED    Electroluminescent devices from ionic transition metal complexes
+    -> W2149417908 (2007, 1.00) Electroluminescent devices from ionic transition metal complexes
+[pre-NU] MATCHED    Observation of intermediate-range order in a nominally amorphous molecular semiconductor film
+    -> W2134498568 (2007, 1.00) Observation of intermediate-range order in a nominally amorphous molecular semiconductor film
+[pre-NU] MATCHED    Direct 120 V, 60 Hz operation of an organic light emitting device
+    -> W2087320355 (2006, 1.00) Direct 120V, 60Hz operation of an organic light emitting device
+
+Old entries: 148, unmatched: 0
+
+== Kept 2025-2026 entries (eyeball these) ==
+2026 | D. Gunturkun, D. Meli, M. Kuhn, E. M. Herzig, J. Rivnay, C. B. Nielsen | Backbone Engineering of Benzodifurandione-Based n-Type OMIECs With Antiambipolar Behavior | Advanced Electronic Materials | 10.1002/aelm.70567
+2026 | S. T. Fleury, X. Lin, P. D. Rios, C. Olker, E. J. Song, A. C. Perez, C. Fell, D. Lopez, I. Joshi, H. Nasir, C. Curtis, D. Muringi, K. Wang, J. Oberholzer, F. W. Turek, I. B. Hilton, J. Rivnay, M. H. Vitaterna, O. Veiseh | Encapsulated Leptin-Producing Cells Facilitate Entrainment of Circadian Rhythms in Rodents and Nonhuman Primates | Advanced Science | 10.1002/advs.77191
+2026 | D. Altamura, M. Pugliese, G. M. Matrone, Z. Laswick, C. Simari, I. Farella, A. Mezzi, D. Caschera, D. Caprini, G. Parisi, M. Esposito, C. Giannini, G. Gigli, V. Maiorano, I. Nicotera, A. Cola, J. Rivnay, P. Cossari | Tuning ionic and electronic conduction of PEDOT:PSS:Nafion complexes towards artificial synapses with tailored memory retention | Communications Materials | 10.1038/s43246-026-01250-6
+2026 | S. Jo, H. Jia, X. Wang, R. E. Wu, L. Wang, S. A. Gershanok, J. Rivnay, M. K. Y. Chan, R. Kurchin, T. Cohen-Karni | 4-Electron Oxygen Reduction Reaction (ORR) with Iron Phthalocyanine (FePc) Functionalized Nanowire Templated-3D Fuzzy Graphene (NT-3DFG) | ACS Catalysis | 10.1021/acscatal.6c01943
+2026 | D. Shamalia, Z. Laswick, J. Rivnay, N. Tessler | Coupled Ionic–Electronic Transport in Vertical OECTs: A Combined Experimental and Simulation Study | Advanced Electronic Materials | 10.1002/aelm.202500689
+2026 | C. Wright, A. Surendran, I. Lee, J. E. Villacres, A. Ezerins, A. Curtiss, N. Brown, J. Liu, B. Rothrock, P. Rios, D. Lopez, I. Joshi, H. Nasir, H. Wang, C. Fell, A. Davis, J. Oberholzer, J. Hester, T. Cohen-Karni, J. Rivnay, O. Veiseh | Design of a wireless, fully implantable platform for in-situ oxygenation of encapsulated cell therapies | Device | 10.1016/j.device.2026.101106
+2026 | L. Gao, Y. Cho, R. Wang, Y. Yao, D. Zhang, Y. Wang, Y. Cheng, Y. Wang, Q. Ma, I. Duplessis, S. Chung, E. Wilson, K. Cho, B. Wang, L. Li, J. Rivnay, H. Wang, J. Yu, T. J. Marks, A. Facchetti | Broadly applicable hydrophilic additive enhances electrochemical transistor function | Proceedings of the National Academy of Sciences | 10.1073/pnas.2523877123
+2026 | J. D. George, W. Brenneis, V. K. Sangwan, D. Meli, H. Kurtz, J. Richards, L. J. Lauhon, J. Rivnay, M. C. Hersam, J. Lopez, M. K. Y. Chan, V. Taylor | Robust Interpretation of Electrochemical Impedance Spectra Using Numerical Complex Analysis | ACS Measurement Science Au | 10.1021/acsmeasuresciau.5c00151
+2025 | V. S. Damani, X. Xie, R. E. Daso, K. Suman, M. Ghasemi, W. Xie, R. Wu, Y. Wu, C. L. Chao, J. E. Alberto, C. M. Lorch, A.-N. Yang, D. M. Nguyen, T. Shrestha, K. Otero, C.-Y. Lo, D. J. Pochan, E. D. Gomez, J. Rivnay, L. V. Kayser | Thermo-reversible gelation of self-assembled conducting polymer colloids | Nature Communications | 10.1038/s41467-025-66034-x
+2025 | T. K. Brown, R. Daso, C. Petersen, C. Beaumont, J. Tropp, A. del Carmen, C. L. Chao, C. Dang, J. Rivnay, B. Jiang | Sulfonated PEDOT-Modified Decellularized Arteries as Electroactive Scaffolds for Vascular Tissue Engineering | Journal of Biomedical Materials Research Part A | 10.1002/jbma.70002
+2025 | D. Meli, Q. Thomas, N. Rolland, G. Freychet, C. J. Kousseff, P. Cavassin, L. Q. Flagg, V. Lemaur, A. Surendran, Z. Hamid, S. Griggs, R. Wu, R. A. Huerta, I. D. Duplessis, B. D. Paulsen, T. J. Marks, L. J. Lauhon, I. McCulloch, L. J. Richter, D. Beljonne, J. Rivnay | Charge state-dependent ion condensation near conjugated polymer backbones | Materials Horizons | 10.1039/d5mh01939g
+2025 | J. P. I. Tarrés, D. Zhu, C. Musumeci, Y. Kim, D. Meli, H. Yu, M. Jha, B. D. Paulsen, R. Wu, J. Kimpel, Z. Laswick, S. H. K. Paleti, Y. Zhang, S. Barlow, S. R. Marder, J. Nelson, J. Rivnay, C. Müller | Anomalous Stiffening of a Conjugated Polymer During Electrochemical Oxidation | Advanced Functional Materials | 10.1002/adfm.202519980
+2025 | C. D. Flynn, D. Chang, Y. Lee, S. E. Isaacson, Z. Wu, J. Rivnay, S. O. Kelley | Programming Aptamer–Protein Complexation Kinetics via Modulation of G-Quadruplex Secondary Structure | Journal of the American Chemical Society | 10.1021/jacs.5c10067
+2025 | R. E. Daso, R. Posey, H. Garza, A. Perry, C. Petersen, A. C. Fritz, J. Rivnay, J. Tropp | Standardized Electrochemical Characterization of Conductive Hydrogels | Advanced Functional Materials | 10.1002/adfm.202508859
+2025 | A. R. Brotherton, N. DomNwachukwu, M. D. Bailey, J. Rivnay, T. J. Meade | Disulfide Incorporated Pyridine and Pyridinium Push–Pull Dyes for Optical Sensing and Antifouling Electrodes | Langmuir | 10.1021/acs.langmuir.4c04953
+2025 | Y. Gao, Y. Zhou, X. Ji, A. J. Graham, C. M. Dundas, I. E. M. Mahfoud, B. M. Tibbett, B. Tan, G. Partipilo, A. Dodabalapur, J. Rivnay, B. K. Keitz | Translating Extracellular Electron Transfer Activities with Organic Electrochemical Transistors | Journal of Visualized Experiments | 10.3791/67928
+2025 | J. Rivnay, R. Raman, J. T. Robinson, C. Schreib, T. Cohen-Karni, K. E. Galloway, O. Veiseh | Integrating bioelectronics with cell-based synthetic biology | Nature Reviews Bioengineering | 10.1038/s44222-024-00262-6
+2025 | R. L. Keate, M. I. Bury, M. Mendez-Santos, A. Gerena, M. Goedegebuure, J. Rivnay, A. K. Sharma, G. A. Ameer | Cell-free biodegradable electroactive scaffold for urinary bladder tissue regeneration | Nature Communications | 10.1038/s41467-024-55401-9
+2025 | D. Gunturkun, D. Meli, K. J. Thorley, M. Kuhn, E. M. Herzig, J. Rivnay, C. B. Nielsen | Impact of donor modification on azaisoindigo-based polymers for n- and p-type organic electrochemical transistors | Journal of Materials Chemistry C | 10.1039/d5tc02636a
+
+== REVIEW (article with no source, or magazine-looking journal) ==
+KEPT     W2131910841 | 2008 | article | src=journal | MRS Bulletin | Connecting Electrical and Molecular Properties of Semiconducting Polymers for Thin-Film Tr
+EXCLUDED W2508044097 | 2015 | article | src=None | None | Modeling Transient Drain Current Response in Biofunctionalized Organic Electrochemical Tra
+EXCLUDED W2625962827 | 2012 | article | src=journal | Bulletin of the American Physical Society | Neither crystalline nor amorphous: measuring disorder in polymers and assessing its effect
+EXCLUDED W2761775791 | 2009 | article | src=None | None | Bimolecular crystals and intercalated molecular structures of polymer/fullerene in bulk he
+EXCLUDED W3008451586 | 2020 | article | src=journal | Bulletin of the American Physical Society | Designing polymeric mixed ionic/electronic conductors for organic electrochemical transist
+EXCLUDED W3021626792 | 2012 | article | src=journal | Bulletin of the American Physical Society | Ultra-thin body poly(3-hexylthiophene) transistors with improved short-channel performance
+EXCLUDED W3145627312 | 2021 | article | src=journal | Bulletin of the American Physical Society | Operando structure determination of mixed conducting polymers
+EXCLUDED W7170069999 | 2026 | article | src=journal | Open Access Government | Supporting living electronics for next-generation medicines
+
+== EXCLUDED via publications_manual.json ==
+W3117644723 | 2020 | article | src=journal | Angewandte Chemie | n-Type Rigid Semiconducting Polymers Bearing Oligo(Ethylene Glycol) Side Chains for High-P
+W4206156514 | 2020 | article | src=journal | Angewandte Chemie | Polaron Delocalization in Donor–Acceptor Polymers and its Impact on Organic Electrochemica
+W4200053649 | 2021 | article | src=journal | Angewandte Chemie | Lactone Backbone Density in Rigid Electron-Deficient Semiconducting Polymers Enabling High
+W4402747760 | 2024 | article | src=journal | Angewandte Chemie | Small-Molecule Mixed Ionic-Electronic Conductors for Efficient N-Type Electrochemical Tran
+W1886046708 | 2015 | article | src=journal | Advanced Materials | Epilepsy Treatment: Controlling Epileptiform Activity with Organic Electronic Ion Pumps (A
+W4405701478 | 2024 | article | src=journal | Angewandte Chemie | The Influence of Alkyl Spacers and Molecular Weight on the Charge Transport and Storage Pr
+W4300026948 | 2020 | article | src=journal | Journal of Visualized Experiments | Sample Preparation in Quartz Crystal Microbalance Measurements of Protein Adsorption and P
+W4386454850 | 2020 | article | src=journal | Advanced Materials | Balancing Charge Storage and Mobility in an Oligo(Ether) Functionalized Dioxythiophene Cop
+W2553117858 | 2016 | article | src=journal | Advanced Materials | Field-Effect Transistors: Integration of Organic Electrochemical and Field-Effect Transist
+W2326342569 | 2016 | article | src=journal | Frontiers in Bioengineering and Biotechnology | Integrated microfluidics and electronic monitoring for in vitro toxicology
+W2508044097 | 2015 | article | src=None | None | Modeling Transient Drain Current Response in Biofunctionalized Organic Electrochemical Tra
+W2625962827 | 2012 | article | src=journal | Bulletin of the American Physical Society | Neither crystalline nor amorphous: measuring disorder in polymers and assessing its effect
+W2753654207 | 2017 | article | src=journal | IEEE Journal on Emerging and Selected Topics in Circuits and Systems | フレキシブルハイブリッド電子回路とシステム【Powered by NICT】
+W2761775791 | 2009 | article | src=None | None | Bimolecular crystals and intercalated molecular structures of polymer/fullerene in bulk he
+W3008451586 | 2020 | article | src=journal | Bulletin of the American Physical Society | Designing polymeric mixed ionic/electronic conductors for organic electrochemical transist
+W3021626792 | 2012 | article | src=journal | Bulletin of the American Physical Society | Ultra-thin body poly(3-hexylthiophene) transistors with improved short-channel performance
+W3145627312 | 2021 | article | src=journal | Bulletin of the American Physical Society | Operando structure determination of mixed conducting polymers
+W4400677654 | 2024 | article | src=journal | Advanced Science | Decoupling the Influence of Poly(3,4-Ethylenedioxythiophene)-Collagen Composite Characteri
+W7170069999 | 2026 | article | src=journal | Open Access Government | Supporting living electronics for next-generation medicines
+
+== DROPPED by type/source/retraction ==
+W2022628006 | 2009 | conference-paper | src=journal | Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE | Transport and structural characterization of solution-processable doped ZnO nanowires
+W2092094128 | 2012 | conference-paper | src=journal | Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE | High-mobility ambipolar polymer transistors: properties and function
+W4220709637 | 2022 | conference-paper | src=conference | Proceedings of the nanoGe Spring Meeting 2022 | Influence of side chains on the n-type organic electrochemical transistor performance
+W2027568362 | 2014 | conference-paper | src=None | None | Organic electrochemical transistors for BioMEMS applications
+W2564703636 | 2016 | erratum | src=journal | Nature Communications | Erratum: N-type organic electrochemical transistors with stability in water
+W4403510344 | 2024 | editorial | src=journal | Science | Are implantable, living pharmacies within reach?
+W2566724639 | 2015 | erratum | src=journal | Physical Review B | Erratum: Optical measurement of doping efficiency in poly(3-hexylthiophene) solutions and 
+W1588796922 | 2013 | other | src=journal | Organic Electronics | Conducting Polymers to Control and Monitor Cells
+W4383535289 | 2023 | preprint | src=repository | ChemRxiv | Conducting polymer nanoparticles with intrinsic aqueous dispersibility for conductive hydr
+W4403779108 | 2024 | preprint | src=repository | ChemRxiv | Thermo-reversible gelation of self-assembled conducting polymer colloids
+W4319962428 | 2023 | preprint | src=repository | ChemRxiv | Quantitative composition and mesoscale ion distribution in p-type organic mixed ionic-elec
+W4379615334 | 2023 | preprint | src=repository | bioRxiv (Cold Spring Harbor Laboratory) | Electrocatalytic on-site oxygenation for transplanted cell-based-therapies
+W4391319782 | 2024 | preprint | src=repository | Research Square | Cell-free biodegradable electroactive scaffold for urinary bladder regeneration
+W2609666818 | 2017 | conference-abstract | src=journal | ECS Meeting Abstracts | Flexible Hybrid Mouth-Guard-Based Electrochemical Biosensing
+W4239917040 | 2020 | preprint | src=repository | ChemRxiv | Ion Coordination and Chelation in a Glycolated Polymer Semiconductor: Molecular Dynamics a
+W4288429593 | 2022 | preprint | src=repository | ChemRxiv | PEDOT-NHS as a Versatile Conjugated Polyelectrolyte for Bioelectronics
+W4309544262 | 2022 | preprint | src=repository | ChemRxiv | Revealing the Impact of Molecular Weight on Mixed Conduction in Glycolated Polythiophenes 
+W4385970926 | 2023 | preprint | src=repository | bioRxiv (Cold Spring Harbor Laboratory) | A Hybrid Transistor with Transcriptionally Controlled Computation and Plasticity
+W4386048826 | 2023 | preprint | src=repository | ChemRxiv | Aligned Bioelectronic Polypyrrole/Collagen Constructs for Peripheral Nerve Interfacing
+W4393987996 | 2024 | preprint | src=repository | Research Square | Tunable Anti-Ambipolar Vertical Bilayer Organic Electrochemical Transistor enable Neuromor
+W4409342034 | 2025 | preprint | src=repository | ChemRxiv | Standardized Electrochemical Characterization of Conductive Hydrogels
+W2102851590 | 2007 | conference-paper | src=None | None | Microstructure, Charge Transport and Trapping in Anisotropic Polymeric Thin Film Transisto
+W2194217720 | 2015 | conference-paper | src=journal | Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE | Organic transistors for electrophysiology (Presentation Recording)
+W2540515831 | 2009 | conference-abstract | src=None | None | Relating microstructure to transport in organic semiconductor transistors
+W2550423307 | 2016 | conference-paper | src=None | None | Organic mixed conductors for bioelectronic applications (Conference Presentation)
+W2730748608 | 2009 | conference-abstract | src=journal | ECS Meeting Abstracts | Transport at Grain Boundaries in Polymeric and Small Molecule Organic Semiconductors
+W2755246150 | 2017 | conference-paper | src=None | None | Designing organic mixed conductors for bioelectronic applications (Conference Presentation
+W2755750757 | 2017 | conference-paper | src=None | None | Tailoring organic electrochemical transistors through form factor and materials selection 
+W2891402553 | 2018 | conference-paper | src=None | None | Subthreshold biosensing with organic electrochemical transistors (Conference Presentation)
+W3158898186 | 2021 | preprint | src=repository | arXiv (Cornell University) | Electrochemistry of thin films with operando grazing incidence X-ray scattering: bypassing
+W3186675807 | 2021 | conference-abstract | src=journal | ECS Meeting Abstracts | Multi-Dimensional Fuzzy Graphene Bioelectronic Actuators
+W3211417088 | 2021 | conference-paper | src=journal | Proceedings of the nanoGe Fall Meeting 2021 | Lactone Maximization in Rigid Electron-Deficient Semiconducting Polymers Enabling High n-t
+W4220736708 | 2022 | conference-paper | src=conference | Proceedings of the nanoGe Spring Meeting 2022 | Hybrid Supported Lipid Bilayers on PEDOT:PSS for Stable and Tunable Bioelectronic Sensors
+W4220826437 | 2022 | conference-paper | src=conference | Proceedings of the nanoGe Spring Meeting 2022 | Controlling Transport and Trapping in Organic Mixed Ionic/Electronic Conductors for Applic
+W4230192370 | 2019 | preprint | src=repository | ChemRxiv | Energetic Control of Redox-Active Polymers Towards Safe Organic Bioelectronic Materials
+W4231723618 | 2019 | preprint | src=repository | ChemRxiv | Energetic Control of Redox-Active Polymers Towards Safe Organic Bioelectronic Materials
+W4231855261 | 2008 | conference-abstract | src=journal | ECS Meeting Abstracts | Micro/Nanostructure Effects in Organic Semiconductors
+W4234091094 | 2020 | preprint | src=repository | ChemRxiv | Ion Coordination and Chelation in a Glycolated Polymer Semiconductor: Molecular Dynamics a
+W4251983517 | 2020 | preprint | src=repository | ChemRxiv | Time-Resolved Structural Dynamics of Organic Mixed Ionic Electronic Conductors
+W4252099835 | 2020 | preprint | src=repository | ChemRxiv | Time-Resolved Structural Dynamics of Organic Mixed Ionic Electronic Conductors
+W4256406825 | 2020 | preprint | src=repository | ChemRxiv | Ion Coordination and Chelation in a Glycolated Polymer Semiconductor: Molecular Dynamics a
+W4286214212 | 2022 | preprint | src=repository | bioRxiv (Cold Spring Harbor Laboratory) | Organic electrochemical transistor as an on-site signal amplifier for electrochemical apta
+W4304987575 | 2022 | conference-paper | src=None | None | Organic mixed ionic-electronic conductors (OMIECs) for electrochemical transistors and cir
+W4304990505 | 2022 | conference-paper | src=None | None | The role of electron affinity in advancing the electrical performance of n-type semiconduc
+W4361015174 | 2023 | conference-paper | src=None | None | Operando Studies of Organic Mixed Ionic-Electronic Conductors and Their Implications for M
+W4383105380 | 2023 | preprint | src=repository | Research Square | Electrocatalytic on-site oxygenation for transplanted cell-based-therapies
+W4387208787 | 2023 | conference-paper | src=None | None | Organic electrochemical transistors for sensing and signal processing
+W4397369847 | 2016 | dataset | src=repository | The Cambridge Structural Database | CCDC 1418140: Experimental Crystal Structure Determination
+W4397402991 | 2016 | dataset | src=repository | The Cambridge Structural Database | CCDC 1418139: Experimental Crystal Structure Determination
+W4397465173 | 2016 | dataset | src=repository | The Cambridge Structural Database | CCDC 1418138: Experimental Crystal Structure Determination
+W4397488051 | 2016 | dataset | src=repository | The Cambridge Structural Database | CCDC 1418141: Experimental Crystal Structure Determination
+W4398036850 | 2022 | dataset | src=repository | The Cambridge Structural Database | CCDC 1944170: Experimental Crystal Structure Determination
+W4399127050 | 2024 | preprint | src=repository | bioRxiv (Cold Spring Harbor Laboratory) | Decellularized biohybrid nerve promotes motor axon projections
+W4402975983 | 2024 | conference-abstract | src=None | None | High-hole-mobility PEDOT:PSS fiber-OECTs for future bio-hybrid technologies
+W4403879081 | 2024 | conference-paper | src=None | None | Leveraging bioelectronics and synthetic biology to achieve implantable, biohybrid, and reg
+W4412511607 | 2025 | conference-abstract | src=journal | ECS Meeting Abstracts | Electrosynthesis of Mixed Ionic-Electronic Conducting (MIEC) Materials for Organic Electro
+W4416054731 | 2025 | article | src=repository | PubMed | Robust interpretation of electrochemical impedance spectra using numerical complex analysi
+W4416329278 | 2025 | peer-review | src=None | None | Author response for "Charge state-dependent ion condensation near conjugated polymer backb
+W7151036628 | 2026 | preprint | src=repository | bioRxiv (Cold Spring Harbor Laboratory) | Biohybrid Robots with Embedded Conductive Fibers for Actuation, Sensing, and Closed-loop C
+W7171733747 | 2026 | preprint | src=repository | SSRN Electronic Journal | Biohybrid Robots with Embedded Conductive Fibers for Actuation, Sensing, and Closed-loop C
+W7204765110 | 2026 | preprint | src=repository | ChemRxiv | Capacitance-based measurement of calcium-mediated vesicle fusion upon microinjection in dr
+W7204823553 | 2026 | preprint | src=repository | ChemRxiv | Ion-Selective Transistor Coupled Droplet Interface Bilayer with Short term Memory and Syna
+
+== Counts ==
+kept 182 (pre-Northwestern 65, manual adds 1, excluded 19, dropped 62, unmatched old entries 0)
+per year: 2026: 8, 2025: 11, 2024: 18, 2023: 16, 2022: 14, 2021: 15, 2020: 12, 2019: 5, 2018: 14, 2017: 4, 2016: 12, 2015: 13, 2014: 7, 2013: 13, 2012: 3, 2011: 6, 2010: 3, 2009: 3, 2008: 2, 2007: 2, 2006: 1

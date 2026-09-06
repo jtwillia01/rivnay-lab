@@ -1,0 +1,37 @@
+{
+ "exclude": [
+  "10.56367/oag-051-12715",
+  "10.1002/advs.202470160",
+  "10.1002/adma.201670311",
+  "10.1002/adma.201570133",
+  "10.1002/adma.202004250",
+  "10.3791/60584-v",
+  "10.1002/ange.202417897",
+  "10.1002/ange.202414180",
+  "10.1002/ange.202113078",
+  "10.1002/ange.202013998",
+  "10.1002/ange.202014078",
+  "W2753654207",
+  "W3145627312",
+  "W3008451586",
+  "W3021626792",
+  "W2625962827",
+  "10.3389/conf.fbioe.2016.01.00748",
+  "W2508044097",
+  "W2761775791"
+ ],
+ "add": [
+  {
+   "year": 2015,
+   "authors": "F. Paquin, J. Rivnay, A. Salleo, N. Stingelin, C. Silva-Acuña",
+   "title": "Multi-phase microstructures drive exciton dissociation in neat semicrystalline polymeric semiconductors",
+   "journal": "Journal of Materials Chemistry C",
+   "volume": "3",
+   "issue": "41",
+   "pages": "10715-10722",
+   "doi": "10.1039/C5TC02043C",
+   "openalex": null,
+   "pre_northwestern": true
+  }
+ ]
+}

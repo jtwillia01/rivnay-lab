@@ -1,0 +1,37 @@
+title: Rivnay Lab
+tagline: Laboratory for Organic & Hybrid Bioelectronics
+description: The Rivnay Lab at Northwestern University engineers organic bioelectronic materials, devices and systems that connect biology with electronics, from mixed ionic–electronic conductors to biohybrid living therapeutics.
+url: https://jtwillia01.github.io
+baseurl: /rivnay-lab
+lang: en
+author: Rivnay Lab
+logo: /assets/img/og-image.jpg
+timezone: America/Chicago
+
+permalink: /news/:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - docs
+  - scripts
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .claude
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default

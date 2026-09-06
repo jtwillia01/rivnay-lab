@@ -1,0 +1,25 @@
+---
+title: News
+description: News from the Rivnay Lab at Northwestern University.
+permalink: /news/
+---
+<div class="wrap">
+  <header class="page-head">
+    <p class="eyebrow">News</p>
+    <h1>Lab news</h1>
+    <p class="lead">Papers, awards, arrivals, and what the group has been up to.</p>
+  </header>
+  <ul class="news-list">
+    {% for post in site.posts %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.kind %}<span class="kind">{{ post.kind }}</span>{% endif %}</h3>
+        {% assign ex = post.excerpt | strip_html | strip | truncatewords: 32 %}
+        {% if ex != "" %}<p>{{ ex }}</p>{% endif %}
+      </div>
+      {% if post.image %}<a class="thumb" href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

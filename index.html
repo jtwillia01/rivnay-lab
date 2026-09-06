@@ -1,0 +1,95 @@
+---
+title: Rivnay Lab
+description: Laboratory for Organic & Hybrid Bioelectronics at Northwestern University. Polymer electronics for advanced diagnostics, therapeutics, rehabilitation, and regenerative engineering.
+permalink: /
+---
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Rivnay Lab &middot; Northwestern University</p>
+      <h1>Laboratory for Organic &amp; Hybrid Bioelectronics</h1>
+      <p class="lead">Polymer electronics for advanced diagnostics, therapeutics, rehabilitation, and regenerative engineering.</p>
+      <div class="cta">
+        <a class="btn" href="{{ '/research/' | relative_url }}">Our research</a>
+        <a class="btn btn-outline" href="{{ '/join/' | relative_url }}">Join the lab</a>
+      </div>
+    </div>
+    <figure>
+      <img src="{{ '/assets/img/hero-wafer.jpg' | relative_url }}" srcset="{{ '/assets/img/hero-wafer-800.jpg' | relative_url }} 800w, {{ '/assets/img/hero-wafer.jpg' | relative_url }} 1600w" sizes="(max-width: 800px) 100vw, 50vw" alt="A gloved hand holding a wafer patterned with gold sensor arrays" width="1600" height="1200">
+      <figcaption>Front-end sensor arrays after cleanroom fabrication.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section band">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">What we do</p>
+      <h2>Interfacing biology with electronics</h2>
+    </div>
+    <div class="prose">
+      <p class="lead">The Rivnay Group engineers organic bioelectronic materials, devices and systems for interfacing between the complex world of biology and traditional optoelectronics.</p>
+      <p>Our interests involve understanding the unique active properties of organic (small molecule and polymeric) materials, including mixed ionic–electronic conduction and actuation, and utilizing their strengths for sensing and stimulation in biomedical settings. Our interests generally fall into the following categories, with applications ranging from probes for neural engineering to in vitro platforms and regenerative scaffolds.</p>
+    </div>
+    <div class="card-grid" style="margin-top:2.25rem">
+      <a class="card" href="{{ '/research/#synbio' | relative_url }}">
+        <span class="num">01</span>
+        <h3>{Syn[bio}electronics]</h3>
+        <p>Bioelectronics meets synthetic biology: biohybrid devices that regulate engineered cells as living therapeutics.</p>
+        <span class="more">Read more &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/research/#materials' | relative_url }}">
+        <span class="num">02</span>
+        <h3>Fundamentals &amp; materials design</h3>
+        <p>How organic mixed ionic–electronic conductors work, and how to design new ones for performance and stability.</p>
+        <span class="more">Read more &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/research/#sensors' | relative_url }}">
+        <span class="num">03</span>
+        <h3>Sensors &amp; circuits</h3>
+        <p>Organic electrochemical transistors and hybrid circuits for physical, electrical, and chemical sensing.</p>
+        <span class="more">Read more &rarr;</span>
+      </a>
+      <a class="card" href="{{ '/research/#applications' | relative_url }}">
+        <span class="num">04</span>
+        <h3>Applications</h3>
+        <p>Implantable and wearable devices, regenerative engineering, and in vitro platforms.</p>
+        <span class="more">Read more &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Latest news</p>
+      <h2>What's going on in the lab</h2>
+    </div>
+    <ul class="news-list">
+      {% for post in site.posts limit: 4 %}
+      <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <div>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.kind %}<span class="kind">{{ post.kind }}</span>{% endif %}</h3>
+        </div>
+        {% if post.image %}<a class="thumb" href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <p style="margin-top:1.25rem"><a href="{{ '/news/' | relative_url }}">All news &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section band">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Contact</p>
+      <h2>Get in touch</h2>
+    </div>
+    <div class="prose">
+      <p>If you are interested in learning more about the group, what we do, or would like to inquire about joining the group, please contact Prof. Rivnay by email at <a href="mailto:jrivnay@northwestern.edu">jrivnay@northwestern.edu</a>. See the <a href="{{ '/join/' | relative_url }}">Join</a> page for current openings.</p>
+      <p>Our labs and offices are located on both Northwestern's Evanston campus and the downtown Chicago campus at the Simpson Querrey Biomedical Research Center.</p>
+    </div>
+  </div>
+</section>

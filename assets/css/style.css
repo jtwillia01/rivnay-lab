@@ -221,7 +221,7 @@ details.collapsed .pub-list { margin-top: 1rem; }
 .media-pair img { aspect-ratio: 1; }
 @media (max-width: 800px) { .theme { grid-template-columns: 1fr; gap: 1.5rem; } }
 .logo-row { display: flex; flex-wrap: wrap; gap: 1.75rem 2.75rem; align-items: center; margin-top: 1.2rem; }
-.logo-row img { height: 44px; width: auto; max-width: 180px; object-fit: contain; }
+.logo-row img { height: 44px; width: auto; max-width: 300px; object-fit: contain; }
 .logo-row a { display: block; }
 
 /* ---------- panel / notice ---------- */

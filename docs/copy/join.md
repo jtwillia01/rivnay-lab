@@ -1,4 +1,4 @@
-# Join the team
+# Join the Team
 
 ## Postdoctoral Research Associate – Biohybrid Systems and Oxygenation
 
@@ -12,7 +12,7 @@ Northwestern University, McCormick School of Engineering
 
 The Rivnay Lab at Northwestern University’s McCormick School of Engineering invites applications for a Postdoctoral Research Associate to design, develop, and lead key pre-clinical studies associated with oxygenation technologies, electrochemical actuation in vivo, and biohybrid systems such as "living pharmacies".
 
-### Responsibilities
+### Key responsibilities/qualifications
 
 - Design and build mechanicals and front-end actuation systems
 - Prototyping and rapid design cycles
@@ -47,4 +47,4 @@ Send all materials as a single PDF to jrivnay@northwestern.edu with the subject 
 
 ## Prospective PhD students and undergraduates
 
-Prospective PhD students apply through Northwestern’s graduate programs in Biomedical Engineering or Materials Science and Engineering; if you are interested in the group, email Prof. Rivnay (jrivnay@northwestern.edu) with your CV and a short description of your research interests. Northwestern undergraduates interested in research in the lab should email a CV and their availability.
+Prospective PhD students apply through Northwestern’s graduate programs, most often Biomedical Engineering or Materials Science and Engineering. If you are applying, or are already at Northwestern, email Prof. Rivnay (jrivnay@northwestern.edu) with your CV and a short description of your research interests. Northwestern undergraduates interested in research in the lab should email a CV and their availability.

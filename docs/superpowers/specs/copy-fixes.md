@@ -55,7 +55,7 @@ Home (docs/copy/home.md):
 
 Research (docs/copy/research.md):
 
-- "Our researcH" -> "Our research" (research)
+- "Our researcH" -> "Our Research" (research; page title, title case per spec)
 - "targeting news ways to enhance" -> "targeting new ways to enhance" (research)
 - "provides unique opportunities exciting in the realm" -> "provides unique, exciting opportunities in the realm" (research)
 - "biohybrid devices rely on bioelectronics to initiate" -> "biohybrid devices that rely on bioelectronics to initiate" (research)
@@ -70,6 +70,7 @@ Research (docs/copy/research.md):
 - "Sensors & Circuits" -> "Sensors & circuits" (research)
 - "to integrate them in together to enable" -> "to integrate them together to enable" (research)
 - "these electrolyte gated device rely on" -> "these electrolyte-gated devices rely on" (research)
+- "traditional field effect transistors" -> "traditional field-effect transistors" (research)
 - "hybrid circuits" -> "Hybrid circuits" (research)
 - "platforms, medical devices, Tissue regeneration" -> "Platforms, medical devices, tissue regeneration" (research)
 - "form factors un-attainable by" -> "form factors unattainable by" (research)
@@ -79,16 +80,19 @@ Research (docs/copy/research.md):
 - "monitor electro active cell function" -> "monitor electroactive cell function" (research)
 - "Resources / Facilities" -> "Resources and facilities" (research)
 - "Funding Sources" -> "Funding sources" (research)
+- New heading "Resources and funding" (the old page’s own in-page nav label was "Resources and Funding") groups the two logo strips, facilities first as on the old page; the two old headings become its sub-headings (research)
+- New text (not a fix): one sentence under "Resources and funding": "Our work relies on shared facilities at Northwestern and Argonne National Laboratory, and is supported by the following agencies and foundations." (research)
 - Kept as written: "{Syn[bio}electronics]" (stylised theme name, exact string from the old site), "Operando", "neuro-mimetic", "bi-directional" (research)
 - Removed: "Scroll" and the trailing in-page nav echo "Our Research / Overview / ... / Resources and Funding" (research)
 
 Join (docs/copy/join.md, from the old Opportunities page):
 
+- "Join the team" -> "Join the Team" (join; page title, title case per spec)
 - "Start Date" -> "Start date" (join)
 - "target 2-3 years" -> "target 2–3 years" (join)
 - "Q2-Q3 2026" -> "Q2–Q3 2026" (join)
 - "Position Overview" -> "Position overview" (join)
-- "Key Responsibilities/Qualifications" -> "Responsibilities" (join)
+- "Key Responsibilities/Qualifications" -> "Key responsibilities/qualifications" (join)
 - "Design and build mechanicals, and front end actuation systems" -> "Design and build mechanicals and front-end actuation systems" (join)
 - "Prototyping, and rapid design cycles" -> "Prototyping and rapid design cycles" (join)
 - "Electrochemical characterization techniques, (optional: knowledge/expertise in electrochemistry)" -> "Electrochemical characterization techniques (optional: knowledge/expertise in electrochemistry)" (join)
@@ -96,9 +100,17 @@ Join (docs/copy/join.md, from the old Opportunities page):
 - "Application Materials" -> "Application materials" (join)
 - "Salary and Benefits" -> "Salary and benefits" (join)
 - "How to Apply" -> "How to apply" (join)
-- New text (not a fix): section "Prospective PhD students and undergraduates", two sentences on how PhD applicants and undergraduates should get in touch (join)
+- New text (not a fix): section "Prospective PhD students and undergraduates", three sentences on how PhD applicants and undergraduates should get in touch. The graduate programs are given as "most often" Biomedical Engineering or Materials Science and Engineering, not as a rule; to be confirmed by the PI (join)
 
 Contact (docs/copy/contact.md): text taken from the home page "How to reach us" block; changes listed under Home above.
+
+Built pages (index.html, research.html, join.html): body text matches docs/copy/*.md word for word, including dashes, slashes, and trailing periods; the page titles are "Our Research" and "Join the Team". Text on the built pages that is not in the copy docs, all new and deliberate:
+
+- Home: section headings "Interfacing biology with electronics", "What's going on in the lab", "Get in touch"; the four research-card blurbs; the hero caption; button labels "Our research", "Join the lab", "All news" (index)
+- Home: the second research card uses the Research page heading "Fundamentals & materials design" rather than the home page's "Materials design & fundamentals", so the card matches the section it links to (index)
+- Research: the tagline "Bioelectronics meets synthetic biology" under {Syn[bio}electronics] (the old page had taglines only for the other three themes); figure captions; eyebrow "Support" (research)
+- Home: the old page's headings "Latest news", "How to reach us", "Contact us", "Locations" and the line "What's going on in the Rivnay Lab? — see below or go to the News section for the archives." are replaced by the section headings above and the "All news" link; the two street addresses are in the site footer on every page rather than in the home page body (index, _layouts/default.html)
+- Join: page lead "We are always interested in hearing from motivated researchers across materials science, engineering, chemistry, and biology."; the prospective-students section is placed before the postdoc posting (join)
 
 ## News
 

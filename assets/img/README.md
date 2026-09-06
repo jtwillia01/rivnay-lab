@@ -14,4 +14,5 @@ Generated from lab originals; sources are not modified. Every raster is EXIF-tra
 | `img/research/pedot-fiber-histology.jpg` | `/Users/Owner/School/website/science photos/PEDOT fiber in ESKM_Masson_s trichrome staining.tif` | 1600x1200 | 297,132 | full frame; q71 |
 | `img/research/organoid-die.jpg` | `/Users/Owner/School/website/organoid sensor/on wafer/full die.png` | 1600x1067 | 161,420 | full frame; q82 |
 | `img/research/organoid-assembly.jpg` | `/Users/Owner/School/website/organoid sensor/full assembly/1.png` | 1600x1067 | 225,496 | 3:2 crop (1489,876)-(6745,4380) centred on holder and gloved hand; q82 |
-| `img/research/synbioelectronics.png` | `https://images.squarespace-cdn.com/content/v1/5b3fad18af2096f8b7ddb0a4/8ff4e762-cd7b-4250-ae26-82435250630c/synbioelectronics2-01%281%29.png` | 500x500 | 16,582 | old-site graphic (research page), re-saved as PNG unchanged in pixels |
+
+| research/cell-clusters.jpg | old site home page image `Rat 3 009 Merged (002).png` (922x922) | 922x922 | 216,127 | Syn[bio]electronics section; saved at q86 |

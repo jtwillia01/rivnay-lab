@@ -5,7 +5,7 @@ Date: 2026-09-06. Replaces the Squarespace site at rivnay.northwestern.edu.
 ## Goals
 
 - Clean, left-aligned, fast static site that a lab member can edit by changing a YAML file or adding a markdown post.
-- Carry over every person, bio, headshot, publication, and news post from the current site, with typos fixed.
+- Carry over every person, bio, headshot, publication, and news post (61) from the current site, with typos fixed.
 - Publications stay current via a script instead of hand-typing.
 - Visual identity belongs to the Rivnay Lab (organic mixed conductors, biohybrid "cell factories", electrochemical aptamer sensors, regenerative scaffolds), not borrowed from the Asilomar site.
 
@@ -118,7 +118,7 @@ Body in markdown. One-line posts are fine.
 
 ## Copy policy
 
-- Migrate text verbatim, then fix spelling, doubled words, casing in headings, and obvious grammar (for example "news ways" → "new ways", "enquire" → "inquire", "Rivany" → "Rivnay", "Stravrinidou" → "Stavrinidou", "Ammer" → "Ameer"). Do not rewrite meaning. Heading case: sentence case for h2, title case for page titles.
+- Migrate text verbatim, then fix spelling, doubled words, casing in headings, and obvious grammar (for example "news ways" → "new ways", "enquire" → "inquire", "Rivany" → "Rivnay", "Stravrinidou" → "Stavrinidou", "Ammer" → "Ameer"). Do not rewrite meaning. Heading case: sentence case for every on-page heading (h1 included: "Our research", "The group", "Lab news", "Join the lab"); the browser <title> keeps the short nav label. The built pages are the source of truth; `docs/copy/*.md` are the intermediate verbatim-plus-typo-fix transcripts, and light grammatical smoothing in the pages (for example "sensing and stimulation" for "sensing/stimulation", removing em dashes, consistent list punctuation) is intentional and need not be logged.
 - People bios: keep first-person-third style as written. Names in title case (the old site had "anna baur", "QUINN BEATo").
 
 ## Deployment
@@ -134,7 +134,7 @@ Body in markdown. One-line posts are fine.
 - Internal link check over `_site` (script, stdlib).
 - Every person in old people-1 appears once in `people.yml` with a photo file that exists; every alumnus from both old pages appears in `alumni.yml`.
 - Publications diff report shows zero unmatched old entries after manual additions. Data files are `_data/publications.json` and `_data/publications_manual.json`.
-- 65 posts in `_posts`.
+- 61 posts in `_posts` (the old sitemap lists 61 post URLs).
 - Spell pass over all migrated text, report of changes kept in `docs/superpowers/specs/copy-fixes.md`.
 
 ## README covers

@@ -1,4 +1,4 @@
-# Our research
+# Our Research
 
 One of the long-standing barriers in bioelectronics is the need to overcome mismatches at the interface between biological tissue and traditional electronics.
 
@@ -34,7 +34,7 @@ In order to enable a new generation of bioelectronic tools, we aim to develop ne
 
 ### Organic electrochemical transistors
 
-Organic electrochemical transistors (OECTs) are local ionic-to-electronic signal transducers. Different from traditional field effect transistors, these electrolyte-gated devices rely on bulk or volumetric doping of organic semiconductors owing to the facile penetration of the films with ions. Our group studies these devices, their active materials, and explores their use as sensors for electrophysiology, bio-analyte sensing, and impedance sensing.
+Organic electrochemical transistors (OECTs) are local ionic-to-electronic signal transducers. Different from traditional field-effect transistors, these electrolyte-gated devices rely on bulk or volumetric doping of organic semiconductors owing to the facile penetration of the films with ions. Our group studies these devices, their active materials, and explores their use as sensors for electrophysiology, bio-analyte sensing, and impedance sensing.
 
 ### Hybrid circuits
 
@@ -58,10 +58,14 @@ Conducting polymers can take on a number of unique form factors, from fibers to 
 
 Organic electronic devices can be readily integrated into in vitro platforms to monitor electroactive cell function, as well as to track in-line metabolite/biomarkers or to monitor the adhesion or coverage of cell layers, or their barrier tissue integrity. Applications in bacterial signaling and swarming of neutrophils are of current interest.
 
-## Resources and facilities
+## Resources and funding
+
+Our work relies on shared facilities at Northwestern and Argonne National Laboratory, and is supported by the following agencies and foundations.
+
+### Resources and facilities
 
 <!-- Logo strip: `facilities` list in _data/support.yml (files in assets/img/logos/). No text on the old page. -->
 
-## Funding sources
+### Funding sources
 
 <!-- Logo strip: `funders` list in _data/support.yml (files in assets/img/logos/). No text on the old page. -->

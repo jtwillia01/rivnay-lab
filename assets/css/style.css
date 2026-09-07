@@ -147,7 +147,9 @@ a.card:hover { border-color: var(--purple); color: inherit; }
 /* ---------- news list ---------- */
 .news-list { list-style: none; border-top: 1px solid var(--line); }
 .news-list li { display: grid; grid-template-columns: 7.5rem 1fr auto; gap: 1rem 1.25rem; padding: 1rem 0; border-bottom: 1px solid var(--line); align-items: start; }
-.news-list time { font-size: var(--fs-sm); color: var(--muted); padding-top: 0.2rem; }
+.news-list .when { display: flex; flex-direction: column; align-items: flex-start; gap: 0.4rem; padding-top: 0.2rem; }
+.news-list time { font-size: var(--fs-sm); color: var(--muted); }
+.news-list .when .kind { margin-left: 0; }
 .news-list .title { display: inline; font-size: 1.02rem; font-weight: 700; line-height: 1.4; }
 .news-list .title a { color: var(--ink); text-decoration: none; }
 .news-list .title a:hover { color: var(--purple); }
@@ -161,6 +163,7 @@ a.card:hover { border-color: var(--purple); color: inherit; }
 }
 @media (max-width: 600px) {
   .news-list li { grid-template-columns: 1fr; gap: 0.2rem; }
+  .news-list .when { flex-direction: row; align-items: center; gap: 0.55rem; padding-top: 0; }
   .news-list .thumb { display: none; }
 }
 

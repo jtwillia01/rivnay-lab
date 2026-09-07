@@ -15,7 +15,7 @@ Our interests involve understanding the unique active properties of organic (sma
 
 ## Latest news
 
-What’s going on in the Rivnay Lab? — see below or go to the News section for the archives.
+What’s going on in the Rivnay Group? — see below or go to the News section for the archives.
 
 ## How to reach us
 

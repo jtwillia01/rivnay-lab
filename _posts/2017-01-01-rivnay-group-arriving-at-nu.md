@@ -1,5 +1,5 @@
 ---
-title: "Rivnay Lab arriving at Northwestern"
+title: "Rivnay Group arriving at Northwestern"
 date: 2017-01-01
 kind: group
 ---

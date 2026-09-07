@@ -10,7 +10,7 @@ Northwestern University, McCormick School of Engineering
 
 ### Position overview
 
-The Rivnay Lab at Northwestern University’s McCormick School of Engineering invites applications for a Postdoctoral Research Associate to design, develop, and lead key pre-clinical studies associated with oxygenation technologies, electrochemical actuation in vivo, and biohybrid systems such as "living pharmacies".
+The Rivnay Group at Northwestern University’s McCormick School of Engineering invites applications for a Postdoctoral Research Associate to design, develop, and lead key pre-clinical studies associated with oxygenation technologies, electrochemical actuation in vivo, and biohybrid systems such as "living pharmacies".
 
 ### Key responsibilities/qualifications
 

@@ -1,6 +1,6 @@
-# Rivnay Lab website
+# Rivnay Group website
 
-Source for the Rivnay Lab site (Laboratory for Organic & Hybrid Bioelectronics, Northwestern University). Built with Jekyll and hosted on GitHub Pages. No JavaScript framework, one CSS file, content in data files.
+Source for the Rivnay Group site (Laboratory for Organic & Hybrid Bioelectronics, Northwestern University). Built with Jekyll and hosted on GitHub Pages. No JavaScript framework, one CSS file, content in data files.
 
 Live: https://jtwillia01.github.io/rivnay-lab/
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Rebuild the publication list for the Rivnay Lab site. Standard library only.
+# Rebuild the publication list for the Rivnay Group site. Standard library only.
 #
 #   python3 scripts/publications.py                       # live fetch from OpenAlex
 #   python3 scripts/publications.py --from-json dump.json # offline, from a saved dump
@@ -8,7 +8,7 @@
 #   python3 scripts/publications.py > docs/superpowers/specs/publications-report.txt
 # Hand edits go in _data/publications_manual.json ("exclude" DOIs/OpenAlex ids,
 # "add" entries in the same shape as publications.json), never in publications.json.
-"""Publication pipeline for the Rivnay Lab (OpenAlex author A5066036682).
+"""Publication pipeline for the Rivnay Group (OpenAlex author A5066036682).
 
 Filter rules (spec: docs/superpowers/specs/2026-09-06-rivnay-lab-site-design.md,
 "Publication pipeline rules"):

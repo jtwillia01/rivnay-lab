@@ -1,4 +1,4 @@
-# Rivnay Lab website — design spec
+# Rivnay Group website — design spec
 
 Date: 2026-09-06. Replaces the Squarespace site at rivnay.northwestern.edu.
 
@@ -7,7 +7,7 @@ Date: 2026-09-06. Replaces the Squarespace site at rivnay.northwestern.edu.
 - Clean, left-aligned, fast static site that a lab member can edit by changing a YAML file or adding a markdown post.
 - Carry over every person, bio, headshot, publication, and news post (61) from the current site, with typos fixed.
 - Publications stay current via a script instead of hand-typing.
-- Visual identity belongs to the Rivnay Lab (organic mixed conductors, biohybrid "cell factories", electrochemical aptamer sensors, regenerative scaffolds), not borrowed from the Asilomar site.
+- Visual identity belongs to the Rivnay Group (organic mixed conductors, biohybrid "cell factories", electrochemical aptamer sensors, regenerative scaffolds), not borrowed from the Asilomar site.
 
 ## Non-goals
 
@@ -101,7 +101,7 @@ Body in markdown. One-line posts are fine.
 - Type: headings **Source Serif 4** (weight 600), body **IBM Plex Sans** (400/500/600), small labels and DOIs **IBM Plex Mono**. Google Fonts with system fallbacks.
 - Color tokens: `--purple #4E2A84` (Northwestern), `--purple-dark #3B1F63`, `--purple-tint #EFEAF5`, `--gold #B8933F` (electrode gold, used only for eyebrow rules and active nav underline), `--ink #1C1826`, `--muted #625C70`, `--ground #F7F6F3`, `--paper #FFFFFF`, `--line #E3DFEA`.
 - Layout: everything left-aligned. `.wrap` max 1120px for grids, `.prose` max 720px for text. Sections separated by 4rem, eyebrow label (mono, uppercase, letter-spaced, short gold rule) above each h2.
-- Header: wordmark "Rivnay Lab" in serif, nav links in sans, active link underlined in gold, CSS-only hamburger under 900px, sticky with blur.
+- Header: wordmark "Rivnay Group" in serif, nav links in sans, active link underlined in gold, CSS-only hamburger under 900px, sticky with blur.
 - Home hero: two columns, headline + subtitle + two buttons left, hero photo right in a 12px-radius frame. Stacks on mobile.
 - People: circular 600px headshots (several existing files are pre-cut circles), name in serif, role and email in sans, bio in a native `<details>` labelled "Bio".
 - Publications: year as a sticky-feeling left label on wide screens, entries as a list with title in semibold, journal in italics, DOI as a mono link.

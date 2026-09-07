@@ -1,4 +1,4 @@
-/* Rivnay Lab — Laboratory for Organic & Hybrid Bioelectronics
+/* Rivnay Group — Laboratory for Organic & Hybrid Bioelectronics
    One stylesheet, no build step. Tokens first, then components in page order. */
 
 :root {
@@ -138,15 +138,6 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 .hero .btn:hover { background: #E8E3EF; border-color: #E8E3EF; color: var(--ink); }
 .hero .btn-outline { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.85); }
 .hero .btn-outline:hover { background: rgba(255, 255, 255, 0.14); border-color: #fff; color: #fff; }
-.hero .credit {
-  position: absolute; right: 1.25rem; bottom: 0.7rem; z-index: 1;
-  font-size: var(--fs-xs); color: rgba(255, 255, 255, 0.7); display: flex; gap: 0.9rem; align-items: center;
-}
-.hero .credit button {
-  font: inherit; color: inherit; background: transparent; border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 4px; padding: 0.1rem 0.5rem; cursor: pointer;
-}
-.hero .credit button:hover { border-color: #fff; color: #fff; }
 @media (max-width: 900px) {
   /* narrow screens: pin the frame's right edge to the banner's right edge so the bright arcs stay in view
      and the video always covers the full width whatever the window shape */
@@ -155,7 +146,6 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 @media (max-width: 800px) {
   .hero { min-height: 56vh; flex-direction: column; justify-content: flex-end; }
   .hero .wrap { padding-block: 3rem 2rem; }
-  .hero .credit { position: static; width: 100%; padding: 0 1.5rem 0.8rem; justify-content: flex-end; }
 }
 
 /* ---------- cards ---------- */

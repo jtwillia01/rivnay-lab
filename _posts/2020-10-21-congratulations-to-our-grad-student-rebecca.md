@@ -3,7 +3,7 @@ title: "Congratulations to Rebecca for being selected for the Biotechnology Trai
 date: 2020-10-21
 kind: award
 ---
-The Northwestern Predoctoral Biotechnology Training Program is an interdisciplinary and interdepartmental program that provides select graduate students (Trainees and Cluster members) greater research and training opportunities than those available through the individual departments. It promotes interdisciplinary education in biotechnology, interactions among faculty and students with interests in biotechnology, and provides a substantial exposure of students to industrial biotechnology research.
+The Northwestern Predoctoral Biotechnology Training Program is an interdisciplinary and interdepartmental program that provides select graduate students (Trainees and Cluster members) greater research and training opportunities than those available through the individual departments. It promotes interdisciplinary education in biotechnology, interactions among faculty and students with interests in biotechnology, and a substantial exposure of students to industrial biotechnology research.
 
 Congrats, Rebecca!
 

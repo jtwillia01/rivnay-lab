@@ -9,7 +9,7 @@ image_height: 720
 ---
 The [Simpson Querrey Biomedical Research Center](https://www.feinberg.northwestern.edu/sites/simpson-querrey/about/index.html) in downtown Chicago!
 
-We’re all settled on the 11th floor and loving the view. [We're expecting many exciting neighbors](https://news.feinberg.northwestern.edu/2019/04/first-labs-move-into-simpson-querrey-biomedical-research-center/) . Come visit us soon and we’ll show you around!
+We’re all settled on the 11th floor and loving the view. [We’re expecting many exciting neighbors](https://news.feinberg.northwestern.edu/2019/04/first-labs-move-into-simpson-querrey-biomedical-research-center/). Come visit us soon and we’ll show you around!
 
 ![](/assets/img/news/2020-02-24-the-rivnay-group-is-excited-to-finally-move-into-2.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: "Congratulations Dr. Wu!"
+title: "Congratulations, Dr. Wu!"
 date: 2024-08-07
 kind: people
 image: /assets/img/news/2024-08-07-congratulations-dr-wu.jpg
@@ -10,7 +10,7 @@ Our very own Dr. Ruiheng Wu successfully defended his PhD thesis, titled “Oper
 
 Dr. Wu’s work on the fundamental chemistry, charge transport and structure of OMIECs lays the foundation for development of better conductive polymers that can improve bioelectronic medicine.
 
-Read Ruiheng's work, including his most recent paper, “Quantitative composition and mesoscale ion distribution in p-type organic mixed ionic-electronic conductors,” under “Publications.”
+Read Ruiheng’s work, including his most recent paper, “Quantitative composition and mesoscale ion distribution in p-type organic mixed ionic-electronic conductors,” under “Publications.”
 
 Congratulations, Dr. Wu!
 

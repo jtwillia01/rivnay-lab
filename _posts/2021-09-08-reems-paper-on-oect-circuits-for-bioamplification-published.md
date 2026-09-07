@@ -9,6 +9,6 @@ image_height: 557
 ---
 Reem has published a new paper which focuses on means to make “back end” electronics more usable in more compact means, which could revolutionize how medicine utilizes bioelectronics in the body.
 
-Congratulations Reem!
+Congratulations, Reem!
 
 Read Northwestern’s press release on the paper [here](https://www.mccormick.northwestern.edu/news/articles/2021/09/making-bioelectronics-more-effective-and-compact/), and read the full study [here](https://www.science.org/doi/10.1126/sciadv.abh1055)!

@@ -4,4 +4,4 @@ date: 2019-02-04
 kind: paper
 link: http://onlinelibrary.wiley.com/doi/10.1002/adfm.201706325/full
 ---
-New work in collaboration with *Iain McCulloch* (KAUST/Imperial), highlights design rules to address stability of BDT-based organic semiconductors for bioelectronic applications. Check out *“Redox-Stability of Alkoxy-BDT Copolymers and their Use for Organic Bioelectronic Devices”* out now in [***Advanced Functional Materials***](http://onlinelibrary.wiley.com/doi/10.1002/adfm.201706325/full).
+New work in collaboration with *Iain McCulloch* (KAUST/Imperial) highlights design rules to address stability of BDT-based organic semiconductors for bioelectronic applications. Check out *“Redox-Stability of Alkoxy-BDT Copolymers and their Use for Organic Bioelectronic Devices”* out now in [***Advanced Functional Materials***](http://onlinelibrary.wiley.com/doi/10.1002/adfm.201706325/full).

@@ -8,7 +8,7 @@ image_height: 934
 ---
 Great group outings this summer:
 
-In June the group went to Hearthstone and Terrace in Chicago for a Terrarium building workshop! Lots more greenery in lab and at home!
+In June the group went to Hearthstone and Terrace in Chicago for a terrarium-building workshop! Lots more greenery in lab and at home!
 
 ![](/assets/img/news/2022-09-06-summer-outings-terrariums-and-kayaking-2.jpg)
 
@@ -16,7 +16,7 @@ In June the group went to Hearthstone and Terrace in Chicago for a Terrarium bui
 
 ![](/assets/img/news/2022-09-06-summer-outings-terrariums-and-kayaking-4.jpg)
 
-A last hurrah to summer: group Kayaking near Starved Rock, followed by a Cookout by the Illinois river.
+A last hurrah to summer: group kayaking near Starved Rock, followed by a cookout by the Illinois River.
 
 ![](/assets/img/news/2022-09-06-summer-outings-terrariums-and-kayaking-5.jpg)
 

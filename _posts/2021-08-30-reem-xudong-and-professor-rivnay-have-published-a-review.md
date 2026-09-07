@@ -7,7 +7,7 @@ link: https://www.sciencedirect.com/science/article/pii/S095656632100498X#fig1
 image_width: 1096
 image_height: 1374
 ---
-The review examines the potential applications of organic electrochemical transistors in bioelectronic circuits, which hold potential in fields of printed electronics, bioelectronics, and neuromorphic computing among others.
+The review examines the potential applications of organic electrochemical transistors in bioelectronic circuits, which hold potential in the fields of printed electronics, bioelectronics, and neuromorphic computing, among others.
 
 [Read the article here.](https://www.sciencedirect.com/science/article/pii/S095656632100498X#fig1)
 

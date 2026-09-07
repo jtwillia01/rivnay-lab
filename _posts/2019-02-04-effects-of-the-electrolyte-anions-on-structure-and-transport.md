@@ -7,6 +7,6 @@ link: https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.201807034
 image_width: 616
 image_height: 810
 ---
-Our paper “Role of the Anion on the Transport and Structure of Organic Mixed Conductors” is published in Advanced Functional Materials. Congratulations to Camila, and the entire team. This article highlights the effects of the anion on structure, self-doping, and thus transport and device performance using a suite of electrochemical, structural, spectroscopic and gravimetric probes. [Read it online](https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.201807034) – open access
+Our paper “Role of the Anion on the Transport and Structure of Organic Mixed Conductors” is published in Advanced Functional Materials. Congratulations to Camila and the entire team. This article highlights the effects of the anion on structure, self-doping, and thus transport and device performance using a suite of electrochemical, structural, spectroscopic and gravimetric probes. [Read it online](https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.201807034) – open access.
 
-A continued multinational collaboration with McCulloch, Salleo, and Inal groups!
+A continued multinational collaboration with the McCulloch, Salleo, and Inal groups!

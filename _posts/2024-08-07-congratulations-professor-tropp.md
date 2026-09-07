@@ -1,5 +1,5 @@
 ---
-title: "Congratulations Professor Tropp!"
+title: "Congratulations, Professor Tropp!"
 date: 2024-08-07
 kind: people
 image: /assets/img/news/2024-08-07-congratulations-professor-tropp.jpg

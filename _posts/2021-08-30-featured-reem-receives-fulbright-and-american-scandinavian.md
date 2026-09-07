@@ -7,4 +7,4 @@ Reem Rashid has received two awards, one Fulbright grant and one from the Americ
 
 [Learn more about the ASF here.](https://www.amscan.org)
 
-Congratulations Reem!
+Congratulations, Reem!

@@ -7,4 +7,4 @@ link: https://sqi.northwestern.edu/news-and-events/news-and-announcements/2022/m
 image_width: 858
 image_height: 1348
 ---
-Congratulations to Graduate Student Rebecca Keate, joint with Guillermo Ameer, on her Rising Stars lecture. See also her SQI interview here ([Read more](https://sqi.northwestern.edu/news-and-events/news-and-announcements/2022/meet-the-researchers-rebecca-keate.html) )
+Congratulations to Graduate Student Rebecca Keate, joint with Guillermo Ameer, on her Rising Stars lecture. See also her SQI interview here ([Read more](https://sqi.northwestern.edu/news-and-events/news-and-announcements/2022/meet-the-researchers-rebecca-keate.html)).

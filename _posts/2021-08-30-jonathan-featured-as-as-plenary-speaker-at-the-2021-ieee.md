@@ -9,4 +9,4 @@ IEEE is the world’s largest technical professional organization dedicated to a
 
 [Read the details and learn more about the conference here.](https://ifetc.org/web/program-plenary.php)
 
-Congratulations Jonathan!
+Congratulations, Jonathan!

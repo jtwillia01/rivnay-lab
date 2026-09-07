@@ -99,16 +99,6 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
   .site-nav a[aria-current="page"] { background: var(--purple-tint); }
 }
 
-/* ---------- buttons ---------- */
-.btn {
-  display: inline-block; padding: 0.7rem 1.35rem; border-radius: 8px;
-  background: var(--purple); color: #fff; text-decoration: none; font-weight: 700; font-size: var(--fs-md);
-  border: 1.5px solid var(--purple); transition: background 0.15s, border-color 0.15s;
-}
-.btn:hover { background: var(--purple-dark); border-color: var(--purple-dark); color: #fff; }
-.btn-outline { background: transparent; color: var(--purple); }
-.btn-outline:hover { background: var(--purple-tint); color: var(--purple-dark); }
-
 /* ---------- home hero: full-bleed GIWAXS loop ---------- */
 .hero {
   position: relative; min-height: 63vh; display: flex; align-items: flex-end;
@@ -133,11 +123,6 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 .hero .wrap { position: relative; z-index: 1; width: 100%; padding-block: 4.5rem 3.5rem; }
 .hero h1 { color: #fff; max-width: 16ch; }
 .hero .lead { margin-top: 1rem; max-width: 46rem; color: #E8E3EF; }
-.hero .cta { margin-top: 1.8rem; display: flex; gap: 0.8rem; flex-wrap: wrap; }
-.hero .btn { background: #fff; color: var(--ink); border-color: #fff; }
-.hero .btn:hover { background: #E8E3EF; border-color: #E8E3EF; color: var(--ink); }
-.hero .btn-outline { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.85); }
-.hero .btn-outline:hover { background: rgba(255, 255, 255, 0.14); border-color: #fff; color: #fff; }
 @media (max-width: 900px) {
   /* narrow screens: pin the frame's right edge to the banner's right edge so the bright arcs stay in view
      and the video always covers the full width whatever the window shape */

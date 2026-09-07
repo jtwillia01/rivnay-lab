@@ -4,17 +4,17 @@ description: Laboratory for Organic & Hybrid Bioelectronics at Northwestern Univ
 permalink: /
 ---
 <section class="hero">
+  <video class="hero-bg" src="{{ '/assets/video/giwaxs-p3meeet.mp4' | relative_url }}" poster="{{ '/assets/img/research/giwaxs-poster.jpg' | relative_url }}" autoplay muted loop playsinline preload="auto" aria-hidden="true" tabindex="-1"></video>
   <div class="wrap">
-    <div>
-      <h1>Laboratory for Organic &amp; Hybrid Bioelectronics</h1>
-      <p class="lead">Polymer electronics for advanced diagnostics, therapeutics, rehabilitation, and regenerative engineering.</p>
+    <h1>Laboratory for Organic &amp; Hybrid Bioelectronics</h1>
+    <p class="lead">Polymer electronics for advanced diagnostics, therapeutics, rehabilitation, and regenerative engineering.</p>
+    <div class="cta">
+      <a class="btn" href="{{ '/research/' | relative_url }}">Our research</a>
+      <a class="btn btn-outline" href="{{ '/join/' | relative_url }}">Join the lab</a>
     </div>
-    <figure class="hero-media">
-      <video src="{{ '/assets/video/giwaxs-p3meeet.mp4' | relative_url }}" poster="{{ '/assets/img/research/giwaxs-poster.jpg' | relative_url }}" autoplay muted loop playsinline preload="auto" width="1029" height="1064" aria-label="Animated X-ray scattering pattern of a conducting polymer film during electrochemical doping. Click to pause."></video>
-      <script>(function(){var v=document.querySelector(".hero-media video");if(!v)return;v.addEventListener("click",function(){v.paused?v.play():v.pause()});if(matchMedia("(prefers-reduced-motion: reduce)").matches){v.removeAttribute("autoplay");v.pause();v.controls=true;}})();</script>
-      <figcaption>Operando GIWAXS of a glycolated polythiophene (P3MEEET) in NaCl electrolyte.</figcaption>
-    </figure>
   </div>
+  <p class="credit"><span>Operando GIWAXS of P3MEEET in NaCl electrolyte</span><button type="button" id="hero-pause" aria-pressed="false">Pause</button></p>
+  <script>(function(){var v=document.querySelector(".hero-bg"),b=document.getElementById("hero-pause");if(!v||!b)return;function set(p){p?v.pause():v.play();b.textContent=p?"Play":"Pause";b.setAttribute("aria-pressed",p)}b.addEventListener("click",function(){set(!v.paused)});if(matchMedia("(prefers-reduced-motion: reduce)").matches){v.removeAttribute("autoplay");set(true)}})();</script>
 </section>
 
 <section class="section band">

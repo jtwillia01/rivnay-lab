@@ -5,7 +5,7 @@
   --purple: #4E2A84;        /* Northwestern purple */
   --purple-dark: #3B1F63;
   --purple-tint: #EFEAF5;
-  --rule: #C9C4D2;          /* active nav underline */
+  --rule: #C8C8C8;          /* active nav underline, neutral grey */
   --ink: #1C1826;
   --muted: #625C70;
   --ground: #F7F6F3;
@@ -55,7 +55,7 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 .section-head p { max-width: var(--prose); color: var(--muted); margin-top: 0.5rem; }
 .page-head { padding: 3rem 0 1.75rem; }
 .page-head h1 { max-width: 22ch; }
-.page-head .lead { margin-top: 0.8rem; max-width: 62ch; color: var(--muted); text-wrap: balance; }
+.page-head .lead { margin-top: 0.8rem; color: var(--muted); }
 
 /* ---------- header ---------- */
 .site-header {
@@ -109,12 +109,12 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 
 /* ---------- home hero: full-bleed GIWAXS loop ---------- */
 .hero {
-  position: relative; min-height: 72vh; display: flex; align-items: flex-end;
+  position: relative; min-height: 63vh; display: flex; align-items: flex-end;
   background: #0B0910; color: #fff; overflow: hidden;
 }
 .hero .hero-bg {
   position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: cover; object-position: 50% 78%;
+  object-fit: cover; object-position: 50% 100%;
 }
 .hero::after {
   content: ""; position: absolute; inset: 0;
@@ -122,7 +122,7 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 }
 .hero .wrap { position: relative; z-index: 1; width: 100%; padding-block: 4.5rem 3.5rem; }
 .hero h1 { color: #fff; max-width: 16ch; }
-.hero .lead { margin-top: 1rem; max-width: 36rem; color: #E8E3EF; }
+.hero .lead { margin-top: 1rem; max-width: 46rem; color: #E8E3EF; }
 .hero .cta { margin-top: 1.8rem; display: flex; gap: 0.8rem; flex-wrap: wrap; }
 .hero .btn { background: #fff; color: var(--ink); border-color: #fff; }
 .hero .btn:hover { background: #E8E3EF; border-color: #E8E3EF; color: var(--ink); }
@@ -137,8 +137,12 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
   border-radius: 4px; padding: 0.1rem 0.5rem; cursor: pointer;
 }
 .hero .credit button:hover { border-color: #fff; color: #fff; }
+@media (max-width: 900px) {
+  /* narrow screens would otherwise show the whole frame height, gap included: zoom to the lower part */
+  .hero .hero-bg { height: 220%; top: auto; bottom: 0; object-position: 80% 100%; }
+}
 @media (max-width: 800px) {
-  .hero { min-height: 64vh; flex-direction: column; justify-content: flex-end; }
+  .hero { min-height: 56vh; flex-direction: column; justify-content: flex-end; }
   .hero .wrap { padding-block: 3rem 2rem; }
   .hero .credit { position: static; width: 100%; padding: 0 1.5rem 0.8rem; justify-content: flex-end; }
 }
@@ -272,7 +276,7 @@ details.collapsed .pub-list { margin-top: 1rem; }
 .back { display: inline-block; margin-top: 2.5rem; font-size: var(--fs-sm); }
 
 /* ---------- footer ---------- */
-.site-footer { background: #ECEAEF; color: var(--ink); margin-top: 4rem; border-top: 1px solid var(--line); }
+.site-footer { background: #E9E9E9; color: var(--ink); margin-top: 4rem; border-top: 1px solid #DCDCDC; }
 .site-footer .wrap { padding-block: 3rem 1.75rem; display: grid; grid-template-columns: 1.2fr 1fr 1fr auto; gap: 2.5rem; align-items: start; }
 .site-footer h2 { font-family: var(--sans); font-size: var(--fs-sm); font-weight: 700; color: var(--ink); margin-bottom: 0.4rem; letter-spacing: 0; }
 .site-footer p + h2 { margin-top: 1.2rem; }
@@ -282,6 +286,6 @@ details.collapsed .pub-list { margin-top: 1rem; }
 .site-footer p, .site-footer address { font-size: var(--fs-md); font-style: normal; line-height: 1.55; }
 .site-footer .nu { display: block; line-height: 0; padding-top: 0.15rem; }
 .site-footer .nu img { height: 24px; width: auto; }
-.site-footer .fine { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 1.1rem; font-size: var(--fs-xs); color: var(--muted); }
+.site-footer .fine { grid-column: 1 / -1; border-top: 1px solid #D4D4D4; padding-top: 1.1rem; font-size: var(--fs-xs); color: #555; }
 @media (max-width: 860px) { .site-footer .wrap { grid-template-columns: 1fr 1fr; } .site-footer .nu { grid-column: 1 / -1; } }
 @media (max-width: 560px) { .site-footer .wrap { grid-template-columns: 1fr; gap: 1.75rem; } }

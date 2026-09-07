@@ -5,8 +5,7 @@ permalink: /publications/
 ---
 <div class="wrap">
   <header class="page-head">
-    <p class="eyebrow">Publications</p>
-    <h1>Papers</h1>
+    <h1>Publications</h1>
     <p class="lead">Journal articles from the group, newest first. For citation metrics see <a href="https://scholar.google.com/citations?user=sngchgsAAAAJ&amp;hl=en">Google Scholar</a> or <a href="https://orcid.org/0000-0002-0602-6485">ORCID</a>.</p>
   </header>
 
@@ -22,8 +21,8 @@ permalink: /publications/
       <li class="pub">
         {% if p.doi %}<a class="title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}<span class="title">{{ p.title }}</span>{% endif %}
         <p class="authors">{{ p.authors | replace: "J. Rivnay", rivnay }}</p>
-        <p class="venue"><em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %} ({{ p.year }})</p>
-        {% if p.doi %}<p class="doi"><a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a></p>{% endif %}
+        <p class="venue"><em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}</p>
+        {% if p.doi %}<p class="doi">doi:{{ p.doi }}</p>{% endif %}
       </li>
       {% endfor %}
     </ol>
@@ -40,7 +39,7 @@ permalink: /publications/
         {% if p.doi %}<a class="title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}<span class="title">{{ p.title }}</span>{% endif %}
         <p class="authors">{{ p.authors | replace: "J. Rivnay", rivnay }}</p>
         <p class="venue"><em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %} ({{ p.year }})</p>
-        {% if p.doi %}<p class="doi"><a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a></p>{% endif %}
+        {% if p.doi %}<p class="doi">doi:{{ p.doi }}</p>{% endif %}
       </li>
       {% endfor %}
     </ol>

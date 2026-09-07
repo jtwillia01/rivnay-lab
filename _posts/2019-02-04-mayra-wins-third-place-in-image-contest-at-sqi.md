@@ -3,6 +3,8 @@ title: "Mayra wins third place in image contest at SQI"
 date: 2019-02-04
 kind: award
 image: /assets/img/news/2019-02-04-mayra-wins-third-place-in-image-contest-at-sqi.jpg
+image_width: 956
+image_height: 717
 ---
 Congrats to Mayra who placed in 3rd for the SQI image contest!
 

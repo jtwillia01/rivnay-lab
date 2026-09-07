@@ -4,6 +4,8 @@ date: 2021-08-30
 kind: paper
 image: /assets/img/news/2021-08-30-reem-xudong-and-professor-rivnay-have-published-a-review.jpg
 link: https://www.sciencedirect.com/science/article/pii/S095656632100498X#fig1
+image_width: 1096
+image_height: 1374
 ---
 The review examines the potential applications of organic electrochemical transistors in bioelectronic circuits, which hold potential in fields of printed electronics, bioelectronics, and neuromorphic computing among others.
 

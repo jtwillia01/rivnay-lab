@@ -5,21 +5,22 @@ permalink: /people/
 ---
 <div class="wrap">
   <header class="page-head">
-    <p class="eyebrow">People</p>
-    <h1>The group</h1>
+    <h1>People</h1>
     <p class="lead">Materials scientists, engineers, chemists and biologists working across Northwestern's Evanston and Chicago campuses.</p>
   </header>
 
   {% assign pi = site.data.people | where: "group", "pi" | first %}
   {% if pi %}
-  <section class="pi">
-    <img src="{{ '/assets/img/people/' | append: pi.photo | relative_url }}" alt="{{ pi.name }}" width="220" height="220">
-    <div>
-      <p class="eyebrow">Principal investigator</p>
-      <h2>{{ pi.name }}</h2>
-      <p class="role">{{ pi.role }}</p>
-      {% if pi.email %}<p class="email"><a href="mailto:{{ pi.email }}">{{ pi.email }}</a></p>{% endif %}
-      <div class="prose">{{ pi.bio | markdownify }}</div>
+  <section class="group" style="margin-top:0">
+    <h2>Principal investigator</h2>
+    <div class="pi">
+      <img src="{{ '/assets/img/people/' | append: pi.photo | relative_url }}" alt="{{ pi.name }}" width="200" height="200">
+      <div>
+        <h3>{{ pi.name }}</h3>
+        <p class="role">{{ pi.role }}</p>
+        <p class="links">{% if pi.email %}<a href="mailto:{{ pi.email }}">{{ pi.email }}</a>{% endif %}</p>
+        <div class="prose">{{ pi.bio | markdownify }}</div>
+      </div>
     </div>
   </section>
   {% endif %}
@@ -28,18 +29,32 @@ permalink: /people/
   {% for g in groups %}
     {% assign parts = g | split: "|" %}
     {% assign members = site.data.people | where: "group", parts[0] %}
+    {% assign generic = parts[1] | downcase | replace: "students", "student" | replace: "researchers", "researcher" %}
     {% if members.size > 0 %}
   <section class="group">
     <h2>{{ parts[1] }}</h2>
     <div class="people-grid">
       {% for m in members %}
-      <div class="person">
-        <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="{{ m.name }}" loading="lazy" width="190" height="190">
-        <h3>{{ m.name }}</h3>
-        <p class="role">{{ m.role }}</p>
-        <p class="links">{% if m.email %}<a href="mailto:{{ m.email }}" title="{{ m.email }}">Email</a>{% endif %}{% if m.website %}<a href="{{ m.website }}">Website</a>{% endif %}</p>
-        {% if m.bio %}<details><summary>Bio</summary>{{ m.bio | markdownify }}</details>{% endif %}
+      {% assign r = m.role | downcase %}
+      {% capture links %}{% if m.email %}<a href="mailto:{{ m.email }}">Email</a>{% endif %}{% if m.website %}<a href="{{ m.website }}">Website</a>{% endif %}{% endcapture %}
+      {% if m.bio %}
+      <details class="person">
+        <summary>
+          <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy" width="150" height="150">
+          <span class="who"><span class="name">{{ m.name }}</span>{% if r != generic %}<span class="role">{{ m.role }}</span>{% endif %}<span class="hint"></span></span>
+        </summary>
+        <div class="bio">
+          {{ m.bio | markdownify }}
+          {% if links != "" %}<p class="links">{{ links }}</p>{% endif %}
+        </div>
+      </details>
+      {% else %}
+      <div class="person no-bio">
+        <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy" width="150" height="150">
+        <span class="who"><span class="name">{{ m.name }}</span>{% if r != generic %}<span class="role">{{ m.role }}</span>{% endif %}</span>
+        {% if links != "" %}<p class="links">{{ links }}</p>{% endif %}
       </div>
+      {% endif %}
       {% endfor %}
     </div>
   </section>
@@ -49,7 +64,7 @@ permalink: /people/
   {% if site.data.alumni %}
   <section class="group alumni">
     <h2>Alumni</h2>
-    {% assign agroups = "postdoc|Postdoctoral fellows,phd|PhD students,masters|Master's students,undergrad|Undergraduates,visiting|Visiting students" | split: "," %}
+    {% assign agroups = "postdoc|Postdoctoral researchers,phd|PhD students,masters|Master's students,undergrad|Undergraduate students,visiting|Visiting students" | split: "," %}
     {% for g in agroups %}
       {% assign parts = g | split: "|" %}
       {% assign list = site.data.alumni | where: "group", parts[0] %}

@@ -4,10 +4,12 @@ date: 2022-09-06
 kind: paper
 image: /assets/img/news/2022-09-06-sources-and-mechanism-of-degradation-in-p-type-thiophene.jpg
 link: https://pubs.acs.org/doi/full/10.1021/acsaelm.1c01171
+image_width: 1200
+image_height: 628
 ---
 Our paper “Sources and Mechanism of Degradation in p-Type Thiophene-Based Organic Electrochemical Transistors” was published in ACS Applied Electronic Materials.
 
-[https://pubs.acs.org/doi/full/10.1021/acsaelm.1c01171](https://pubs.acs.org/doi/full/10.1021/acsaelm.1c01171)
+[Read the paper](https://pubs.acs.org/doi/full/10.1021/acsaelm.1c01171)
 
 Most work on OMIEC degradation focuses just on the polymer itself, and maybe the polymer in a particular electrolyte. While this is helpful, it doesn’t tell the whole story…what about device architecture and implementation? What about how you operate/bias the OECT?
 

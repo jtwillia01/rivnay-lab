@@ -4,6 +4,8 @@ date: 2019-12-19
 kind: paper
 image: /assets/img/news/2019-12-19-self-aligned-laser-cut-organic-electrochemical-transistors.jpg
 link: https://iopscience.iop.org/article/10.1088/2058-8585/ab63a1
+image_width: 798
+image_height: 1112
 ---
 Read our latest paper in [Flexible and Printed Electronics](https://iopscience.iop.org/article/10.1088/2058-8585/ab63a1) by Reem Rashid, Robert Ciechowski and Jonathan Rivnay.
 

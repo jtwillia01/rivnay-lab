@@ -3,6 +3,8 @@ title: "A Semiconducting Two‐Dimensional Polymer as an Organic Electrochemical
 date: 2022-09-06
 kind: paper
 image: /assets/img/news/2022-09-06-a-semiconducting-twodimensional-polymer-as-an-organic.jpg
+image_width: 500
+image_height: 292
 ---
 Our work "A Semiconducting Two‐Dimensional Polymer as an Organic Electrochemical Transistor Active Layer" was published in Advanced Materials. Congratulations to Reem Rashid for leading this effort with Austin Evans from Will Dichtel's group. This work involved a multi-group collaboration with the Marder, D'Alessandro, and Dichtel's groups.
 

@@ -1,9 +1,11 @@
 ---
 title: "The Rivnay Lab's photo was chosen as the cover of Nature Materials' January issue!"
 date: 2019-12-19
-kind: lab
+kind: group
 image: /assets/img/news/2019-12-19-the-rivnay-labs-photo-was-chosen-as-the-cover-of-nature.jpg
 link: https://www.nature.com/nmat/volumes/19/issues/1
+image_width: 1400
+image_height: 1860
 ---
 *Image: Jonathan Rivnay, Bryan Paulsen (Northwestern University).*
 

@@ -4,6 +4,8 @@ date: 2021-09-08
 kind: paper
 image: /assets/img/news/2021-09-08-reems-paper-on-oect-circuits-for-bioamplification-published.jpg
 link: https://www.science.org/doi/10.1126/sciadv.abh1055
+image_width: 865
+image_height: 557
 ---
 Reem has published a new paper which focuses on means to make “back end” electronics more usable in more compact means, which could revolutionize how medicine utilizes bioelectronics in the body.
 

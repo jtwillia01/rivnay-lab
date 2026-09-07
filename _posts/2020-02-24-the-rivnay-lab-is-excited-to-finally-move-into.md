@@ -1,9 +1,11 @@
 ---
 title: "The Rivnay Lab is excited to finally move into..."
 date: 2020-02-24
-kind: lab
+kind: group
 image: /assets/img/news/2020-02-24-the-rivnay-lab-is-excited-to-finally-move-into.jpg
 link: https://news.feinberg.northwestern.edu/2019/04/first-labs-move-into-simpson-querrey-biomedical-research-center/
+image_width: 1280
+image_height: 720
 ---
 The [Simpson Querrey Biomedical Research Center](https://www.feinberg.northwestern.edu/sites/simpson-querrey/about/index.html) in downtown Chicago!
 

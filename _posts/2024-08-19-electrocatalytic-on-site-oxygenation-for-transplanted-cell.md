@@ -4,10 +4,12 @@ date: 2024-08-19
 kind: paper
 image: /assets/img/news/2024-08-19-electrocatalytic-on-site-oxygenation-for-transplanted-cell.jpg
 link: https://www.nature.com/articles/s41467-023-42697-2
+image_width: 1400
+image_height: 903
 ---
 Implantable cell therapies and tissue transplants require a reliable oxygen supply to function effectively. However, achieving sufficient oxygenation within the transplant host remains challenging due to limited vascularization. Previous methods for exogenous oxygenation were bulky and had limited oxygen production or regulation.
 
-[https://www.nature.com/articles/s41467-023-42697-2](https://www.nature.com/articles/s41467-023-42697-2)
+[Read the paper](https://www.nature.com/articles/s41467-023-42697-2)
 
 In this highly interdisciplinary study co-led by Northwestern and Carnegie Mellon Universities, we developed an electro-catalytic approach called “ecO₂” that enables bioelectronic control of oxygen generation in complex cellular environments. We used a nanostructured sputtered iridium oxide film (SIROF) as the catalyst for oxygen evolution at neutral pH. The ecO₂ platform exhibited lower oxygenation onset, selective oxygen production, and no toxic byproducts. Importantly, it sustained high cell loadings (>60k cells/mm³) in hypoxic conditions both in vitro and in vivo.
 

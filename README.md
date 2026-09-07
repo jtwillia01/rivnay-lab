@@ -27,7 +27,7 @@ Post front matter:
 ---
 title: Congratulations Dr. Example!
 date: 2026-09-01
-kind: people        # paper | award | people | lab
+kind: people        # paper | award | people | group
 image: /assets/img/news/2026-09-01-example.jpg   # optional, 1400px wide max
 link: https://doi.org/...                         # optional, shown as "Read more"
 ---

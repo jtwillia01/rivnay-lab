@@ -4,6 +4,8 @@ date: 2019-02-04
 kind: paper
 image: /assets/img/news/2019-02-04-benchmarking-bioelectronic-materials.jpg
 link: https://www.nature.com/articles/s41467-017-01812-w
+image_width: 1400
+image_height: 1840
 ---
 *Also out in 2017:* Our new work on proper comparison and benchmarking of active materials for bioelectronic applications (in this case: electrochemical transistors) was published in [***Nature Communications***](https://www.nature.com/articles/s41467-017-01812-w): “Benchmarking organic mixed conductors for transistors”.
 

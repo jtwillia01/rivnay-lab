@@ -1,8 +1,10 @@
 ---
 title: "Summer outings – Terrariums and Kayaking"
 date: 2022-09-06
-kind: lab
+kind: group
 image: /assets/img/news/2022-09-06-summer-outings-terrariums-and-kayaking.jpg
+image_width: 1400
+image_height: 934
 ---
 Great group outings this summer:
 

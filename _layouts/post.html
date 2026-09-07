@@ -4,14 +4,15 @@ layout: default
 {%- capture assetprefix %}src="{{ site.baseurl }}/assets/{% endcapture -%}
 <article class="wrap">
   <header class="post-head">
-    <p class="eyebrow">News</p>
     <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.kind %} <span class="kind">{{ page.kind }}</span>{% endif %}</p>
     <h1>{{ page.title }}</h1>
   </header>
-  {% if page.image %}<figure class="post-figure"><img src="{{ page.image | relative_url }}" alt=""></figure>{% endif %}
+  {% if page.image %}<figure class="post-figure"><img src="{{ page.image | relative_url }}" alt=""{% if page.image_width %} width="{{ page.image_width }}" height="{{ page.image_height }}"{% endif %}></figure>{% endif %}
   <div class="prose post-body">
     {{ content | replace: 'src="/assets/', assetprefix }}
-    {% if page.link %}<p><a href="{{ page.link }}">Read more &rarr;</a></p>{% endif %}
+    {%- if page.link %}{% unless content contains page.link %}
+    <p><a href="{{ page.link }}">{% if page.kind == "paper" %}Read the paper{% else %}Read more{% endif %}</a></p>
+    {%- endunless %}{% endif %}
   </div>
-  <a class="back" href="{{ '/news/' | relative_url }}">&larr; All news</a>
+  <a class="back" href="{{ '/news/' | relative_url }}">All news</a>
 </article>

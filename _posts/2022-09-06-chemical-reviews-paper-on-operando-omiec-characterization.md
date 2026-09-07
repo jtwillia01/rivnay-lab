@@ -3,6 +3,8 @@ title: "Chemical Reviews paper on Operando OMIEC characterization is out!"
 date: 2022-09-06
 kind: paper
 image: /assets/img/news/2022-09-06-chemical-reviews-paper-on-operando-omiec-characterization.jpg
+image_width: 498
+image_height: 500
 ---
 Grad Student Ruiheng Wu led an opus “Operando Characterization of Organic Mixed Ionic/Electronic Conducting Materials” now out in Chemical Reviews as part of a special issue on “Organic Bioelectronics”. Congrats Ruiheng, Bryan Paulsen, and a special thank you to Micaela Matta (King’s College, London).
 

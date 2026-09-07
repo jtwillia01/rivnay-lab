@@ -6,7 +6,7 @@ link: https://www.nature.com/articles/s41563-024-01813-3
 ---
 Disordered systems, especially polymers, play an important role in shaping our modern society and are expected to be an even bigger part of the future. However, the complexities of these systems pose a challenge for scientists to characterize, given our current limited understanding. Elucidating how disordered systems respond to external stimuli thus becomes important.
 
-[https://www.nature.com/articles/s41563-024-01813-3](https://www.nature.com/articles/s41563-024-01813-3)
+[Read the paper](https://www.nature.com/articles/s41563-024-01813-3)
 
 In this work, we revealed the tiny deformations and complex structural changes in water-swelled polymers in response to external voltages, uncovering the evolution of disordered polymer systems. Using a novel technique, X-ray photon correlation spectroscopy (XPCS), to monitor deformation with sub-second time resolution, we found that voltage application pathway significantly affects the polymer's stability and structural changes.
 

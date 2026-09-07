@@ -3,6 +3,8 @@ title: "Congratulations Dr. Wu!"
 date: 2024-08-07
 kind: people
 image: /assets/img/news/2024-08-07-congratulations-dr-wu.jpg
+image_width: 1400
+image_height: 933
 ---
 Our very own Dr. Ruiheng Wu successfully defended his PhD thesis, titled “Operando Characterization of Structure, Composition, and Charge Transport of OMIECs.”
 

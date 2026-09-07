@@ -4,6 +4,8 @@ date: 2019-08-19
 kind: paper
 image: /assets/img/news/2019-08-19-our-post-doc-bryan-recently-reviewed-mixed-ionicelectronic.jpg
 link: https://www.nature.com/articles/s41563-019-0435-z
+image_width: 1079
+image_height: 1361
 ---
 Read our latest review of organic mixed ionic-electronic conductors in [Nature Materials](https://www.nature.com/nmat/) with Klas Tybrandt (Linköping University), Eleni Stavrinidou (Linköping University), and our own post-doc Bryan Paulsen (Northwestern University), and Dr. Jonathan Rivnay (Northwestern University).
 

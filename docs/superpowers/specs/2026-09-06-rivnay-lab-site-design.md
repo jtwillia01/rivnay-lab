@@ -79,7 +79,7 @@ Post front matter (`_posts/2024-08-19-bridging-length-scales.md`):
 ---
 title: Bridging length scales in organic mixed ionic–electronic conductors
 date: 2024-08-19
-kind: paper           # paper | award | people | lab
+kind: paper           # paper | award | people | group
 image: /assets/img/news/2024-08-19-bridging-length-scales.jpg   # optional
 link: https://doi.org/10.1038/s41563-024-01813-3                 # optional external link
 ---
@@ -132,7 +132,7 @@ Body in markdown. One-line posts are fine.
 
 - `jekyll build` passes with no warnings; local `jekyll serve` screenshots at 1280px and 390px for every page.
 - Internal link check over `_site` (script, stdlib).
-- Every person in old people-1 appears once in `people.yml` with a photo file that exists; every alumnus from both old pages appears in `alumni.yml`.
+- Every person in old people-1 appears once in `people.yml` with a photo file that exists, except Xinran Xie, moved to alumni (PhD 2026, postdoc in the Joseph Wu lab) on 2026-09-07 at the user's request; every alumnus from both old pages appears in `alumni.yml`.
 - Publications diff report shows zero unmatched old entries after manual additions. Data files are `_data/publications.json` and `_data/publications_manual.json`.
 - 61 posts in `_posts` (the old sitemap lists 61 post URLs).
 - Spell pass over all migrated text, report of changes kept in `docs/superpowers/specs/copy-fixes.md`.

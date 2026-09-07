@@ -23,7 +23,7 @@ Date: 2026-09-06. Replaces the Squarespace site at rivnay.northwestern.edu.
 
 ## Information architecture
 
-Nav: Home · Research · People · Publications · News · Join. Footer on every page: email, Evanston and Chicago addresses, Google Scholar and ORCID links, Northwestern BME link.
+Nav: Home · Research · People · Publications · News · Join. Footer on every page (light grey): Rivnay logo, department link, email, Google Scholar and ORCID, the single lab address (Silverman Hall, Room 4710, 2170 Campus Drive, Evanston, IL 60208; the downtown SQI address was dropped 2026-09-07), and the purple Northwestern wordmark.
 
 | Page | URL | Source of content |
 |---|---|---|

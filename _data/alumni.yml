@@ -9,19 +9,19 @@
 - name: Abijeet Mehta
   group: postdoc
   year: 2024
-  now: UT Rio Grande Valley
+  now: University of Texas Rio Grande Valley
 - name: Hanie Yousefi
   group: postdoc
   year: 2024
-  now: ARPA-H
+  now: Advanced Research Projects Agency for Health
 - name: Bryan Paulsen
   group: postdoc
   year: 2023
-  now: Notre Dame
+  now: University of Notre Dame
 - name: Joshua Tropp
   group: postdoc
   year: 2023
-  now: Texas Tech
+  now: Texas Tech University
 - name: Anthony J. Petty
   group: postdoc
   year: 2020
@@ -33,11 +33,11 @@
 - name: Xinran Xie
   group: phd
   year: 2026
-  now: Postdoc, Joseph Wu lab
+  now: Stanford University
 - name: Naedum Domnwachukwu
   group: phd
   year: 2026
-  now: Feinberg School of Medicine
+  now: Northwestern University Feinberg School of Medicine
 - name: Dilara Meli
   group: phd
   year: 2025
@@ -49,7 +49,7 @@
 - name: Ruiheng Wu
   group: phd
   year: 2024
-  now: Stanford
+  now: Stanford University
 - name: Rebecca Keate
   group: phd
   year: 2023
@@ -121,14 +121,14 @@
 - name: Julianna Trujillo
   group: undergrad
   year: 2019
-  now: Santa Clara, IIN REU
+  now: Santa Clara University
 - name: Beatrice Makdah
   group: undergrad
   year: 2018
 - name: Katrina Barth
   group: undergrad
   year: 2017
-  now: Wake Forest
+  now: Wake Forest University
 - name: Kyle Rutledge
   group: undergrad
   year: 2017
@@ -138,4 +138,4 @@
 - name: Yu Zhang
   group: visiting
   year: 2018
-  now: CUHK
+  now: The Chinese University of Hong Kong

@@ -82,7 +82,7 @@ Research (docs/copy/research.md):
 - "Funding Sources" -> "Funding sources" (research)
 - New heading "Resources and funding" (the old page’s own in-page nav label was "Resources and Funding") groups the two logo strips, facilities first as on the old page; the two old headings become its sub-headings (research)
 - New text (not a fix): one sentence under "Resources and funding": "Our work relies on shared facilities at Northwestern and Argonne National Laboratory, and is supported by the following agencies and foundations." (research)
-- Kept as written: "{Syn[bio}electronics]" (stylised theme name, exact string from the old site), "Operando", "neuro-mimetic", "bi-directional" (research)
+- Kept as written: "Living electronics" (stylised theme name, exact string from the old site), "Operando", "neuro-mimetic", "bi-directional" (research)
 - Removed: "Scroll" and the trailing in-page nav echo "Our Research / Overview / ... / Resources and Funding" (research)
 
 Join (docs/copy/join.md, from the old Opportunities page):
@@ -108,7 +108,7 @@ Built pages (index.html, research.html, join.html): body text matches docs/copy/
 
 - Home: section headings "Interfacing biology with electronics", "What's going on in the lab", "Get in touch"; the four research-card blurbs; the hero caption; button labels "Our research", "Join the lab", "All news" (index)
 - Home: the second research card uses the Research page heading "Fundamentals & materials design" rather than the home page's "Materials design & fundamentals", so the card matches the section it links to (index)
-- Research: the tagline "Bioelectronics meets synthetic biology" under {Syn[bio}electronics] (the old page had taglines only for the other three themes); figure captions; eyebrow "Support" (research)
+- Research: the tagline "Bioelectronics meets synthetic biology" under Living electronics (the old page had taglines only for the other three themes); figure captions; eyebrow "Support" (research)
 - Home: the old page's headings "Latest news", "How to reach us", "Contact us", "Locations" and the line "What's going on in the Rivnay Group? — see below or go to the News section for the archives." are replaced by the section headings above and the "All news" link; the two street addresses are in the site footer on every page rather than in the home page body (index, _layouts/default.html)
 - Join: page lead "We are always interested in hearing from motivated researchers across materials science, engineering, chemistry, and biology."; the prospective-students section is placed before the postdoc posting (join)
 

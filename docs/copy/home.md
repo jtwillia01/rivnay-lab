@@ -8,7 +8,7 @@ The Rivnay Group engineers organic bioelectronic materials, devices and systems 
 
 Our interests involve understanding the unique active properties of organic (small molecule and polymeric) materials, including mixed ionic-electronic conduction and actuation and utilizing their strengths for sensing/stimulation in biomedical settings. Our interests generally fall into the following categories, with applications ranging from probes for neural engineering to in vitro platforms and regenerative scaffolds.
 
-- {Syn[bio}electronics]
+- Living electronics
 - Materials design & fundamentals
 - Sensors & circuits
 - Applications

@@ -28,7 +28,7 @@ Nav: Home · Research · People · Publications · News · Join. Footer on every
 | Page | URL | Source of content |
 |---|---|---|
 | Home | `/` | hero, "what we do" blurb (home.txt), four theme cards → Research anchors, six most recent publications from `_data/publications.json` (News is reachable from the menu; the home feed was switched from posts to papers on 2026-09-07 because the newest post is from 2024) |
-| Research | `/research/` | research.txt: intro + four anchored sections in current order (Syn[bio]electronics, Fundamentals & Materials Design, Sensors & Circuits, Applications) + support & facilities logo strip |
+| Research | `/research/` | research.txt: intro + four anchored sections in current order (Living electronics, Fundamentals & Materials Design, Sensors & Circuits, Applications) + support & facilities logo strip |
 | People | `/people/` | `_data/people.yml` grouped grid, then `_data/alumni.yml` table |
 | Publications | `/publications/` | `_data/publications.json` (generated) + `_data/publications_manual.json` |
 | News | `/news/` | `_posts/` list; each post has its own page at `/news/YYYY/MM/DD/slug/` |
@@ -112,7 +112,7 @@ Body in markdown. One-line posts are fine.
 
 - Headshots: from `scratch/assets_raw/people-1__*` resized to 600x600 centre-crop JPEG (PNG kept for transparent circles), named `firstname-lastname.jpg|png`.
 - Hero: `front_end_sensors_cleanroom_fabrication_full_wafer.jpg` cropped 4:3, 1600px wide.
-- Research: `GIWAXS_P3MEEET_HighMw_NaCl.mp4` (muted autoplay loop, poster PNG from first frame) under Fundamentals; `Pink_column.jpg` and `Shiny_SPEDOT.jpg` under Materials; organoid `full die.png` under Sensors & Circuits; organoid `full assembly/1.png` and the Masson's trichrome PEDOT-fibre histology under Applications. Existing `synbioelectronics2-01` graphic under Syn[bio]electronics.
+- Research: `GIWAXS_P3MEEET_HighMw_NaCl.mp4` (muted autoplay loop, poster PNG from first frame) under Fundamentals; `Pink_column.jpg` and `Shiny_SPEDOT.jpg` under Materials; organoid `full die.png` under Sensors & Circuits; organoid `full assembly/1.png` and the Masson's trichrome PEDOT-fibre histology under Applications. Existing `living electronics2-01` graphic under Living electronics.
 - Every raster resized to at most 1600px on the long edge and about 300 KB. Logos kept as PNG, height-normalised in CSS.
 - News images: first image of each post downloaded, resized to 1400px wide max, stored as `assets/img/news/<post-slug>.jpg`.
 

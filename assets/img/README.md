@@ -13,4 +13,6 @@ Generated from lab originals; sources are not modified. Every raster is EXIF-tra
 | `img/research/organoid-die.jpg` | `/Users/Owner/School/website/organoid sensor/on wafer/full die.png` | 1600x1067 | 161,420 | full frame; q82 |
 | `img/research/organoid-assembly.jpg` | `/Users/Owner/School/website/organoid sensor/full assembly/1.png` | 1600x1067 | 225,496 | 3:2 crop (1489,876)-(6745,4380) centred on holder and gloved hand; q82 |
 
-| research/cell-clusters.jpg | old site home page image `Rat 3 009 Merged (002).png` (922x922) | 922x922 | 216,127 | Syn[bio]electronics section; saved at q86 |
+| research/cell-clusters.jpg | old site home page image `Rat 3 009 Merged (002).png` (922x922) | 922x922 | 216,127 | Living electronics section; saved at q86 |
+| `img/research/pedot-eskm-if.jpg` | `science photos/xinran's photos/no scalebar label/PEDOT_whole ESKM_IF_3.png` (2086x842) | 1600x646 | 191558 | Living electronics section; scale bar 1 mm per the caption |
+| `img/research/organoid-collagen.jpg` | `organoid sensor/on collagen/device_on_collagen.png` (5472x3648) | 1600x1067 | 249567 | Sensors & circuits section, paired with the die |

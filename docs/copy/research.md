@@ -4,7 +4,7 @@ One of the long-standing barriers in bioelectronics is the need to overcome mism
 
 The Rivnay Group targets polymer-based electronic materials (organic electronics) to overcome the signaling gap (translation between ionic/biomolecular communication in biology to electronic communication in optoelectronics), and the mechanical mismatch (soft vs. hard). Our work spans the fundamental (materials science, chemistry) to the applied — targeting new ways to enhance communication across the device/tissue gap, improving sensing and stimulation for applications in neural interfacing and regenerative engineering.
 
-## {Syn[bio}electronics]
+## Living electronics
 
 The union of bioelectronics with synthetic biology provides unique, exciting opportunities in the realm of materials and biomedical engineering. For example, combining bioelectronics with engineered mammalian cells is a transformative opportunity in regulated, personalized therapeutics. This approach involves combining the strengths of synthetic biology – namely biological specificity that leverages the natural machinery of cells – with bioelectronic systems, which offer precision timing, dose control, and communication with established sensing technologies and clinical feedback.
 

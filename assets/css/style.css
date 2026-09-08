@@ -167,6 +167,15 @@ a.card:hover { border-color: var(--purple); color: inherit; }
   .news-list .thumb { display: none; }
 }
 
+/* ---------- recent publications (home) ---------- */
+.recent-pubs { list-style: none; border-top: 1px solid var(--line); }
+.recent-pubs li { display: grid; grid-template-columns: 4.5rem 1fr; gap: 0.25rem 1.25rem; padding: 0.9rem 0; border-bottom: 1px solid var(--line); align-items: start; }
+.recent-pubs .year { font-size: var(--fs-sm); color: var(--muted); padding-top: 0.2rem; }
+.recent-pubs .title { font-weight: 700; color: var(--ink); text-decoration: none; line-height: 1.4; }
+.recent-pubs a.title:hover { color: var(--purple); }
+.recent-pubs .venue { font-size: var(--fs-md); color: var(--muted); margin-top: 0.15rem; }
+@media (max-width: 600px) { .recent-pubs li { grid-template-columns: 1fr; gap: 0.1rem; } }
+
 /* ---------- people ---------- */
 .group { margin-top: 3rem; }
 .group h2 { margin-bottom: 1.25rem; }

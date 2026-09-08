@@ -27,7 +27,7 @@ Nav: Home · Research · People · Publications · News · Join. Footer on every
 
 | Page | URL | Source of content |
 |---|---|---|
-| Home | `/` | hero, "what we do" blurb (home.txt), four theme cards → Research anchors, latest 3 posts, join prompt |
+| Home | `/` | hero, "what we do" blurb (home.txt), four theme cards → Research anchors, six most recent publications from `_data/publications.json` (News is reachable from the menu; the home feed was switched from posts to papers on 2026-09-07 because the newest post is from 2024) |
 | Research | `/research/` | research.txt: intro + four anchored sections in current order (Syn[bio]electronics, Fundamentals & Materials Design, Sensors & Circuits, Applications) + support & facilities logo strip |
 | People | `/people/` | `_data/people.yml` grouped grid, then `_data/alumni.yml` table |
 | Publications | `/publications/` | `_data/publications.json` (generated) + `_data/publications_manual.json` |

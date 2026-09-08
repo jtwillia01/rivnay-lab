@@ -63,7 +63,7 @@ permalink: /people/
   {% if site.data.alumni %}
   <section class="group alumni">
     <h2>Alumni</h2>
-    {% assign agroups = "postdoc|Postdoctoral researchers,phd|PhD students,masters|Master's students,undergrad|Undergraduate students,visiting|Visiting students" | split: "," %}
+    {% assign agroups = "postdoc|Postdoctoral researchers,phd|PhD students,masters|Master's students,undergrad|Undergraduate students" | split: "," %}
     {% for g in agroups %}
       {% assign parts = g | split: "|" %}
       {% assign list = site.data.alumni | where: "group", parts[0] %}

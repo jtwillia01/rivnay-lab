@@ -64,9 +64,11 @@
 - name: Julie Kang
   group: masters
   year: 2025
+  now: Washington University in St. Louis
 - name: Rosie Huerta
   group: masters
   year: 2025
+  now: Rockwell Automation
 - name: Chloe Lenker
   group: masters
   year: 2024
@@ -90,18 +92,17 @@
   group: masters
   year: 2019
   now: Abbott
-- name: Chris Woodard
-  group: undergrad
-  year: 2024
 - name: Manideep Reddy
   group: undergrad
   year: 2024
+  now: Vanderbilt University School of Medicine
 - name: Shiv Patel
   group: undergrad
   year: 2024
 - name: Eliana Davis
   group: undergrad
   year: 2023
+  now: Northwestern University
 - name: Ella Kelly
   group: undergrad
   year: 2023
@@ -109,15 +110,15 @@
 - name: Hans Xu
   group: undergrad
   year: 2023
+  now: Gelber Group
 - name: Malva De Boor
   group: undergrad
   year: 2023
-- name: Elijah Clarke
-  group: undergrad
-  year: 2022
+  now: Capital Group
 - name: Rob Ciechowski
   group: undergrad
   year: 2020
+  now: DFJ Growth
 - name: Julianna Trujillo
   group: undergrad
   year: 2019
@@ -125,6 +126,7 @@
 - name: Beatrice Makdah
   group: undergrad
   year: 2018
+  now: Sub-Zero Group
 - name: Katrina Barth
   group: undergrad
   year: 2017
@@ -132,10 +134,8 @@
 - name: Kyle Rutledge
   group: undergrad
   year: 2017
+  now: Tempus AI
 - name: Yudai Okabe
   group: undergrad
   year: 2017
-- name: Yu Zhang
-  group: visiting
-  year: 2018
-  now: The Chinese University of Hong Kong
+  now: Rush University Medical Center

@@ -258,7 +258,7 @@ details.collapsed .pub-list { margin-top: 1rem; }
 .theme figure.square img, .theme figure.square video { aspect-ratio: 1; }
 .theme figure.natural img { aspect-ratio: auto; height: auto; }
 .giwaxs-window { position: relative; aspect-ratio: 1; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line); background: #000; }
-.giwaxs-window video {
+.theme figure .giwaxs-window video, .giwaxs-window video {
   position: absolute; left: 50%; bottom: 0; height: calc(100% / 0.374); width: auto; max-width: none;
   aspect-ratio: 1030 / 1064; object-fit: cover; border: 0; border-radius: 0;
   transform: translate(-72%, 10.3%);

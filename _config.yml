@@ -18,7 +18,7 @@ plugins:
 
 exclude:
   - docs
-  - "assets/img/rivnay logos"
+  - assets/img/rivnay_logos
   - scripts
   - README.md
   - Gemfile

@@ -70,7 +70,7 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
   display: flex; align-items: center; justify-content: space-between; gap: 1rem;
 }
 .brand { display: block; line-height: 0; }
-.brand img { height: 36px; width: auto; }
+.brand img { height: 30px; width: auto; }
 .nav-toggle { display: none; }
 .nav-toggle-label { display: none; cursor: pointer; padding: 0.5rem; }
 .nav-toggle-label span, .nav-toggle-label span::before, .nav-toggle-label span::after {
@@ -280,7 +280,7 @@ details.collapsed .pub-list { margin-top: 1rem; }
 .site-footer h2 { font-family: var(--sans); font-size: var(--fs-sm); font-weight: 600; color: var(--ink); margin-bottom: 0.4rem; letter-spacing: 0; }
 .site-footer p + h2 { margin-top: 1.2rem; }
 .site-footer a { color: var(--purple); }
-.site-footer .brand img { height: 32px; }
+.site-footer .brand img { height: 26px; }
 .site-footer .brand + p { margin-top: 0.9rem; }
 .site-footer p, .site-footer address { font-size: var(--fs-md); font-style: normal; line-height: 1.55; }
 .site-footer .nu { display: block; line-height: 0; padding-top: 0.15rem; }

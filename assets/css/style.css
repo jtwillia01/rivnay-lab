@@ -32,6 +32,7 @@ a { color: var(--purple); text-decoration-thickness: 1px; text-underline-offset:
 a:hover { color: var(--purple-dark); }
 h1, h2, h3, h4 { font-family: var(--sans); font-weight: 700; line-height: 1.15; color: var(--ink); letter-spacing: -0.015em; }
 h1 { font-size: clamp(2.2rem, 4.5vw, 3.3rem); }
+:root { --hero-h1: clamp(2.2rem, 4.5vw, 3.3rem); }
 h2 { font-size: clamp(1.6rem, 3vw, 2.15rem); }
 h3 { font-size: 1.25rem; }
 strong { font-weight: 600; }
@@ -120,10 +121,12 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(11, 9, 16, 0.10) 0%, rgba(11, 9, 16, 0.30) 45%, rgba(11, 9, 16, 0.84) 100%);
 }
-.hero .wrap { position: relative; z-index: 1; width: 100%; padding-block: 4.5rem 3.5rem; display: grid; grid-template-columns: auto 1fr; gap: 2.25rem; align-items: end; }
-.hero .mark { height: 11.5rem; width: auto; margin-bottom: 0.35rem; }
+.hero .wrap { position: relative; z-index: 1; width: 100%; padding-block: 4.5rem 3.5rem; display: grid; grid-template-columns: auto 1fr; align-items: center; }
+/* the mark is exactly as tall as the three-line headline: 3 lines x 1.15 line-height x the h1 size */
+.hero .mark { height: calc(var(--hero-h1) * 3.45); width: auto; }
+.hero .text { align-self: stretch; display: flex; align-items: center; margin-left: 2rem; padding-left: 2rem; border-left: 1px solid rgba(255, 255, 255, 0.55); }
+.hero h1 { font-size: var(--hero-h1); }
 .hero h1 { color: #fff; max-width: 16ch; }
-.hero .lead { margin-top: 1rem; max-width: 46rem; color: #E8E3EF; }
 @media (max-width: 900px) {
   /* narrow screens: pin the frame's right edge to the banner's right edge so the bright arcs stay in view
      and the video always covers the full width whatever the window shape */
@@ -131,8 +134,9 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 }
 @media (max-width: 800px) {
   .hero { min-height: 56vh; flex-direction: column; justify-content: flex-end; }
-  .hero .wrap { padding-block: 3rem 2rem; grid-template-columns: 1fr; gap: 1rem; align-items: start; }
-  .hero .mark { height: 4rem; margin-bottom: 0; }
+  .hero .wrap { padding-block: 3rem 2rem; grid-template-columns: 1fr; gap: 1.1rem; align-items: start; }
+  .hero .mark { height: 4.5rem; }
+  .hero .text { align-self: auto; margin-left: 0; padding-left: 0; border-left: 0; }
 }
 
 /* ---------- cards ---------- */

@@ -12,7 +12,7 @@ Everything routine is a data file or a markdown file. Edit on GitHub in the brow
 |---|---|
 | A person, their role, email or bio | `_data/people.yml` (one entry per person, grouped by the `group` key) |
 | Add a headshot | drop a square JPEG (600×600 works well) in `assets/img/people/` and reference it as `photo:` |
-| Alumni | `_data/alumni.yml` |
+| Alumni | `_data/alumni.yml` (`now:` is the institution or company; add `role:` only for academic destinations, e.g. `faculty`, `postdoc`, `PhD student`) |
 | Publications | run `python3 scripts/publications.py` (see below), do not edit `_data/publications.json` by hand |
 | Fix or exclude a publication | `_data/publications_manual.json` (`exclude` a DOI, or `add` an entry) then rerun the script |
 | Add a news post | create `_posts/YYYY-MM-DD-short-title.md` with the front matter shown below |

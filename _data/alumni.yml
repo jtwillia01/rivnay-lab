@@ -6,10 +6,12 @@
   group: postdoc
   year: 2025
   now: University of Science and Technology of China
+  role: faculty
 - name: Abijeet Mehta
   group: postdoc
   year: 2024
   now: University of Texas Rio Grande Valley
+  role: faculty
 - name: Hanie Yousefi
   group: postdoc
   year: 2024
@@ -18,10 +20,12 @@
   group: postdoc
   year: 2023
   now: University of Notre Dame
+  role: faculty
 - name: Joshua Tropp
   group: postdoc
   year: 2023
   now: Texas Tech University
+  role: faculty
 - name: Anthony J. Petty
   group: postdoc
   year: 2020
@@ -34,10 +38,12 @@
   group: phd
   year: 2026
   now: Stanford University
+  role: postdoc
 - name: Naedum Domnwachukwu
   group: phd
   year: 2026
   now: Northwestern University Feinberg School of Medicine
+  role: MD/PhD student
 - name: Dilara Meli
   group: phd
   year: 2025
@@ -46,10 +52,12 @@
   group: phd
   year: 2024
   now: EPFL
+  role: postdoc
 - name: Ruiheng Wu
   group: phd
   year: 2024
   now: Stanford University
+  role: postdoc
 - name: Rebecca Keate
   group: phd
   year: 2023
@@ -65,6 +73,7 @@
   group: masters
   year: 2025
   now: Washington University in St. Louis
+  role: PhD student
 - name: Rosie Huerta
   group: masters
   year: 2025
@@ -96,6 +105,7 @@
   group: undergrad
   year: 2024
   now: Vanderbilt University School of Medicine
+  role: MD student
 - name: Shiv Patel
   group: undergrad
   year: 2024
@@ -103,10 +113,12 @@
   group: undergrad
   year: 2023
   now: Northwestern University
+  role: MD/PhD student
 - name: Ella Kelly
   group: undergrad
   year: 2023
-  now: Kalamazoo College
+  now: Tufts University
+  role: PhD student
 - name: Hans Xu
   group: undergrad
   year: 2023
@@ -122,7 +134,7 @@
 - name: Julianna Trujillo
   group: undergrad
   year: 2019
-  now: Santa Clara University
+  now: University of Virginia
 - name: Beatrice Makdah
   group: undergrad
   year: 2018
@@ -130,7 +142,7 @@
 - name: Katrina Barth
   group: undergrad
   year: 2017
-  now: Wake Forest University
+  now: Precision Neuroscience
 - name: Kyle Rutledge
   group: undergrad
   year: 2017
@@ -139,3 +151,4 @@
   group: undergrad
   year: 2017
   now: Rush University Medical Center
+  role: resident

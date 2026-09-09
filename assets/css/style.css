@@ -134,9 +134,11 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 }
 @media (max-width: 800px) {
   .hero { min-height: 56vh; flex-direction: column; justify-content: flex-end; }
-  .hero .wrap { padding-block: 3rem 2rem; grid-template-columns: 1fr; gap: 1.1rem; align-items: start; }
-  .hero .mark { height: 4.5rem; }
-  .hero .text { align-self: auto; margin-left: 0; padding-left: 0; border-left: 0; }
+  /* keep the lockup on phones: size the headline so its widest line ("Organic & Hybrid" = 7.76 x font size)
+     plus the mark (2.84 x font size) and the rule gaps fit the viewport */
+  :root { --hero-h1: min(2.2rem, calc((100vw - 78px) / 10.9)); }
+  .hero .wrap { padding-block: 3rem 2rem; }
+  .hero .text { margin-left: 0.9rem; padding-left: 0.9rem; }
 }
 
 /* ---------- cards ---------- */

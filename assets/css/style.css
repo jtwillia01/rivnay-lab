@@ -120,7 +120,8 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(11, 9, 16, 0.10) 0%, rgba(11, 9, 16, 0.30) 45%, rgba(11, 9, 16, 0.84) 100%);
 }
-.hero .wrap { position: relative; z-index: 1; width: 100%; padding-block: 4.5rem 3.5rem; }
+.hero .wrap { position: relative; z-index: 1; width: 100%; padding-block: 4.5rem 3.5rem; display: grid; grid-template-columns: auto 1fr; gap: 2.25rem; align-items: end; }
+.hero .mark { height: 11.5rem; width: auto; margin-bottom: 0.35rem; }
 .hero h1 { color: #fff; max-width: 16ch; }
 .hero .lead { margin-top: 1rem; max-width: 46rem; color: #E8E3EF; }
 @media (max-width: 900px) {
@@ -130,7 +131,8 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 }
 @media (max-width: 800px) {
   .hero { min-height: 56vh; flex-direction: column; justify-content: flex-end; }
-  .hero .wrap { padding-block: 3rem 2rem; }
+  .hero .wrap { padding-block: 3rem 2rem; grid-template-columns: 1fr; gap: 1rem; align-items: start; }
+  .hero .mark { height: 4rem; margin-bottom: 0; }
 }
 
 /* ---------- cards ---------- */

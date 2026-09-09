@@ -61,6 +61,13 @@
   website: http://www.linkedin.com/in/daeyeon-won-2a362523b
   bio: >
     Daeyeon earned dual B.S. degrees in Civil Engineering and Mechanical Engineering from Korea University, South Korea. He began his research career in Prof. Seung Hwan Ko’s group at Seoul National University, where he developed fabrication processes to enhance the properties of conducting polymers through laser–material interactions. He then worked as a Staff Engineer at the Semiconductor R&D Center of Samsung Electronics, developing fabrication processes for EUV photomasks. In 2025, he was awarded a postdoctoral fellowship from the National Research Foundation (NRF) of Korea and joined the Rivnay Group. His current research focuses on developing fabrication strategies to improve the performance of organic semiconductors and biohybrid electronic devices.
+- name: Rachel Daso
+  role: Postdoctoral researcher
+  group: postdoc
+  email: racheldaso2027@u.northwestern.edu
+  photo: rachel-daso.png
+  bio: >
+    Rachel graduated from Fordham University in 2021 with a B.S. in Chemistry. During her time as an undergraduate, Rachel researched under Dr. Ipsita Banerjee, where she developed peptide-based nanoparticles for applications in tissue regeneration. Rachel joined Northwestern’s Biomedical Engineering PhD program in 2021. Her current research interests involve the development of hybrid conductive nerve allografts with incorporated thin-film electronics for applications in neural tissue monitoring and regeneration. In her spare time, she likes to play board games, read, and rock climb.
 - name: Anna Baur
   role: PhD student
   group: phd
@@ -76,13 +83,6 @@
   website: https://quinnbeato.com/
   bio: >
     Quinn earned his B.S. in Biomedical Engineering and B.A. in Philosophy at the University of Colorado Boulder in 2024. He began his undergraduate career with research on the mechanobiology of neuronal chromatin under Dr. Corey Neu, but migrated to Dr. Robert McLeod's lab to study the biosensing applications of Organic Electrochemical Transistors in agriculture and bioastronautics. He also worked as an Emergency Medical Technician for 2 years through Stadium Medical. In the Rivnay Group, his research interests include investigating the application of OMIECs to integrate neuromorphic circuits and point-of-care sensing. Outside of the lab, he enjoys skiing, backpacking, bouldering, reading, and running.
-- name: Rachel Daso
-  role: PhD candidate
-  group: phd
-  email: racheldaso2027@u.northwestern.edu
-  photo: rachel-daso.png
-  bio: >
-    Rachel graduated from Fordham University in 2021 with a B.S. in Chemistry. During her time as an undergraduate, Rachel researched under Dr. Ipsita Banerjee, where she developed peptide-based nanoparticles for applications in tissue regeneration. Rachel joined Northwestern’s Biomedical Engineering PhD program in 2021. Her current research interests involve the development of hybrid conductive nerve allografts with incorporated thin-film electronics for applications in neural tissue monitoring and regeneration. In her spare time, she likes to play board games, read, and rock climb.
 - name: Daniel Duplessis
   role: PhD candidate
   group: phd
@@ -171,8 +171,8 @@
   bio: >
     Ziyi earned his B.S. in Polymer Materials and Engineering from Beijing University of Chemical Technology in 2025. During his undergraduate studies, he worked with Dr. Qingsheng Liu on anti-foreign-body PDMS for reusable medical catheter applications. Ziyi joined the Rivnay Group as an MS student in Materials Science and Engineering in 2025. His current research focuses on the fabrication of transparent, photo-responsive OECTs. Outside the lab, Ziyi enjoys hiking, sports, and video games.
 - name: Julia Ostrander
-  role: Undergraduate student
-  group: undergrad
+  role: Master's student
+  group: masters
   photo: julia-ostrander.jpg
   bio: >
     Julia is currently a senior undergraduate BME student at Northwestern, pursuing a Master's degree through the BME BS/MS program. As an undergraduate, she has worked in the Quinlan Lab at the University of Utah studying the heritability of mutation rate, and in the Center for Bionic Medicine at the Shirley Ryan AbilityLab, developing a facial recognition program to blur infant faces in videos used to study cerebral palsy risk. She joined the Rivnay Group in 2025, where she works on characterizing conductive hydrogels for sensing and drug delivery applications. In her free time, she enjoys running, hiking, watching soccer, and painting.

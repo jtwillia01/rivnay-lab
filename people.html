@@ -1,6 +1,6 @@
 ---
 title: People
-description: Members and alumni of the Rivnay Group at Northwestern University.
+description: Members of the Rivnay Group at Northwestern University.
 permalink: /people/
 ---
 <div class="wrap">
@@ -60,25 +60,5 @@ permalink: /people/
     {% endif %}
   {% endfor %}
 
-  {% if site.data.alumni %}
-  <section class="group alumni">
-    <h2>Alumni</h2>
-    {% assign agroups = "postdoc|Postdoctoral researchers,phd|PhD students,masters|Master's students,undergrad|Undergraduate students" | split: "," %}
-    {% for g in agroups %}
-      {% assign parts = g | split: "|" %}
-      {% assign list = site.data.alumni | where: "group", parts[0] %}
-      {% if list.size > 0 %}
-    <h3>{{ parts[1] }}</h3>
-    <table>
-      <colgroup><col class="name"><col class="year"><col></colgroup>
-      <thead><tr><th>Name</th><th>Year</th><th>Now</th></tr></thead>
-      <tbody>
-        {% for a in list %}<tr><td>{{ a.name }}</td><td class="year">{{ a.year }}</td><td>{{ a.now }}</td></tr>
-        {% endfor %}
-      </tbody>
-    </table>
-      {% endif %}
-    {% endfor %}
-  </section>
-  {% endif %}
+  <p style="margin-top:2.5rem"><a href="{{ '/alumni/' | relative_url }}">Alumni</a></p>
 </div>

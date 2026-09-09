@@ -1,0 +1,31 @@
+---
+title: Alumni
+description: Alumni of the Rivnay Group at Northwestern University and where they are now.
+permalink: /alumni/
+---
+<div class="wrap">
+  <header class="page-head">
+    <h1>Alumni</h1>
+  </header>
+
+  {% assign agroups = "postdoc|Postdoctoral researchers,phd|PhD students,masters|Master's students,undergrad|Undergraduate students" | split: "," %}
+  {% for g in agroups %}
+    {% assign parts = g | split: "|" %}
+    {% assign list = site.data.alumni | where: "group", parts[0] %}
+    {% if list.size > 0 %}
+  <section class="group alumni"{% if forloop.first %} style="margin-top:0"{% endif %}>
+    <h2>{{ parts[1] }}</h2>
+    <table>
+      <colgroup><col class="name"><col class="year"><col></colgroup>
+      <thead><tr><th>Name</th><th>Year</th><th>Now</th></tr></thead>
+      <tbody>
+        {% for a in list %}<tr><td>{{ a.name }}</td><td class="year">{{ a.year }}</td><td>{{ a.now }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+    {% endif %}
+  {% endfor %}
+
+  <p style="margin-top:2.5rem"><a href="{{ '/people/' | relative_url }}">Current members</a></p>
+</div>

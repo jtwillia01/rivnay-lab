@@ -11,6 +11,11 @@
   setHeaderH();
   addEventListener("resize", setHeaderH);
 
+  /* smooth anchor scrolling only after the page has settled, so a #hash on arrival jumps instead of animating */
+  addEventListener("load", function () {
+    (d.fonts ? d.fonts.ready : Promise.resolve()).then(function () { root.classList.add("smooth"); });
+  });
+
   /* ---- scroll reveal ---- */
   var els = [].slice.call(d.querySelectorAll(".reveal"));
   if (els.length) {
@@ -19,14 +24,15 @@
     } else {
       var vh = innerHeight;
       els.forEach(function (e) {
-        if (e.getBoundingClientRect().top < vh * 0.92) e.classList.add("is-visible", "no-anim");
+        if (e.getBoundingClientRect().top < vh) e.classList.add("is-visible", "no-anim");
       });
+      root.classList.add("reveal-ready");
       var pending = [], raf = 0;
       function flush() {
         raf = 0;
         pending.sort(function (a, b) { return a.getBoundingClientRect().top - b.getBoundingClientRect().top; });
         pending.forEach(function (e, i) {
-          e.style.setProperty("--reveal-delay", Math.min(i, 5) * 60 + "ms");
+          e.style.setProperty("--reveal-delay", Math.min(i, 4) * 50 + "ms");
           e.classList.add("is-visible");
         });
         pending = [];
@@ -38,6 +44,11 @@
         if (!raf) raf = requestAnimationFrame(flush);
       }, { rootMargin: "0px 0px -6% 0px", threshold: 0.06 });
       els.forEach(function (e) { if (!e.classList.contains("is-visible")) io.observe(e); });
+      /* anything that receives keyboard focus is shown at once */
+      d.addEventListener("focusin", function (ev) {
+        var r = ev.target.closest && ev.target.closest(".reveal");
+        if (r && !r.classList.contains("is-visible")) { r.classList.add("is-visible", "no-anim"); io.unobserve(r); }
+      });
     }
   }
 
@@ -74,6 +85,7 @@
       for (var i = 0; i < sections.length; i++) {
         if (sections[i].getBoundingClientRect().top <= line) current = sections[i]; else break;
       }
+      if (scrollY + innerHeight >= root.scrollHeight - 2) current = sections[sections.length - 1];
       setActive(current);
       var last = sections[sections.length - 1].getBoundingClientRect();
       var headBottom = head ? head.getBoundingClientRect().bottom : 0;
@@ -81,7 +93,7 @@
     }
     function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
     addEventListener("scroll", onScroll, { passive: true });
-    addEventListener("resize", onScroll);
+    addEventListener("resize", function () { active = null; onScroll(); });
     update();
   }
 })();

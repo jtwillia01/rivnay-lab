@@ -23,16 +23,16 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { -webkit-text-size-adjust: 100%; }
-@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 :focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
 [id] { scroll-margin-top: 5.5rem; }
-@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+/* smooth anchor scrolling is switched on by site.js after load, so a #hash on arrival jumps instead of animating */
+@media (prefers-reduced-motion: no-preference) { html.smooth { scroll-behavior: smooth; } }
 
-/* scroll reveal: content eases in once, 14px rise; only when JS is present, never under reduced motion */
-.js .reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.55s cubic-bezier(0.4, 0, 0.2, 1), transform 0.55s cubic-bezier(0.4, 0, 0.2, 1); transition-delay: var(--reveal-delay, 0ms); }
-.js .reveal.is-visible { opacity: 1; transform: none; }
-.js .reveal.no-anim { transition: none; }
-@media (prefers-reduced-motion: reduce) { .js .reveal { opacity: 1; transform: none; transition: none; } }
+/* scroll reveal: content eases in once, 16px rise; the hidden state exists only after site.js has marked what is already on screen, never in print or under reduced motion */
+.reveal-ready .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1); transition-delay: var(--reveal-delay, 0ms); }
+.reveal-ready .reveal.is-visible { opacity: 1; transform: none; }
+.reveal-ready .reveal.no-anim { transition: none; }
+@media print, (prefers-reduced-motion: reduce) { .reveal-ready .reveal { opacity: 1; transform: none; transition: none; } }
 body { font-family: var(--sans); font-size: 1.05rem; line-height: 1.6; color: var(--ink); background: var(--ground); }
 img, video { max-width: 100%; display: block; height: auto; }
 a { color: var(--purple); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
@@ -246,7 +246,7 @@ a.card:hover { border-color: var(--purple); color: inherit; }
 /* ---------- publications ---------- */
 .pub-year { display: grid; grid-template-columns: 6rem 1fr; gap: 1.5rem; padding-top: 2.5rem; }
 .pub-year:first-of-type { padding-top: 0; }
-.pub-year h2 { font-size: 1.5rem; position: sticky; top: 5rem; align-self: start; }
+.pub-year h2 { font-size: 1.5rem; align-self: start; }
 .pub-list { list-style: none; }
 .pub { padding: 1rem 0; border-bottom: 1px solid var(--line); font-size: var(--fs-md); }
 .pub:first-child { padding-top: 0; }
@@ -258,15 +258,14 @@ a.title:hover { color: var(--purple); }
 .pub .doi { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.2rem; }
 @media (max-width: 640px) {
   .pub-year { grid-template-columns: 1fr; gap: 0.5rem; }
-  .pub-year h2 { position: static; }
 }
 
 /* year timeline: a fixed rail in the right gutter on wide screens, a sticky strip under the header elsewhere */
-.years { position: sticky; top: var(--header-h, 61px); z-index: 40; display: flex; gap: 1.1rem; overflow-x: auto; scrollbar-width: none; background: var(--ground); border-bottom: 1px solid var(--line); padding: 0.6rem 0; margin-bottom: 1.25rem; }
+.years { position: sticky; top: var(--header-h, 61px); z-index: 40; display: flex; gap: 1.1rem; overflow-x: auto; scrollbar-width: none; background: var(--ground); border-bottom: 1px solid var(--line); padding: 0.6rem 1.5rem; margin: 0 -1.5rem 1.25rem; scroll-padding-inline: 1.5rem; }
 .years::-webkit-scrollbar { display: none; }
-.years a { flex: none; font-size: var(--fs-sm); color: var(--muted); text-decoration: none; line-height: 1; padding: 0.15rem 0 0.35rem; border-bottom: 2px solid transparent; transition: color 0.2s, border-color 0.2s; }
+.years a { flex: none; font-size: var(--fs-sm); color: var(--muted); text-decoration: none; line-height: 1; padding: 0.15rem 0 0.35rem; border-bottom: 2px solid transparent; transition: color 0.35s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
 .years a:hover { color: var(--ink); }
-.years a.is-active { color: var(--purple); font-weight: 600; border-color: var(--purple); }
+.years a.is-active { color: var(--purple); border-color: var(--purple); }
 .years-marker { display: none; }
 .pub-year[id] { scroll-margin-top: calc(var(--header-h, 61px) + 3.4rem); }
 @media (min-width: 1260px) {
@@ -274,10 +273,12 @@ a.title:hover { color: var(--purple); }
   .years::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: var(--rule); }
   .years a { font-size: var(--fs-xs); padding: 0.1rem 0; border: 0; }
   .years a.is-active { border: 0; }
-  .years-marker { display: block; position: absolute; left: -2.5px; top: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--purple); transform: translateY(-50%); transition: top 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
-  .js .years:not(.is-shown) { opacity: 0; visibility: hidden; transform: translate(0.5rem, -50%); pointer-events: none; transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), visibility 0s linear 0.35s; }
+  .pub-year h2 { position: sticky; top: 5rem; }
+  .js .years-marker { display: block; position: absolute; left: -2.5px; top: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--purple); transform: translateY(-50%); transition: top 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
+  .js .years:not(.is-shown):not(:focus-within) { opacity: 0; transform: translate(0.5rem, -50%); pointer-events: none; }
   .pub-year[id] { scroll-margin-top: 5.5rem; }
 }
+@media (prefers-reduced-motion: reduce) { .years, .years a, .years-marker { transition: none !important; } }
 details.collapsed { margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
 details.collapsed summary { cursor: pointer; font-family: var(--sans); font-size: 1.4rem; font-weight: 700; color: var(--purple); }
 details.collapsed .pub-list { margin-top: 1rem; }

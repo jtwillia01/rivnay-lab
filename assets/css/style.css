@@ -26,6 +26,13 @@ html { -webkit-text-size-adjust: 100%; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 :focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
 [id] { scroll-margin-top: 5.5rem; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* scroll reveal: content eases in once, 14px rise; only when JS is present, never under reduced motion */
+.js .reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.55s cubic-bezier(0.4, 0, 0.2, 1), transform 0.55s cubic-bezier(0.4, 0, 0.2, 1); transition-delay: var(--reveal-delay, 0ms); }
+.js .reveal.is-visible { opacity: 1; transform: none; }
+.js .reveal.no-anim { transition: none; }
+@media (prefers-reduced-motion: reduce) { .js .reveal { opacity: 1; transform: none; transition: none; } }
 body { font-family: var(--sans); font-size: 1.05rem; line-height: 1.6; color: var(--ink); background: var(--ground); }
 img, video { max-width: 100%; display: block; height: auto; }
 a { color: var(--purple); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
@@ -252,6 +259,24 @@ a.title:hover { color: var(--purple); }
 @media (max-width: 640px) {
   .pub-year { grid-template-columns: 1fr; gap: 0.5rem; }
   .pub-year h2 { position: static; }
+}
+
+/* year timeline: a fixed rail in the right gutter on wide screens, a sticky strip under the header elsewhere */
+.years { position: sticky; top: var(--header-h, 61px); z-index: 40; display: flex; gap: 1.1rem; overflow-x: auto; scrollbar-width: none; background: var(--ground); border-bottom: 1px solid var(--line); padding: 0.6rem 0; margin-bottom: 1.25rem; }
+.years::-webkit-scrollbar { display: none; }
+.years a { flex: none; font-size: var(--fs-sm); color: var(--muted); text-decoration: none; line-height: 1; padding: 0.15rem 0 0.35rem; border-bottom: 2px solid transparent; transition: color 0.2s, border-color 0.2s; }
+.years a:hover { color: var(--ink); }
+.years a.is-active { color: var(--purple); font-weight: 600; border-color: var(--purple); }
+.years-marker { display: none; }
+.pub-year[id] { scroll-margin-top: calc(var(--header-h, 61px) + 3.4rem); }
+@media (min-width: 1260px) {
+  .years { position: fixed; top: 50%; right: max(1rem, calc((100vw - var(--wrap)) / 2 - 4.25rem)); transform: translateY(-50%); flex-direction: column; gap: 0.55rem; overflow: visible; background: transparent; border: 0; padding: 0.2rem 0 0.2rem 1rem; margin: 0; transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
+  .years::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: var(--rule); }
+  .years a { font-size: var(--fs-xs); padding: 0.1rem 0; border: 0; }
+  .years a.is-active { border: 0; }
+  .years-marker { display: block; position: absolute; left: -2.5px; top: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--purple); transform: translateY(-50%); transition: top 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
+  .js .years:not(.is-shown) { opacity: 0; visibility: hidden; transform: translate(0.5rem, -50%); pointer-events: none; transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), visibility 0s linear 0.35s; }
+  .pub-year[id] { scroll-margin-top: 5.5rem; }
 }
 details.collapsed { margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
 details.collapsed summary { cursor: pointer; font-family: var(--sans); font-size: 1.4rem; font-weight: 700; color: var(--purple); }

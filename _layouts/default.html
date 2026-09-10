@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
+  <script>document.documentElement.className += " js";</script>
 </head>
 <body>
 <header class="site-header">
@@ -62,6 +63,6 @@
     <p class="fine">&copy; {{ site.time | date: "%Y" }} Rivnay Group</p>
   </div>
 </footer>
-<script>if(matchMedia("(prefers-reduced-motion: reduce)").matches){document.querySelectorAll("video[autoplay]").forEach(function(v){v.removeAttribute("autoplay");v.pause();});}</script>
+<script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" defer></script>
 </body>
 </html>

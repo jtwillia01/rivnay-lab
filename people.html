@@ -12,7 +12,7 @@ permalink: /people/
   {% if pi %}
   <section class="group" style="margin-top:0">
     <h2>Principal investigator</h2>
-    <div class="pi">
+    <div class="pi reveal">
       <img src="{{ '/assets/img/people/' | append: pi.photo | relative_url }}" alt="{{ pi.name }}" width="200" height="200">
       <div>
         <h3>{{ pi.name }}</h3>
@@ -37,7 +37,7 @@ permalink: /people/
       {% assign r = m.role | downcase %}
       {% capture links %}{% if m.email %}<a href="mailto:{{ m.email }}">Email</a>{% endif %}{% if m.website %}<a href="{{ m.website }}">Website</a>{% endif %}{% endcapture %}
       {% if m.bio %}
-      <details class="person">
+      <details class="person reveal">
         <summary>
           <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy" width="150" height="150">
           <span class="who"><span class="name">{{ m.name }}</span>{% if r != generic %}<span class="role">{{ m.role }}</span>{% endif %}<span class="hint"></span></span>
@@ -48,7 +48,7 @@ permalink: /people/
         </div>
       </details>
       {% else %}
-      <div class="person no-bio">
+      <div class="person no-bio reveal">
         <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy" width="150" height="150">
         <span class="who"><span class="name">{{ m.name }}</span>{% if r != generic %}<span class="role">{{ m.role }}</span>{% endif %}</span>
         {% if links != "" %}<p class="links">{{ links }}</p>{% endif %}

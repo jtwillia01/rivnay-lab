@@ -12,13 +12,18 @@ permalink: /publications/
   {% capture rivnay %}<strong>J. Rivnay</strong>{% endcapture %}
   {% assign pubs = site.data.publications | where: "pre_northwestern", false %}
   {% assign years = pubs | map: "year" | uniq %}
+  <nav class="years" aria-label="Jump to year">
+    <span class="years-marker" aria-hidden="true"></span>
+    {% for y in years %}<a href="#{{ y }}">{{ y }}</a>{% endfor %}
+  </nav>
+
   {% for y in years %}
   {% assign items = pubs | where: "year", y %}
-  <section class="pub-year">
+  <section class="pub-year" id="{{ y }}">
     <h2>{{ y }}</h2>
     <ol class="pub-list">
       {% for p in items %}
-      <li class="pub">
+      <li class="pub reveal">
         {% if p.doi %}<a class="title" href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}<span class="title">{{ p.title }}</span>{% endif %}
         <p class="authors">{{ p.authors | replace: "J. Rivnay", rivnay }}</p>
         <p class="venue"><em>{{ p.journal }}</em>{% if p.volume %} <strong>{{ p.volume }}</strong>{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}</p>

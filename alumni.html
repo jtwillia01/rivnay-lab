@@ -13,7 +13,7 @@ permalink: /alumni/
     {% assign parts = g | split: "|" %}
     {% assign list = site.data.alumni | where: "group", parts[0] %}
     {% if list.size > 0 %}
-  <section class="group alumni"{% if forloop.first %} style="margin-top:0"{% endif %}>
+  <section class="group alumni reveal"{% if forloop.first %} style="margin-top:0"{% endif %}>
     <h2>{{ parts[1] }}</h2>
     <table>
       <colgroup><col class="name"><col class="year"><col></colgroup>

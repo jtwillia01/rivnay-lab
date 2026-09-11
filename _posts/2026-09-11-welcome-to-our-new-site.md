@@ -11,7 +11,7 @@ Four more defended. Emily Schafer and Xinran Xie went on to postdocs at EPFL and
 
 Our master's students scattered well too: Chloe Lenker to Philips, Rosie Huerta to Rockwell Automation, Julie Kang to a PhD at Washington University in St. Louis, and Lucia Galindo out the door with a thesis on an implantable electrogenetic cell factory.
 
-**Arriving.** Catherine Beaumont, Priscila Cavassin and Yebin Lee joined as postdocs. Anna Baur, Zaina Mosalam and Zander Schwartz started their PhDs, and Royall McMahon Ward arrived this year. Ziyi Liu, Julia Ostrander and Liangying Chen came in for master's work. Michelle Lotz keeps the lab running as lab manager, and Rhea William joined as a research technician.
+**Arriving.** Catherine Beaumont, Priscila Cavassin and Yebin Lee joined as postdocs, with Daeyeon Won following a year later. Anna Baur, Zaina Mosalam and Zander Schwartz started their PhDs, and Royall McMahon Ward arrived this year. Ziyi Liu, Julia Ostrander and Liangying Chen came in for master's work. Michelle Lotz keeps the lab running as lab manager, and Rhea William joined as a research technician.
 
 **Everything else.** Thirty-seven papers since the start of 2024, on organic mixed conductors, neuromorphic circuits, aptamer sensors, oxygenation and biohybrid devices. Fellowships and awards along the way. A retreat, a few outings, and the usual amount of fun for a group that spends this much time in the dark doing microscopy.
 

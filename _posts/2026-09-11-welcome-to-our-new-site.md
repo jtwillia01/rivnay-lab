@@ -1,18 +1,16 @@
 ---
-title: "Welcome to our new site"
+title: "Welcome to our new website"
 date: 2026-09-11
 kind: group
 ---
-This page went quiet for two years. The group did not. Here is the catching up, and a new website to do it on.
+Welcome! A lot's happened in the group since our last news post. Here are some abbreviated updates:
 
-**Moving on.** Four postdocs finished with us in that stretch. Abijeet Mehta is now an assistant professor at the University of Texas Rio Grande Valley and Xudong Ji is a professor in the School of Microelectronics at the University of Science and Technology of China, so two of our own are running their own groups. Hanie Yousefi went to the Advanced Research Projects Agency for Health, and Gianmaria Matrone traded the bench for the other side of the desk as an editor at *Nature Sensors*.
+**Moving on.** Two postdocs finished with us in that stretch. Xudong Ji is now a professor in the School of Microelectronics at the University of Science and Technology of China, and Gianmaria Matrone traded the bench for the desk as an editor at *Nature Sensors*.
 
-Four more defended. Emily Schafer and Xinran Xie went on to postdocs at EPFL and Stanford, Dilara Meli to a postdoc at the National Institute of Standards and Technology, and Naedum Domnwachukwu returned to Feinberg to finish the MD half of an MD/PhD. Rachel Daso graduated and stayed, which we take as a compliment.
+Four more defended. Emily Schafer and Xinran Xie went on to postdocs at EPFL and Stanford, Dilara Meli to a postdoc at the National Institute of Standards and Technology, and Naedum Domnwachukwu returned to Feinberg to finish his MD. Rachel Daso graduated and is staying with us until December, which we're very happy about!
 
-Our master's students scattered well too: Chloe Lenker to Philips, Rosie Huerta to Rockwell Automation, Julie Kang to a PhD at Washington University in St. Louis, and Lucia Galindo out the door with a thesis on an implantable electrogenetic cell factory.
+Our master's students scattered too: Chloe Lenker to Philips, Rosie Huerta to Rockwell Automation, and Julie Kang to a PhD at Washington University in St. Louis. Lucia Galindo graduated recently and is on the job market (if you're looking for an excellent biomedical engineer, reach out to her, you can find her via the [alumni page]({{ '/alumni/' | relative_url }})).
 
-**Arriving.** Catherine Beaumont, Priscila Cavassin and Yebin Lee joined as postdocs, with Daeyeon Won following a year later. Anna Baur, Zaina Mosalam and Zander Schwartz started their PhDs, and Royall McMahon Ward arrived this year. Ziyi Liu, Julia Ostrander and Liangying Chen came in for master's work. Michelle Lotz keeps the lab running as lab manager, and Rhea William joined as a research technician.
+**Arriving.** Yebin Lee, Catherine Beaumont, Priscila Cavassin, and Jianzhe (James) Luo joined as postdocs. Anna Baur, Zaina Mosalam, Albert Lai, and Zander Schwartz started their PhDs, and Royall McMahon Ward joined us later this year. Ziyi Liu, Julia Ostrander and Liangying Chen came in for master's work. Michelle Lotz stepped into a new role as our lab manager, and Rhea William, Zach Hoegberg, and Rachel Nolander joined as research technicians.
 
-**Everything else.** Thirty-seven papers since the start of 2024, on organic mixed conductors, neuromorphic circuits, aptamer sensors, oxygenation and biohybrid devices. Fellowships and awards along the way. A retreat, a few outings, and the usual amount of fun for a group that spends this much time in the dark doing microscopy.
-
-More often from here.
+**Everything else.** Thirty-seven papers since the start of 2024, on organic mixed conductors, neuromorphic circuits, electrochemical aptamer-based sensors, and biohybrid devices. Members of the group won several fellowships and awards, too. We've had retreats, celebrations, game nights and lots of fun in the lab. We'll keep you abreast of our activities moving forward by updating this page regularly, so come back soon!

@@ -350,12 +350,22 @@ details.collapsed .pub-list { margin-top: 1rem; }
 /* Each logo gets an equal cell and is fitted inside it, so an ornate round seal and a wide
    wordmark carry similar weight instead of one being seven times the width of the other.
    The two widest lockups take a double cell so their type stays readable. */
-.logo-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-auto-flow: row dense; gap: 2.25rem 1.5rem; align-items: center; margin-top: 1.25rem; }
-.logo-row a { display: grid; place-items: center; min-width: 0; }
+/* Each mark sits in a fixed-height band above its name, so the row of names lines up however
+   uneven the logos are. Heights come from support.yml and equalise visual area, not height:
+   a round seal has to be taller than a wordmark to read as the same size. */
+.logo-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); grid-auto-flow: row dense; gap: 2.5rem 1.5rem; margin-top: 1.5rem; }
+.logo-row a { display: grid; grid-template-rows: 92px auto; justify-items: center; gap: 0.7rem; min-width: 0; text-decoration: none; color: inherit; }
 .logo-row a.wide { grid-column: span 2; }
-.logo-row a.tall img { max-height: 84px; }   /* NSF: its brand manual sizes by the inner globe, not the medallion */
-.logo-row img { max-height: 64px; max-width: 100%; width: auto; height: auto; object-fit: contain; }
-@media (max-width: 560px) { .logo-row { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 1.75rem 1rem; } .logo-row img { max-height: 48px; } }
+.logo-row .mark { display: grid; place-items: center; height: 92px; width: 100%; }
+.logo-row img { max-height: var(--h, 56px); max-width: 100%; width: auto; height: auto; }
+.logo-row .cap { font-size: var(--fs-xs); line-height: 1.35; color: var(--muted); text-align: center; text-wrap: balance; }
+.logo-row a:hover .cap { color: var(--purple); }
+@media (max-width: 560px) {
+  .logo-row { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 2rem 1rem; }
+  .logo-row a { grid-template-rows: 70px auto; }
+  .logo-row .mark { height: 70px; }
+  .logo-row img { max-height: calc(var(--h, 56px) * 0.78); }
+}
 
 /* ---------- post ---------- */
 .post-head { padding: 3rem 0 1.25rem; }

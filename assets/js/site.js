@@ -1,6 +1,7 @@
 (function () {
   var d = document, root = d.documentElement;
-  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var motionQuery = matchMedia("(prefers-reduced-motion: reduce)");
+  var reduce = motionQuery.matches;
 
   if (reduce) {
     d.querySelectorAll("video[autoplay]").forEach(function (v) { v.removeAttribute("autoplay"); v.pause(); });
@@ -20,13 +21,30 @@
   var hero = d.querySelector(".hero");
   var slides = hero ? [].slice.call(hero.querySelectorAll(".hero-slide")) : [];
   if (slides.length && !reduce) {
-    var cur = -1;
+    var cur = -1, timer = 0;
     function turn() {
       cur = cur + 1 >= slides.length ? -1 : cur + 1;
       slides.forEach(function (s, k) { s.classList.toggle("is-on", k === cur); });
-      setTimeout(turn, cur === -1 ? 9000 : 6500);
+      timer = setTimeout(turn, cur === -1 ? 9000 : 6500);
     }
-    setTimeout(turn, 9000);
+    function start() {
+      if (d.hidden) { addEventListener("visibilitychange", start, { once: true }); return; }
+      /* fetch the stills now, and count the clip's nine seconds only once they are ready to paint */
+      Promise.all(slides.map(function (s) {
+        s.src = s.getAttribute("data-src");
+        return (s.decode ? s.decode() : Promise.resolve()).then(function () { return s; }, function () { s.remove(); return null; });
+      })).then(function (ok) {
+        slides = ok.filter(Boolean);
+        if (slides.length) timer = setTimeout(turn, 9000);
+      });
+    }
+    start();
+    motionQuery.addEventListener("change", function (e) {
+      if (!e.matches) return;
+      clearTimeout(timer); timer = 0; cur = -1;
+      slides.forEach(function (s) { s.classList.remove("is-on"); });
+      var clip = hero.querySelector("video"); if (clip) { clip.removeAttribute("autoplay"); clip.pause(); }
+    });
   }
 
   /* ---- scroll reveal ---- */

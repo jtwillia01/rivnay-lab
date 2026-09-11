@@ -154,6 +154,8 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 
 /* ---------- cards ---------- */
 .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.25rem; }
+/* four cards: never 3+1. auto-fit gives 2 columns from 528px (2x230+20+48) and 4 from 1028px (4x230+3x20+48); hold 2x2 in between, with room for a classic scrollbar */
+@media (min-width: 529px) and (max-width: 1043px) { .card-grid { grid-template-columns: 1fr 1fr; } }
 .card {
   background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem;
   display: flex; flex-direction: column; gap: 0.5rem; text-decoration: none; color: inherit;

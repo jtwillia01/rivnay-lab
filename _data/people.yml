@@ -141,13 +141,6 @@
   photo: zaina-mosalam.jpg
   bio: >
     Zaina earned her B.S. in Materials Science and Engineering in 2025 from Cornell University. As an undergraduate, she worked under Professor Eve Donnelly on FTIR spectroscopy of diabetic patients and biochemical assay analysis of fluorescent collagen crosslinks in patients who have undergone total knee arthroplasty. She joined Northwestern as a PhD student in Materials Science and Engineering in 2025. As a joint student with professors Jonathan Rivnay and Shana Kelley, she is working to optimize aptamer-based biosensors for different proteins and molecules. In her free time, she enjoys going to the gym, crocheting, and learning languages.
-- name: Beliz Utebay
-  role: PhD student
-  group: phd
-  email: butebay@u.northwestern.edu
-  photo: beliz-utebay.jpg
-  bio: >
-    Beliz earned her B.S. in Chemical and Biomolecular Engineering with a minor in Biomedical Engineering from Georgia Institute of Technology in 2023. During the first two years of her undergrad, she worked in Coskun Lab at Georgia Tech on spatial organizations of cells. Later, she joined Stingelin Lab at Georgia Tech, where she worked with hybrid hydrogels to study their structure–property relationship and mechanical properties until she graduated. She joined Northwestern as a Ph.D. student in Materials Science and Engineering in 2023. Her research in the lab focuses on lipid-bilayer sensing. In her free time, she enjoys playing instruments, singing, and photography.
 - name: Zander Schwartz
   role: PhD student
   group: phd
@@ -182,6 +175,13 @@
   photo: julia-ostrander.jpg
   bio: >
     Julia is currently a senior undergraduate BME student at Northwestern, pursuing a Master's degree through the BME BS/MS program. As an undergraduate, she has worked in the Quinlan Lab at the University of Utah studying the heritability of mutation rate, and in the Center for Bionic Medicine at the Shirley Ryan AbilityLab, developing a facial recognition program to blur infant faces in videos used to study cerebral palsy risk. She joined the Rivnay Group in 2025, where she works on characterizing conductive hydrogels for sensing and drug delivery applications. In her free time, she enjoys running, hiking, watching soccer, and painting.
+- name: Beliz Utebay
+  role: Master's student
+  group: masters
+  email: butebay@u.northwestern.edu
+  photo: beliz-utebay.jpg
+  bio: >
+    Beliz earned her B.S. in Chemical and Biomolecular Engineering with a minor in Biomedical Engineering from Georgia Institute of Technology in 2023. During the first two years of her undergrad, she worked in Coskun Lab at Georgia Tech on spatial organizations of cells. Later, she joined Stingelin Lab at Georgia Tech, where she worked with hybrid hydrogels to study their structure–property relationship and mechanical properties until she graduated. She joined Northwestern as a master's student in Materials Science and Engineering in 2023. Her research in the lab focuses on lipid-bilayer sensing. In her free time, she enjoys playing instruments, singing, and photography.
 - name: Ella Spena
   role: Undergraduate student
   group: undergrad

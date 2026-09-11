@@ -347,9 +347,14 @@ details.collapsed .pub-list { margin-top: 1rem; }
 .media-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .media-pair img { aspect-ratio: 1; }
 @media (max-width: 800px) { .theme { grid-template-columns: 1fr; gap: 1.5rem; } }
-.logo-row { display: flex; flex-wrap: wrap; gap: 1.75rem 2.75rem; align-items: center; margin-top: 1rem; }
-.logo-row img { height: 44px; width: auto; max-width: 100%; object-fit: contain; }
-.logo-row a { display: block; max-width: min(300px, 100%); }
+/* Each logo gets an equal cell and is fitted inside it, so an ornate round seal and a wide
+   wordmark carry similar weight instead of one being seven times the width of the other.
+   The two widest lockups take a double cell so their type stays readable. */
+.logo-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-auto-flow: row dense; gap: 2.25rem 1.5rem; align-items: center; margin-top: 1.25rem; }
+.logo-row a { display: grid; place-items: center; min-width: 0; }
+.logo-row a.wide { grid-column: span 2; }
+.logo-row img { max-height: 64px; max-width: 100%; width: auto; height: auto; object-fit: contain; }
+@media (max-width: 560px) { .logo-row { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 1.75rem 1rem; } .logo-row img { max-height: 48px; } }
 
 /* ---------- post ---------- */
 .post-head { padding: 3rem 0 1.25rem; }

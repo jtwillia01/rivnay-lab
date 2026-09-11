@@ -1,4 +1,4 @@
-# Logo files live in assets/img/logos/ (PNG, height-normalised in CSS).
+# Logo files live in assets/img/logos/. Each sits in an equal grid cell; `wide: true` gives a lockup a double cell.
 # Order follows the old Research page; Sloan (old Funding page) and MRSEC appended.
 funders:
   - name: National Science Foundation
@@ -12,7 +12,8 @@ funders:
     url: https://www.darpa.mil
   - name: Chan Zuckerberg Biohub Chicago
     logo: cz-biohub-chicago.png
-    url: https://www.czbiohub.org/chi/
+    url: https://biohub.org
+    wide: true
   - name: Advanced Research Projects Agency for Health
     logo: arpa-h.png
     url: https://arpa-h.gov
@@ -28,13 +29,14 @@ facilities:
     url: https://sqi.northwestern.edu
   - name: Center for Advanced Regenerative Engineering
     logo: care.png
-    url: https://care.northwestern.edu
+    url: https://regenerative-engineering.northwestern.edu
+    wide: true
   - name: NUANCE Center
     logo: nuance.png
     url: https://nuance.northwestern.edu
   - name: NUFAB
     logo: nufab.png
-    url: https://nufab.northwestern.edu
+    url: https://nuance.northwestern.edu/facilities/nufab/
   - name: Argonne National Laboratory, Advanced Photon Source
     logo: argonne-aps.png
     url: https://www.aps.anl.gov

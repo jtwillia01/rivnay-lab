@@ -114,11 +114,11 @@ permalink: /research/
     {% if site.data.support %}
     <h3>Funding</h3>
     <div class="logo-row">
-      {% for f in site.data.support.funders %}<a href="{{ f.url }}"><img src="{{ '/assets/img/logos/' | append: f.logo | relative_url }}" alt="{{ f.name }}" loading="lazy"></a>{% endfor %}
+      {% for f in site.data.support.funders %}<a href="{{ f.url }}"{% if f.wide %} class="wide"{% endif %}><img src="{{ '/assets/img/logos/' | append: f.logo | relative_url }}" alt="{{ f.name }}" loading="lazy"></a>{% endfor %}
     </div>
     <h3 style="margin-top:2.5rem">Facilities</h3>
     <div class="logo-row">
-      {% for f in site.data.support.facilities %}<a href="{{ f.url }}"><img src="{{ '/assets/img/logos/' | append: f.logo | relative_url }}" alt="{{ f.name }}" loading="lazy"></a>{% endfor %}
+      {% for f in site.data.support.facilities %}<a href="{{ f.url }}"{% if f.wide %} class="wide"{% endif %}><img src="{{ '/assets/img/logos/' | append: f.logo | relative_url }}" alt="{{ f.name }}" loading="lazy"></a>{% endfor %}
     </div>
     {% endif %}
   </section>

@@ -249,11 +249,22 @@ html.snap { scroll-snap-type: y proximity; }
 .person summary::-webkit-details-marker { display: none; }
 .person img { width: 162px; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); }  /* fixed, so every section matches */
 .person .name { display: block; font-family: var(--sans); font-weight: 600; font-size: 1.06rem; line-height: 1.25; margin-top: 0.8rem; }
+.person .tail { white-space: nowrap; }
 .person .role { display: block; color: var(--muted); font-size: var(--fs-sm); margin-top: 0.15rem; }
-.person .hint { display: inline-block; margin-top: 0.4rem; font-size: var(--fs-sm); font-weight: 600; color: var(--purple); }
-.person .hint::before { content: "Bio"; }
-.person[open] .hint::before { content: "Close"; }
-.person summary:hover .hint { color: var(--purple-dark); text-decoration: underline; }
+/* the name is the control: a hairline chevron sits beside it and turns over when the card opens */
+details.person .chev {
+  display: inline-block; width: 0.42rem; height: 0.42rem; margin-left: 0.5rem;
+  border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted);
+  transform: translateY(-0.16rem) rotate(45deg);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s;
+}
+details.person[open] .chev { transform: translateY(0.06rem) rotate(-135deg); }
+.person summary { color: inherit; transition: color 0.2s; }
+.person summary:hover .name, .person summary:focus-visible .name { color: var(--purple); }
+.person summary:hover .chev { border-color: var(--purple); }
+.person summary img { transition: border-color 0.2s; }
+.person summary:hover img { border-color: var(--purple); }
+@media (prefers-reduced-motion: reduce) { details.person .chev, .person summary img { transition: none; } }
 .person[open] {
   grid-column: 1 / -1; display: grid; grid-template-columns: 162px 1fr; gap: 1rem 2rem; align-items: start;
   background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem;
@@ -271,7 +282,6 @@ html.snap { scroll-snap-type: y proximity; }
   .person summary, .person.no-bio { display: grid; grid-template-columns: 64px 1fr; gap: 1rem; align-items: center; }
   .person img { width: 64px; }
   .person .name { margin-top: 0; font-size: 1rem; }
-  .person .hint { margin-top: 0.2rem; }
   .person[open] { grid-template-columns: 1fr; gap: 0.75rem; padding: 0.85rem 0; background: transparent; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; }
   .person[open] summary { grid-template-columns: 64px 1fr; }
   .person.no-bio .links { grid-column: 2; margin-top: 0; }

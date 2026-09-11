@@ -51,7 +51,7 @@ snap: true
       <details class="person reveal">
         <summary>
           <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy" width="150" height="150">
-          <span class="who"><span class="name">{{ m.name }}</span><span class="hint"></span></span>
+          {% assign nparts = m.name | split: " " %}{% assign nlast = nparts.size | minus: 1 %}<span class="who"><span class="name">{% if nlast > 0 %}{{ nparts | slice: 0, nlast | join: " " }} {% endif %}<span class="tail">{{ nparts[nlast] }}<span class="chev" aria-hidden="true"></span></span></span></span>
         </summary>
         <div class="bio">
           {% if r != generic %}<p class="role">{{ m.role }}</p>{% endif %}

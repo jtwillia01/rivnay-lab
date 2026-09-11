@@ -51,9 +51,10 @@ snap: true
       <details class="person reveal">
         <summary>
           <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy" width="150" height="150">
-          <span class="who"><span class="name">{{ m.name }}</span>{% if r != generic %}<span class="role">{{ m.role }}</span>{% endif %}<span class="hint"></span></span>
+          <span class="who"><span class="name">{{ m.name }}</span><span class="hint"></span></span>
         </summary>
         <div class="bio">
+          {% if r != generic %}<p class="role">{{ m.role }}</p>{% endif %}
           {{ m.bio | markdownify }}
           {% if links != "" %}<p class="links">{{ links }}</p>{% endif %}
         </div>

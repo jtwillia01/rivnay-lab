@@ -8,6 +8,11 @@ permalink: /people/
     <h1>People</h1>
   </header>
 
+  <figure class="team reveal">
+    <img src="{{ '/assets/img/team-2026.jpg' | relative_url }}" alt="The Rivnay Group outdoors under trees" width="1800" height="900" decoding="async">
+    <figcaption>The group, summer 2026.</figcaption>
+  </figure>
+
   {% assign pi = site.data.people | where: "group", "pi" | first %}
   {% if pi %}
   <section class="group" style="margin-top:0">

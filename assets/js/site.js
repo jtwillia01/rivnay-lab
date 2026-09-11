@@ -16,6 +16,19 @@
     (d.fonts ? d.fonts.ready : Promise.resolve()).then(function () { root.classList.add("smooth"); });
   });
 
+  /* ---- home hero: the clip, then each still, then back ---- */
+  var hero = d.querySelector(".hero");
+  var slides = hero ? [].slice.call(hero.querySelectorAll(".hero-slide")) : [];
+  if (slides.length && !reduce) {
+    var cur = -1;
+    function turn() {
+      cur = cur + 1 >= slides.length ? -1 : cur + 1;
+      slides.forEach(function (s, k) { s.classList.toggle("is-on", k === cur); });
+      setTimeout(turn, cur === -1 ? 9000 : 6500);
+    }
+    setTimeout(turn, 9000);
+  }
+
   /* ---- scroll reveal ---- */
   var els = [].slice.call(d.querySelectorAll(".reveal"));
   if (els.length) {

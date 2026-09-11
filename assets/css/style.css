@@ -353,6 +353,7 @@ details.collapsed .pub-list { margin-top: 1rem; }
 .logo-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); grid-auto-flow: row dense; gap: 2.25rem 1.5rem; align-items: center; margin-top: 1.25rem; }
 .logo-row a { display: grid; place-items: center; min-width: 0; }
 .logo-row a.wide { grid-column: span 2; }
+.logo-row a.tall img { max-height: 84px; }   /* NSF: its brand manual sizes by the inner globe, not the medallion */
 .logo-row img { max-height: 64px; max-width: 100%; width: auto; height: auto; object-fit: contain; }
 @media (max-width: 560px) { .logo-row { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 1.75rem 1rem; } .logo-row img { max-height: 48px; } }
 

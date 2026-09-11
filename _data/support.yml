@@ -2,7 +2,8 @@
 # Order follows the old Research page; Sloan (old Funding page) and MRSEC appended.
 funders:
   - name: National Science Foundation
-    logo: nsf.png
+    logo: nsf.svg
+    tall: true
     url: https://www.nsf.gov
   - name: National Institutes of Health
     logo: nih.png

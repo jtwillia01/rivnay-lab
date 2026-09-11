@@ -29,7 +29,7 @@ Nav: Home · Research · People · Publications · News · Join. Footer on every
 |---|---|---|
 | Home | `/` | hero, "what we do" blurb (home.txt), four theme cards → Research anchors, six most recent publications from `_data/publications.json` (News is reachable from the menu; the home feed was switched from posts to papers on 2026-09-07 because the newest post is from 2024) |
 | Research | `/research/` | research.txt: intro + four anchored sections in current order (Living electronics, Fundamentals & Materials Design, Sensors & Circuits, Applications) + support & facilities logo strip |
-| People | `/people/` | `_data/people.yml` grouped grid; links to Alumni |
+| Team | `/team/` | `_data/people.yml` grouped grid under a sticky group photo the roster scrolls over; links to Alumni. `/people/` is a redirect stub. |
 | Alumni | `/alumni/` | `_data/alumni.yml` tables by group (split off People on 2026-09-09 at Jonathan's request) |
 | Publications | `/publications/` | `_data/publications.json` (generated) + `_data/publications_manual.json` |
 | News | `/news/` | `_posts/` list; each post has its own page at `/news/YYYY/MM/DD/slug/` |

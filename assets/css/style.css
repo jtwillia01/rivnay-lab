@@ -200,9 +200,13 @@ a.card:hover { border-color: var(--purple); color: inherit; }
 .recent-pubs .venue { font-size: var(--fs-md); color: var(--muted); margin-top: 0.15rem; }
 @media (max-width: 600px) { .recent-pubs li { grid-template-columns: 1fr; gap: 0.1rem; } }
 
-/* ---------- people ---------- */
-.team { margin: 0 0 3rem; }
+/* ---------- team ---------- */
+/* the group photo holds still while the roster scrolls up over it: a plain sticky pin, no scroll hijacking */
+.team-hero { position: sticky; top: calc(var(--header-h, 61px) + 1.25rem); z-index: 0; }
+.team { margin: 0; }
 .team img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
+.roster { position: relative; z-index: 1; background: var(--ground); padding-top: 3rem; }
+@media (prefers-reduced-motion: reduce) { .team-hero { position: static; } }
 .group { margin-top: 3rem; }
 .group h2 { margin-bottom: 1.25rem; }
 .pi {

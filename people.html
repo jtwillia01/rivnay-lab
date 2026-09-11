@@ -1,69 +1,15 @@
 ---
-title: People
-description: Members of the Rivnay Group at Northwestern University.
 permalink: /people/
+layout: null
 ---
-<div class="wrap">
-  <header class="page-head">
-    <h1>People</h1>
-  </header>
-
-  <figure class="team reveal">
-    <img src="{{ '/assets/img/team-2026.jpg' | relative_url }}" srcset="{{ '/assets/img/team-2026-1080.jpg' | relative_url }} 1080w, {{ '/assets/img/team-2026.jpg' | relative_url }} 1800w" sizes="(min-width: 1120px) 1072px, calc(100vw - 3rem)" alt="The Rivnay Group outdoors under trees" width="1800" height="900" decoding="async">
-    <figcaption>The group, summer 2026.</figcaption>
-  </figure>
-
-  {% assign pi = site.data.people | where: "group", "pi" | first %}
-  {% if pi %}
-  <section class="group" style="margin-top:0">
-    <h2>Principal investigator</h2>
-    <div class="pi reveal">
-      <img src="{{ '/assets/img/people/' | append: pi.photo | relative_url }}" alt="{{ pi.name }}" width="200" height="200">
-      <div>
-        <h3>{{ pi.name }}</h3>
-        <p class="role">{{ pi.role }}</p>
-        <p class="links">{% if pi.email %}<a href="mailto:{{ pi.email }}">{{ pi.email }}</a>{% endif %}</p>
-        <div class="prose">{{ pi.bio | markdownify }}</div>
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% assign groups = "faculty|Research faculty,staff|Research staff,postdoc|Postdoctoral researchers,phd|PhD students,masters|Master's students,undergrad|Undergraduate students" | split: "," %}
-  {% for g in groups %}
-    {% assign parts = g | split: "|" %}
-    {% assign members = site.data.people | where: "group", parts[0] %}
-    {% assign generic = parts[1] | downcase | replace: "students", "student" | replace: "researchers", "researcher" %}
-    {% if members.size > 0 %}
-  <section class="group">
-    <h2>{{ parts[1] }}</h2>
-    <div class="people-grid">
-      {% for m in members %}
-      {% assign r = m.role | downcase %}
-      {% capture links %}{% if m.email %}<a href="mailto:{{ m.email }}">Email</a>{% endif %}{% if m.website %}<a href="{{ m.website }}">Website</a>{% endif %}{% endcapture %}
-      {% if m.bio %}
-      <details class="person reveal">
-        <summary>
-          <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy" width="150" height="150">
-          <span class="who"><span class="name">{{ m.name }}</span>{% if r != generic %}<span class="role">{{ m.role }}</span>{% endif %}<span class="hint"></span></span>
-        </summary>
-        <div class="bio">
-          {{ m.bio | markdownify }}
-          {% if links != "" %}<p class="links">{{ links }}</p>{% endif %}
-        </div>
-      </details>
-      {% else %}
-      <div class="person no-bio reveal">
-        <img src="{{ '/assets/img/people/' | append: m.photo | relative_url }}" alt="" loading="lazy" width="150" height="150">
-        <span class="who"><span class="name">{{ m.name }}</span>{% if r != generic %}<span class="role">{{ m.role }}</span>{% endif %}</span>
-        {% if links != "" %}<p class="links">{{ links }}</p>{% endif %}
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-    {% endif %}
-  {% endfor %}
-
-  <p style="margin-top:2.5rem"><a href="{{ '/alumni/' | relative_url }}">Alumni</a></p>
-</div>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Team | Rivnay Group</title>
+<link rel="canonical" href="{{ '/team/' | absolute_url }}">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url={{ '/team/' | relative_url }}">
+</head>
+<body><p>This page is now <a href="{{ '/team/' | relative_url }}">Team</a>.</p></body>
+</html>

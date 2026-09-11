@@ -201,12 +201,22 @@ a.card:hover { border-color: var(--purple); color: inherit; }
 @media (max-width: 600px) { .recent-pubs li { grid-template-columns: 1fr; gap: 0.1rem; } }
 
 /* ---------- team ---------- */
-/* the group photo holds still while the roster scrolls up over it: a plain sticky pin, no scroll hijacking */
-.team-hero { position: sticky; top: calc(var(--header-h, 61px) + 1.25rem); z-index: 0; }
+/* The group photo gets a screen to itself. Two proximity snap points, the photo and the roster, mean a small
+   scroll settles back onto the photo and a firmer one carries past it. Native snapping: the scroll itself is
+   never intercepted, so the wheel, trackpad, scrollbar and keyboard all behave normally. */
+html.snap { scroll-snap-type: y proximity; }
+.team-stage {
+  min-height: calc(100vh - var(--header-h, 61px));
+  min-height: calc(100svh - var(--header-h, 61px));   /* phones: exclude the collapsible browser chrome */
+  display: flex; flex-direction: column; justify-content: center;
+  scroll-snap-align: start; scroll-margin-top: var(--header-h, 61px);
+  padding-bottom: 2rem;
+}
+.team-stage .page-head { padding-top: 0; }
 .team { margin: 0; }
 .team img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
-.roster { position: relative; z-index: 1; background: var(--ground); padding-top: 3rem; }
-@media (prefers-reduced-motion: reduce) { .team-hero { position: static; } }
+.roster { scroll-snap-align: start; scroll-margin-top: var(--header-h, 61px); padding-top: 1rem; }
+@media (prefers-reduced-motion: reduce) { html.snap { scroll-snap-type: none; } }
 .group { margin-top: 3rem; }
 .group h2 { margin-bottom: 1.25rem; }
 .pi {

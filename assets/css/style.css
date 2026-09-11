@@ -354,19 +354,15 @@ details.collapsed .pub-list { margin-top: 1rem; }
 /* Each mark sits in a fixed-height band above its name, so the row of names lines up however
    uneven the logos are. Heights come from support.yml and equalise visual area, not height:
    a round seal has to be taller than a wordmark to read as the same size. */
-/* Equal cells, every mark and name flush to the same left edge, and a fixed band above the names
-   so they sit on one line across a row. Mark heights come from support.yml and equalise visual
-   area, not height: a round seal must be taller than a wordmark to read as the same size. */
-.logo-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2.75rem 1.5rem; margin-top: 1.5rem; }
-.logo-row a { display: grid; grid-template-rows: 108px auto; justify-items: start; gap: 0.75rem; min-width: 0; text-decoration: none; color: inherit; }
-.logo-row .mark { display: grid; align-items: center; justify-items: start; height: 108px; width: 100%; }
+/* Equal cells, every mark flush to the same left edge, each in a fixed-height band so rows line up.
+   Mark heights come from support.yml and equalise visual area, not height: a round seal must be
+   taller than a wordmark to read as the same size. */
+.logo-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.75rem 1.5rem; margin-top: 1.5rem; }
+.logo-row a { display: grid; align-items: center; justify-items: start; height: 108px; min-width: 0; }
 .logo-row img { max-height: var(--h, 68px); max-width: 100%; width: auto; height: auto; }
-.logo-row .cap { font-size: var(--fs-xs); line-height: 1.35; color: var(--muted); }
-.logo-row a:hover .cap { color: var(--purple); }
 @media (max-width: 560px) {
-  .logo-row { gap: 2.25rem 1rem; }
-  .logo-row a { grid-template-rows: 88px auto; }
-  .logo-row .mark { height: 88px; }
+  .logo-row { gap: 1.25rem 1rem; }
+  .logo-row a { height: 88px; }
   .logo-row img { max-height: calc(var(--h, 68px) * 0.82); }
 }
 

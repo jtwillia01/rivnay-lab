@@ -33,10 +33,6 @@ funders:
     h: 56
     url: https://sloan.org
 facilities:
-  - name: Simpson Querrey Institute for BioNanotechnology
-    logo: sqi.png
-    h: 86
-    url: https://sqi.northwestern.edu
   - name: Center for Advanced Regenerative Engineering
     logo: care.png
     h: 46

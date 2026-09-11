@@ -223,7 +223,7 @@ html.snap { scroll-snap-type: y proximity; }
   display: grid; grid-template-columns: 200px 1fr; gap: 2.25rem; align-items: start;
   background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.75rem;
 }
-.pi img { width: 200px; aspect-ratio: 1; border-radius: 50%; object-fit: cover; border: 1px solid var(--line); }
+.pi img { width: 200px; aspect-ratio: 1; border-radius: var(--radius); object-fit: cover; border: 1px solid var(--line); }
 .pi h3 { font-size: clamp(1.35rem, 2.6vw, 1.7rem); }
 .pi .role { color: var(--muted); margin-top: 0.15rem; }
 .pi .links { margin-top: 0.4rem; font-size: var(--fs-md); }
@@ -247,7 +247,7 @@ html.snap { scroll-snap-type: y proximity; }
 .person { min-width: 0; }
 .person summary { list-style: none; cursor: pointer; display: block; }
 .person summary::-webkit-details-marker { display: none; }
-.person img { width: 162px; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); }  /* fixed, so every section matches */
+.person img { width: 162px; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--line); background: var(--paper); }  /* fixed, so every section matches */
 .person .name { display: block; font-family: var(--sans); font-weight: 600; font-size: 1.06rem; line-height: 1.25; margin-top: 0.8rem; margin-right: -1.5rem; }  /* the chevron hangs into the gutter, so names wrap on their own width */
 .person .tail { white-space: nowrap; }
 .person .name { text-wrap: balance; }   /* if a name must wrap, split it evenly rather than leaving one word alone */

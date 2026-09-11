@@ -248,7 +248,7 @@ html.snap { scroll-snap-type: y proximity; }
 .person summary { list-style: none; cursor: pointer; display: block; }
 .person summary::-webkit-details-marker { display: none; }
 .person img { width: 162px; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); }  /* fixed, so every section matches */
-.person .name { display: block; font-family: var(--sans); font-weight: 600; font-size: 1.06rem; line-height: 1.25; margin-top: 0.8rem; }
+.person .name { display: block; font-family: var(--sans); font-weight: 600; font-size: 1.06rem; line-height: 1.25; margin-top: 0.8rem; margin-right: -1rem; }  /* the chevron hangs into the gutter, so names wrap on their own width */
 .person .tail { white-space: nowrap; }
 .person .role { display: block; color: var(--muted); font-size: var(--fs-sm); margin-top: 0.15rem; }
 /* the name is the control: a hairline chevron sits beside it and turns over when the card opens */

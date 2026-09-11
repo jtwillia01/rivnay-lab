@@ -230,15 +230,12 @@ html.snap { scroll-snap-type: y proximity; }
 .pi .prose { margin-top: 1rem; font-size: 0.98rem; }
 @media (max-width: 700px) { .pi { grid-template-columns: 1fr; padding: 1.25rem; } .pi img { width: 140px; } }
 
-.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 2rem 1.25rem; }
+.people-grid { display: grid; grid-template-columns: repeat(auto-fill, 162px); justify-content: start; gap: 2rem 1.25rem; }
 /* research faculty and research staff sit side by side, divided by a hairline */
 .group-pair { display: grid; grid-template-columns: 1fr 2fr; margin-top: 3rem; }   /* staff column wide enough to hold its row without wrapping */
 .group-pair > .group { margin-top: 0; }
 .group-pair > .group:first-child { padding-right: 2.5rem; }
 .group-pair > .group + .group { border-left: 1px solid var(--line); padding-left: 2.5rem; }
-@media (min-width: 761px) {
-  .group-pair .people-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 170px)); justify-content: start; }
-}
 @media (max-width: 760px) {
   .group-pair { grid-template-columns: 1fr; margin-top: 0; }
   .group-pair > .group { margin-top: 3rem; }

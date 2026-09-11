@@ -230,7 +230,7 @@ html.snap { scroll-snap-type: y proximity; }
 .pi .prose { margin-top: 1rem; font-size: 0.98rem; }
 @media (max-width: 700px) { .pi { grid-template-columns: 1fr; padding: 1.25rem; } .pi img { width: 140px; } }
 
-.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(162px, 1fr)); gap: 2rem 1.25rem; }  /* min matches the headshot, so a track can never squeeze it */
+.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(162px, 1fr)); gap: 2.5rem 2rem; }  /* min matches the headshot; the wide column gap keeps a long name clear of its neighbour */
 /* research faculty and research staff sit side by side, divided by a hairline */
 .group-pair { display: grid; grid-template-columns: 1fr 2fr; margin-top: 3rem; }   /* staff column wide enough to hold its row without wrapping */
 /* whichever column has a card open takes the wider share, so the bio never reads as a narrow ribbon */
@@ -248,8 +248,9 @@ html.snap { scroll-snap-type: y proximity; }
 .person summary { list-style: none; cursor: pointer; display: block; }
 .person summary::-webkit-details-marker { display: none; }
 .person img { width: 162px; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); }  /* fixed, so every section matches */
-.person .name { display: block; font-family: var(--sans); font-weight: 600; font-size: 1.06rem; line-height: 1.25; margin-top: 0.8rem; margin-right: -1rem; }  /* the chevron hangs into the gutter, so names wrap on their own width */
+.person .name { display: block; font-family: var(--sans); font-weight: 600; font-size: 1.06rem; line-height: 1.25; margin-top: 0.8rem; margin-right: -1.5rem; }  /* the chevron hangs into the gutter, so names wrap on their own width */
 .person .tail { white-space: nowrap; }
+.person .name { text-wrap: balance; }   /* if a name must wrap, split it evenly rather than leaving one word alone */
 .person .role { display: block; color: var(--muted); font-size: var(--fs-sm); margin-top: 0.15rem; }
 /* the name is the control: a hairline chevron sits beside it and turns over when the card opens */
 details.person .chev {

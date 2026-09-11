@@ -14,5 +14,5 @@ Generated from lab originals; sources are not modified. Every raster is EXIF-tra
 
 | research/cell-clusters.jpg | old site home page image `Rat 3 009 Merged (002).png` (922x922) | 922x922 | 216,127 | Living electronics section; saved at q86 |
 | `img/research/pedot-eskm-if.jpg` | `science photos/xinran's photos/no scalebar label/PEDOT_whole ESKM_IF_3.png` (2086x842) | 1600x646 | 191558 | Living electronics section; scale bar 1 mm per the caption |
-| `img/research/organoid-collagen.jpg` | `organoid sensor/on collagen/device_on_collagen.png` (5472x3648) | 1600x1067 | 249567 | Sensors & circuits section, paired with the die |
+| `img/research/oect-chips.jpg` | `hero/1 (1).png` (6000x4000) | 1600x1067 | see file | Sensors & circuits section, paired with the die |
 | `img/research/giwaxs-low-poster.jpg` | frame 0 of `GIWAXS_P3MEEET_LowMw_NaCl.mp4` (copied to `video/giwaxs-p3meeet-low.mp4`) | 1030x1064 | 34021 | Fundamentals section, full frame (the detector band is acceptable here per the user) |

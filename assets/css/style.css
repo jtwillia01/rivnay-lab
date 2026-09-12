@@ -14,7 +14,6 @@
   --sans: "Figtree", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
   --serif: var(--sans);   /* headings share the body family; swap back to a serif here if wanted */
   --wrap: 1120px;
-  --prose: 720px;
   --radius: 12px;
   --fs-xs: 0.8rem;      /* captions, tags, fine print */
   --fs-sm: 0.875rem;    /* dates, roles, table heads, small links */
@@ -47,7 +46,7 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 
 /* ---------- layout primitives ---------- */
 .wrap { max-width: var(--wrap); margin-inline: auto; padding-inline: 1.5rem; }
-.prose { max-width: var(--prose); }
+.prose { max-width: none; }   /* body copy fills its column; only a layout narrows it */
 .prose p + p, .prose p + ul, .prose p + ol, .prose ul + p, .prose ol + p { margin-top: 1rem; }
 .prose h2 { margin: 2.5rem 0 0.8rem; }
 .prose h3 { margin: 1.8rem 0 0.5rem; }
@@ -174,7 +173,7 @@ a.card:hover { border-color: var(--purple); color: inherit; }
 
 /* ---------- news list ---------- */
 .news-list { list-style: none; border-top: 1px solid var(--line); }
-.news-list li { display: grid; grid-template-columns: 7.5rem 1fr auto; gap: 1rem 1.25rem; padding: 1rem 0; border-bottom: 1px solid var(--line); align-items: start; }
+.news-list li { display: grid; grid-template-columns: 7.5rem 1fr 104px; gap: 1rem 1.25rem; padding: 1rem 0; border-bottom: 1px solid var(--line); align-items: start; }
 .news-list .when { display: flex; flex-direction: column; align-items: flex-start; gap: 0.4rem; padding-top: 0.2rem; }
 .news-list time { font-size: var(--fs-sm); color: var(--muted); }
 .news-list .when .kind { margin-left: 0; }
@@ -274,7 +273,7 @@ details.person[open] .chev { transform: translateY(0.06rem) rotate(-135deg); }
   grid-column: 1 / -1; display: grid; grid-template-columns: 162px 1fr; gap: 1rem 2rem; align-items: start;
   background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem;
 }
-.person .bio { font-size: var(--fs-md); max-width: 66ch; }
+.person .bio { font-size: var(--fs-md); }
 .person .bio .role { margin: 0 0 0.6rem; }
 /* the paired columns are too narrow for a photo-beside-bio split, so an opened card stacks there */
 .group-pair .person[open] { grid-template-columns: 1fr; }
@@ -314,6 +313,7 @@ a.title:hover { color: var(--purple); }
 .pub .doi { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.2rem; }
 @media (max-width: 640px) {
   .pub-year { grid-template-columns: 1fr; gap: 0.5rem; }
+  details.collapsed .pub-list { margin-left: 0; }
 }
 
 /* year timeline: a fixed rail in the right gutter on wide screens, a sticky strip under the header elsewhere */
@@ -337,7 +337,7 @@ a.title:hover { color: var(--purple); }
 @media (prefers-reduced-motion: reduce) { .years, .years a, .years-marker { transition: none !important; } }
 details.collapsed { margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1.5rem; }
 details.collapsed summary { cursor: pointer; font-family: var(--sans); font-size: 1.4rem; font-weight: 700; color: var(--purple); }
-details.collapsed .pub-list { margin-top: 1rem; }
+details.collapsed .pub-list { margin-top: 1rem; margin-left: 7.5rem; }   /* line up with the year sections above */
 
 /* ---------- research ---------- */
 .theme { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 3rem; align-items: start; padding-block: 3.5rem; border-top: 1px solid var(--line); }
@@ -373,7 +373,7 @@ details.collapsed .pub-list { margin-top: 1rem; }
 .post-head { padding: 3rem 0 1.25rem; }
 .post-head time { font-size: var(--fs-sm); color: var(--muted); }
 .post-head h1 { margin-top: 0.5rem; max-width: 26ch; font-size: clamp(1.8rem, 3.5vw, 2.6rem); }
-.post-figure { margin: 1rem 0 2rem; max-width: var(--prose); }
+.post-figure { margin: 1rem 0 2rem; }
 .post-figure img { border-radius: var(--radius); border: 1px solid var(--line); }
 .post-body img { border-radius: var(--radius); margin: 1.5rem 0; border: 1px solid var(--line); }
 .back { display: inline-block; margin-top: 2.5rem; font-size: var(--fs-sm); }

@@ -58,6 +58,9 @@ figcaption { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; l
 .muted { color: var(--muted); }
 .section { padding-block: 3.75rem; }
 .section:last-child { padding-bottom: 0; }   /* the footer already carries 4rem above it */
+/* two sections on the same background do not need a full 2x padding between them; a change of
+   background (the white band) still gets the full break */
+.section:not(.band) + .section:not(.band) { padding-top: 1rem; }
 .section > .wrap > h2 { margin-bottom: 1.5rem; }
 .band { background: var(--paper); border-block: 1px solid var(--line); }
 .section-head { margin-bottom: 1.75rem; }

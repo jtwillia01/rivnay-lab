@@ -17,4 +17,21 @@ Our master's students scattered too: Chloe Lenker to Philips, Rosie Huerta to Ro
 
 **Arriving.** Yebin Lee, Catherine Beaumont, Priscila Cavassin, and Jianzhe (James) Luo joined as postdocs. Anna Baur, Zaina Mosalam, Albert Lai, and Zander Schwartz started their PhDs, and Royall McMahon Ward joined us later this year. Ziyi Liu, Julia Ostrander and Liangying Chen came in for master's work. Michelle Lotz stepped into a new role as our lab manager, and Rhea William, Zach Hoegberg, and Rachel Nolander joined as research technicians.
 
+<div class="pair">
+  <img src="/assets/img/news/2026-09-11-outing-a.jpg" alt="" width="760" height="1140" loading="lazy">
+  <img src="/assets/img/news/2026-09-11-outing-b.jpg" alt="" width="760" height="1140" loading="lazy">
+</div>
+<p class="figcap">Downtime at the summer outing.</p>
+
 **Everything else.** Thirty-seven papers since the start of 2024, on organic mixed conductors, neuromorphic circuits, electrochemical aptamer-based sensors, and biohybrid devices. Members of the group won several fellowships and awards, too. We've had retreats, celebrations, game nights and lots of fun in the lab. We'll keep you abreast of our activities moving forward by updating this page regularly, so come back soon!
+
+
+<figure>
+  <img src="/assets/img/news/2026-09-11-jonathan-device.jpg" alt="" width="1328" height="747" loading="lazy">
+  <figcaption>Jonathan with one of the group's implantable devices.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/img/news/2026-09-11-outing-group.jpg" alt="" width="1400" height="788" loading="lazy">
+  <figcaption>Summer outing, 2026.</figcaption>
+</figure>

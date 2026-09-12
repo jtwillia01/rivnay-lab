@@ -370,16 +370,20 @@ details.collapsed .pub-list { margin-top: 1rem; margin-left: 7.5rem; }   /* line
 }
 
 /* ---------- post ---------- */
-/* an article reads as one column: every part shares the same measure, so nothing stops short
-   relative to the part above it */
-article.wrap > * { max-width: 42rem; }
+/* an article is one centred reading column: the wrap itself is narrowed, so every part shares the
+   measure without per-element caps, and the column sits centred rather than stranded on the left */
+article.wrap { max-width: calc(42rem + 3rem); }
 .post-head { padding: 3rem 0 1.25rem; }
 .post-head time { font-size: var(--fs-sm); color: var(--muted); }
 .post-head h1 { margin-top: 0.5rem; font-size: clamp(1.8rem, 3.5vw, 2.6rem); }
 .post-figure { margin: 1rem 0 2rem; }
 .post-figure figcaption { margin-top: 0.6rem; }
 .post-figure img { border-radius: var(--radius); border: 1px solid var(--line); width: 100%; height: auto; }
-.post-body img { border-radius: var(--radius); margin: 1.5rem 0; border: 1px solid var(--line); }
+.post-body img { border-radius: var(--radius); margin: 1.5rem 0; border: 1px solid var(--line); width: 100%; height: auto; }
+.post-body figure { margin: 1.75rem 0; }
+.post-body figure img, .post-body .pair img { margin: 0; }
+.post-body .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin: 1.75rem 0 0; }
+.post-body .figcap { font-size: var(--fs-xs); color: var(--muted); margin-top: 0.6rem; line-height: 1.45; }
 .back { display: inline-block; margin-top: 2.5rem; font-size: var(--fs-sm); }
 
 /* ---------- footer ---------- */

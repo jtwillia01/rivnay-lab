@@ -15,7 +15,7 @@ Four more defended. Emily Schafer and Xinran Xie went on to postdocs at EPFL and
 
 Our master's students scattered too: Chloe Lenker to Philips, Rosie Huerta to Rockwell Automation, and Julie Kang to a PhD at Washington University in St. Louis. Lucia Galindo graduated recently and is on the job market (if you're looking for an excellent biomedical engineer, reach out to her, you can find her via the [alumni page]({{ '/alumni/' | relative_url }})).
 
-**Arriving.** Yebin Lee, Catherine Beaumont, Priscila Cavassin, and Jianzhe (James) Luo joined as postdocs. Anna Baur, Zaina Mosalam, Albert Lai, and Zander Schwartz started their PhDs, and Royall McMahon Ward joined us later this year. Ziyi Liu, Julia Ostrander and Liangying Chen came in for master's work. Michelle Lotz stepped into a new role as our lab manager, and Rhea William, Zach Hoegberg, and Rachel Nolander joined as research technicians.
+**Arriving.** Yebin Lee, Catherine Beaumont, Priscila Cavassin, and Jianzhe (James) Luo joined as postdocs. Anna Baur, Zaina Mosalam, Albert Lai, and Zander Schwartz started their PhDs, and Royall McMahon Ward joined us in 2026. Ziyi Liu, Julia Ostrander and Liangying Chen came in for master's work. Michelle Lotz stepped into a new role as our lab manager, and Rhea William, Zach Hoegberg, and Rachel Nolander joined as research technicians.
 
 <div class="pair">
   <img src="/assets/img/news/2026-09-11-outing-a.jpg" alt="" width="760" height="1140" loading="lazy">

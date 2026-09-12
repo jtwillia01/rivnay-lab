@@ -358,6 +358,9 @@ details.collapsed .pub-list { margin-top: 1rem; margin-left: 7.5rem; }   /* line
 .theme figure.square img, .theme figure.square video { aspect-ratio: 1; }
 .theme figure.natural img, .theme figure.natural video { aspect-ratio: auto; height: auto; }
 .media-stack { display: grid; gap: 1.25rem; }
+/* two figures side by side, so a pair of small images costs a fraction of the column height */
+.figure-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.figure-pair figure img { aspect-ratio: 1; }
 .media-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .media-pair img { aspect-ratio: 1; }
 @media (max-width: 800px) { .theme { grid-template-columns: 1fr; gap: 1.5rem; } }

@@ -1,0 +1,54 @@
+# Two or three representative papers per Research theme. Titles, journals, years and DOIs are
+# copied from _data/publications.json; verify any addition against that file.
+living-electronics:
+  - title: "Integrating bioelectronics with cell-based synthetic biology"
+    journal: "Nature Reviews Bioengineering"
+    year: 2025
+    doi: 10.1038/s44222-024-00262-6
+  - title: "Electrocatalytic on-site oxygenation for transplanted cell-based-therapies"
+    journal: "Nature Communications"
+    year: 2023
+    doi: 10.1038/s41467-023-42697-2
+  - title: "Droplet Polymer Bilayers for Bioelectronic Membrane Interfacing"
+    journal: "Journal of the American Chemical Society"
+    year: 2024
+    doi: 10.1021/jacs.4c01591
+materials:
+  - title: "Organic mixed ionic–electronic conductors"
+    journal: "Nature Materials"
+    year: 2019
+    doi: 10.1038/s41563-019-0435-z
+  - title: "Direct quantification of ion composition and mobility in organic mixed ionic-electronic conductors"
+    journal: "Science Advances"
+    year: 2024
+    doi: 10.1126/sciadv.adn8628
+  - title: "Conducting Polymer Nanoparticles with Intrinsic Aqueous Dispersibility for Conductive Hydrogels"
+    journal: "Advanced Materials"
+    year: 2023
+    doi: 10.1002/adma.202306691
+sensors:
+  - title: "Organic electrochemical transistors as on-site signal amplifiers for electrochemical aptamer-based sensing"
+    journal: "Nature Communications"
+    year: 2023
+    doi: 10.1038/s41467-023-37402-2
+  - title: "Tunable anti-ambipolar vertical bilayer organic electrochemical transistor enable neuromorphic retinal pathway"
+    journal: "Nature Communications"
+    year: 2024
+    doi: 10.1038/s41467-024-50496-6
+  - title: "Ambipolar inverters based on cofacial vertical organic electrochemical transistor pairs for biosignal amplification"
+    journal: "Science Advances"
+    year: 2021
+    doi: 10.1126/sciadv.abh1055
+applications:
+  - title: "Decellularized Biohybrid Nerve Promotes Motor Axon Projections"
+    journal: "Advanced Healthcare Materials"
+    year: 2024
+    doi: 10.1002/adhm.202401875
+  - title: "Cell-free biodegradable electroactive scaffold for urinary bladder tissue regeneration"
+    journal: "Nature Communications"
+    year: 2025
+    doi: 10.1038/s41467-024-55401-9
+  - title: "Decoupling the Influence of Poly(3,4-Ethylenedioxythiophene)-Collagen Composite Characteristics on Cell Stemness"
+    journal: "Advanced Science"
+    year: 2024
+    doi: 10.1002/advs.202305562

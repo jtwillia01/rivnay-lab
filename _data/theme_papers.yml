@@ -1,5 +1,5 @@
-# Two or three representative papers per Research theme. Titles, journals, years and DOIs are
-# copied from _data/publications.json; verify any addition against that file.
+# Representative papers per Research theme. Titles, journals, years and DOIs are copied from
+# _data/publications.json; verify any addition against that file.
 living-electronics:
   - title: "Integrating bioelectronics with cell-based synthetic biology"
     journal: "Nature Reviews Bioengineering"
@@ -14,10 +14,10 @@ living-electronics:
     year: 2024
     doi: 10.1021/jacs.4c01591
 materials:
-  - title: "Organic mixed ionic–electronic conductors"
+  - title: "Bridging length scales in organic mixed ionic–electronic conductors through internal strain and mesoscale dynamics"
     journal: "Nature Materials"
-    year: 2019
-    doi: 10.1038/s41563-019-0435-z
+    year: 2024
+    doi: 10.1038/s41563-024-01813-3
   - title: "Direct quantification of ion composition and mobility in organic mixed ionic-electronic conductors"
     journal: "Science Advances"
     year: 2024
@@ -26,6 +26,10 @@ materials:
     journal: "Advanced Materials"
     year: 2023
     doi: 10.1002/adma.202306691
+  - title: "Organic mixed ionic–electronic conductors"
+    journal: "Nature Materials"
+    year: 2019
+    doi: 10.1038/s41563-019-0435-z
 sensors:
   - title: "Organic electrochemical transistors as on-site signal amplifiers for electrochemical aptamer-based sensing"
     journal: "Nature Communications"
@@ -44,11 +48,11 @@ applications:
     journal: "Advanced Healthcare Materials"
     year: 2024
     doi: 10.1002/adhm.202401875
-  - title: "Cell-free biodegradable electroactive scaffold for urinary bladder tissue regeneration"
-    journal: "Nature Communications"
-    year: 2025
-    doi: 10.1038/s41467-024-55401-9
   - title: "Decoupling the Influence of Poly(3,4-Ethylenedioxythiophene)-Collagen Composite Characteristics on Cell Stemness"
     journal: "Advanced Science"
     year: 2024
     doi: 10.1002/advs.202305562
+  - title: "Next-generation probes, particles, and proteins for neural interfacing"
+    journal: "Science Advances"
+    year: 2017
+    doi: 10.1126/sciadv.1601649

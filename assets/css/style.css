@@ -344,12 +344,15 @@ details.collapsed .pub-list { margin-top: 1rem; margin-left: 7.5rem; }   /* line
 .theme:first-of-type { border-top: 0; padding-top: 0.5rem; }
 .theme .tagline { color: var(--muted); font-size: 1.08rem; margin: 0.4rem 0 1.2rem; }
 .theme .prose h3 { margin: 1.5rem 0 0.4rem; font-size: 1.15rem; }
-.theme-pubs { list-style: none; margin-top: 0.6rem; }
-.theme-pubs li { padding: 0.5rem 0; border-top: 1px solid var(--line); font-size: var(--fs-md); }
-.theme-pubs li:first-child { border-top: 0; padding-top: 0.2rem; }
+/* the paper list spans the whole theme, under both the prose and the figures, rather than being
+   squeezed into the text column */
+.theme-pubs { grid-column: 1 / -1; margin-top: 1rem; }
+.theme-pubs h3 { font-size: var(--fs-sm); font-weight: 600; color: var(--muted); margin-bottom: 0.9rem; }
+.theme-pubs ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.5rem; }
+.theme-pubs li { font-size: var(--fs-md); border-top: 1px solid var(--line); padding-top: 0.7rem; }
 .theme-pubs a { display: block; color: var(--ink); text-decoration: none; font-weight: 600; line-height: 1.4; }
 .theme-pubs a:hover { color: var(--purple); }
-.theme-pubs .venue { display: block; color: var(--muted); font-size: var(--fs-sm); margin-top: 0.1rem; }
+.theme-pubs .venue { display: block; color: var(--muted); font-size: var(--fs-sm); margin-top: 0.25rem; }
 .theme figure img, .theme figure video { border-radius: var(--radius); width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border: 1px solid var(--line); background: var(--paper); }
 .theme figure.square img, .theme figure.square video { aspect-ratio: 1; }
 .theme figure.natural img, .theme figure.natural video { aspect-ratio: auto; height: auto; }

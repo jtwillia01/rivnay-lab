@@ -2,6 +2,10 @@
 title: "Welcome to our new website"
 date: 2026-09-11
 kind: group
+image: /assets/img/news/2026-09-11-welcome-to-our-new-site.jpg
+image_width: 1400
+image_height: 1050
+image_caption: "Celebrating Rachel's graduation. Congrats to all of our recent graduates!"
 ---
 Welcome! A lot's happened in the group since our last news post. Here are some abbreviated updates:
 

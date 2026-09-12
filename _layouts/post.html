@@ -7,7 +7,7 @@ layout: default
     <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.kind %} <span class="kind">{{ page.kind }}</span>{% endif %}</p>
     <h1>{{ page.title }}</h1>
   </header>
-  {% if page.image %}<figure class="post-figure"><img src="{{ page.image | relative_url }}" alt=""{% if page.image_width %} width="{{ page.image_width }}" height="{{ page.image_height }}"{% endif %}></figure>{% endif %}
+  {% if page.image %}<figure class="post-figure"><img src="{{ page.image | relative_url }}" alt=""{% if page.image_width %} width="{{ page.image_width }}" height="{{ page.image_height }}"{% endif %}>{% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}</figure>{% endif %}
   <div class="prose post-body">
     {{ content | replace: 'src="/assets/', assetprefix }}
     {%- if page.link %}{% unless content contains page.link %}

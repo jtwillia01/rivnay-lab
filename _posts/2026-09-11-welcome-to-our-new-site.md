@@ -2,10 +2,10 @@
 title: "Welcome to our new website"
 date: 2026-09-11
 kind: group
-image: /assets/img/news/2026-09-11-welcome-to-our-new-site.jpg
-image_width: 1400
-image_height: 1050
-image_caption: "Celebrating Rachel's graduation. Congrats to all of our recent graduates!"
+image: /assets/img/news/2026-09-11-jonathan-device.jpg
+image_width: 1328
+image_height: 747
+image_caption: "Jonathan with one of the group's implantable devices."
 ---
 Welcome! A lot's happened in the group since our last news post. Here are some abbreviated updates:
 
@@ -27,8 +27,8 @@ Our master's students scattered too: Chloe Lenker to Philips, Rosie Huerta to Ro
 
 
 <figure>
-  <img src="/assets/img/news/2026-09-11-jonathan-device.jpg" alt="" width="1328" height="747" loading="lazy">
-  <figcaption>Jonathan with one of the group's implantable devices.</figcaption>
+  <img src="/assets/img/news/2026-09-11-rachel-graduation.jpg" alt="" width="1400" height="1050" loading="lazy">
+  <figcaption>Celebrating Rachel's graduation. Congrats to all of our recent graduates!</figcaption>
 </figure>
 
 <figure>

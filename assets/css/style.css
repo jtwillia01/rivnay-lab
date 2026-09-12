@@ -343,6 +343,7 @@ details.collapsed .pub-list { margin-top: 1rem; margin-left: 7.5rem; }   /* line
 .theme { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 3rem; align-items: start; padding-block: 3.5rem; border-top: 1px solid var(--line); }
 .theme:first-of-type { border-top: 0; padding-top: 0.5rem; }
 .theme .tagline { color: var(--muted); font-size: 1.08rem; margin: 0.4rem 0 1.2rem; }
+.theme .prose { margin-top: 1.2rem; }   /* collapses with the tagline, so the gap under the heading is the same either way */
 .theme .prose h3 { margin: 1.5rem 0 0.4rem; font-size: 1.15rem; }
 /* the paper list spans the whole theme, under both the prose and the figures, rather than being
    squeezed into the text column */

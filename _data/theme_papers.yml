@@ -26,10 +26,6 @@ materials:
     journal: "Advanced Materials"
     year: 2023
     doi: 10.1002/adma.202306691
-  - title: "Organic mixed ionic–electronic conductors"
-    journal: "Nature Materials"
-    year: 2019
-    doi: 10.1038/s41563-019-0435-z
 sensors:
   - title: "Organic electrochemical transistors as on-site signal amplifiers for electrochemical aptamer-based sensing"
     journal: "Nature Communications"
@@ -52,7 +48,3 @@ applications:
     journal: "Advanced Science"
     year: 2024
     doi: 10.1002/advs.202305562
-  - title: "Next-generation probes, particles, and proteins for neural interfacing"
-    journal: "Science Advances"
-    year: 2017
-    doi: 10.1126/sciadv.1601649
